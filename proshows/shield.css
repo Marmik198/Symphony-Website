@@ -1,0 +1,21 @@
+html {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/**GENERAL**/
+
+.content-box-lg {
+    padding: 100px 0;
+}
+
+.content-box-md {
+    padding: 90px 0;
+}
+
+.content-box-sm {
+    padding: 80px 0;
+}
