@@ -4,19 +4,2353 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-        <!--[if lt IE 7]>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Events</title>
+    <meta name="description" content="A set of morphing shape overlays with SVG">
+    <meta name="keywords" content="shape, SVG, morphing, web development, web design, javascript">
+    <meta name="author" content="Codrops">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-v4-rtl/4.6.0-1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+    <link rel="stylesheet" href="shield.css">
+</head>
+
+<body>
+
+    <!--
+    <main class="content-box-sm">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="nav nav-tabs" role="tablist">
+                        <div>
+                            <input id="optDaily" checked name="intervaltype" type="radio" data-target="#scheduleDaily" class="opt">
+                            <label for="optDaily">Daily</label>
+                        </div>
+                        <div>
+                            <input id="optWeekly" name="intervaltype" type="radio" data-target="#scheduleWeekly" class="opt">
+                            <label for="optWeekly">Weekly</label>
+                        </div>
+                    </div>
+                    <div class="tab-content">
+                        <div id="scheduleDaily" class="tab-pane active">Daily</div>
+                        <div id="scheduleWeekly" class="tab-pane">Weekly</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+-->
+
+    <main class="content-box-sm">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="main-content">
+                        <ul class="tabs">
+                            <li data-tab-target="#competitions" class="active tab">Competitions</li>
+                            <li data-tab-target="#rp" class="tab">Registration &amp; Payment</li>
+                        </ul>
+                        <div class="tab-content">
+                            <div id="competitions" data-tab-content class="active year">
+                                <div class="competitions">
+                                    <div>
+                                        <h6 class="role">role here</h6>
+                                        <a href="" data-target="#verve" data-toggle="modal">
+                                            <img src="https://images.pexels.com/photos/5836/yellow-metal-design-decoration.jpg" alt="1">
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <h6 class="role">role here</h6>
+                                        <a href="" data-target="#battle" data-toggle="modal">
+                                            <img src="https://images.pexels.com/photos/5836/yellow-metal-design-decoration.jpg" alt="1">
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <h6 class="role">role here</h6>
+                                        <a href="" data-target="#decibels" data-toggle="modal">
+                                            <img src="https://images.pexels.com/photos/5836/yellow-metal-design-decoration.jpg" alt="1">
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <h6 class="role">role here</h6>
+                                        <a href="" data-target="#udhgosh" data-toggle="modal">
+                                            <img src="https://images.pexels.com/photos/5836/yellow-metal-design-decoration.jpg" alt="1">
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <h6 class="role">role here</h6>
+                                        <a href="" data-target="#natsamrat" data-toggle="modal">
+                                            <img src="https://images.pexels.com/photos/5836/yellow-metal-design-decoration.jpg" alt="1">
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <h6 class="role">role here</h6>
+                                        <a href="" data-target="#symphony-idol" data-toggle="modal">
+                                            <img src="https://images.pexels.com/photos/5836/yellow-metal-design-decoration.jpg" alt="1">
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <h6 class="role">role here</h6>
+                                        <a href="" data-target="#chefpreneur" data-toggle="modal">
+                                            <img src="https://images.pexels.com/photos/5836/yellow-metal-design-decoration.jpg" alt="1">
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <h6 class="role">role here</h6>
+                                        <a href="" data-target="#film-making" data-toggle="modal">
+                                            <img src="https://images.pexels.com/photos/5836/yellow-metal-design-decoration.jpg" alt="1">
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <h6 class="role">role here</h6>
+                                        <a href="" data-target="#mr-mrs-somaiya" data-toggle="modal">
+                                            <img src="https://images.pexels.com/photos/5836/yellow-metal-design-decoration.jpg" alt="1">
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <h6 class="role">role here</h6>
+                                        <a href="" data-target="#panel" data-toggle="modal">
+                                            <img src="https://images.pexels.com/photos/5836/yellow-metal-design-decoration.jpg" alt="1">
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <h6 class="role">role here</h6>
+                                        <a href="" data-target="#ok-doodle" data-toggle="modal">
+                                            <img src="https://images.pexels.com/photos/5836/yellow-metal-design-decoration.jpg" alt="1">
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <h6 class="role">role here</h6>
+                                        <a href="" data-target="#picture-this" data-toggle="modal">
+                                            <img src="https://images.pexels.com/photos/5836/yellow-metal-design-decoration.jpg" alt="1">
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <h6 class="role">role here</h6>
+                                        <a href="" data-target="#walkthechalk" data-toggle="modal">
+                                            <img src="https://images.pexels.com/photos/5836/yellow-metal-design-decoration.jpg" alt="1">
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <h6 class="role">role here</h6>
+                                        <a href="" data-target="#wordsmith" data-toggle="modal">
+                                            <img src="https://images.pexels.com/photos/5836/yellow-metal-design-decoration.jpg" alt="1">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="rp" data-tab-content class="year">
+                                <div id="payment_content">
+                                    <h2 class="source-sans black">Registration Guidelines</h2>
+                                    <h4 class="color-black">
+                                        Registration at Symphony 2019 can be done in the following
+                                        two ways:
+                                    </h4>
+                                    <ol class="color-black">
+                                        <li>
+                                            <strong>Online:</strong> You can register online by
+                                            filling
+                                            <a class="color-red" href="https://docs.google.com/forms/d/e/1FAIpQLSd-gwtGbSuil12rSnNRIEaBG2ZtOOrSuFRGiJFjeU9405GVBA/viewform" target="_blank">this form</a>
+                                            and then moving to the payment procedure
+                                        </li>
+                                        <li>
+                                            <strong>Offline:</strong> Registration can also be done
+                                            by personally providing your details to Team Symphony at
+                                            the college at:
+                                        </li>
+                                        <ol style="list-style-type: none;">
+                                            <li>KJSCE Students' Council,</li>
+                                            <li>A018, Ground Floor,</li>
+                                            <li>K.J. Somaiya College Of Engineering,</li>
+                                            <li>Vidyavihar, Mumbai- 400 077.</li>
+                                        </ol>
+                                        <li>
+                                            <strong>NOTE:</strong> Last date to register for events
+                                            is shown on the respective Symphony event pages.
+                                        </li>
+                                        <li>For any queries regarding registration, contact:</li>
+                                        <ol style="list-style-type: circle;">
+                                            <li>Priyam Jain: 98334 26478</li>
+                                            <li>Anisha Sinha: 77380 98922</li>
+                                        </ol>
+                                    </ol>
+                                    <h2 class="source-sans black">Payment Guidelines</h2>
+                                    <h4 id="nahi" class="color-black">
+                                        Payment should be done before the deadline specified in
+                                        the guidelines. The different methods for payment are:
+                                    </h4>
+                                    <ol class="color-black">
+                                        <li>
+                                            <strong>Offline:</strong> The Participant can pay the
+                                            registration amount to any concerned authority either at
+                                            a place convenient to them or by coming to the college.
+                                        </li>
+                                        <li>
+                                            <strong>Online:</strong> A payment portal is given
+                                            below. Using the portal, the participant can pay the
+                                            registration fees online via Credit Cards, Debit Cards,
+                                            Net Banking, etc
+                                        </li>
+                                        <ol style="list-style-type: circle;">
+                                            <li>
+                                                Portal:
+                                                <a class="color-red" href="https://kjscefees.com/login.aspx" target="_blank">kjscefees.com</a>
+                                            </li>
+                                            <li>
+                                                For a sample document to help you make the payment via
+                                                the Somaiya portal refer
+                                                <a class="color-red" href="https://drive.google.com/open?id=1O2lCTGvernia1-PJnAlKOr1FMwSrVHUx" target="_blank">this document</a>.
+                                            </li>
+                                        </ol>
+                                        <li>
+                                            When you make the payment, send the screenshot of the
+                                            receipt with your name, college, and the event you have
+                                            made the payment for to the number - 9819258708.
+                                        </li>
+                                        <li>For any queries regarding payment, contact:</li>
+                                        <ol style="list-style-type: circle;">
+                                            <li>Ruchi Thosar: 9819258708</li>
+                                            <li>Samruddhi Zagade: 8369101675</li>
+                                        </ol>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!--MODALS-->
+
+    <div class="modal fade" id="verve" tabindex="-1" role="dialog" aria-labelledby="verveTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="verveTitle">Verve</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <article class="data">
+                        <div class="data-title">
+                            <p>Description</p>
+                            <button class="data-btn">
+                                <span class="plus-btn">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <span class="minus-btn">
+                                    <i class="fa fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="data-text">
+                            <p>
+                                Dance is an eternal celebration of yourself, and it allows you to get in touch with your soul. Witness the startling performances of the dancers performing inexplicable stunts and moving their bodies in unison. Loosen your feet, and unleash the dancer within you at Verve, the group dance competition of Symphony!
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="data">
+                        <div class="data-title">
+                            <p>Rules</p>
+                            <button class="data-btn">
+                                <span class="plus-btn">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <span class="minus-btn">
+                                    <i class="fa fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="data-text">
+                            <h4 class="source-sans bold">General Rules</h4>
+                            <ol>
+                                <li>Crews are allowed to participate, provided all participating members are college students, albeit not necessarily from the same college.</li>
+                                <li>Participants may use more than one song in their performance.</li>
+                                <li>Obscenity/Vulgarity of any kind is not allowed and will lead to immediate disqualification. Songs should be chosen accordingly.</li>
+                                <li>Decency in dressing should be maintained at all times. Minimum knee length costume is allowed but with compulsory stockings. No shears/tears are allowed.</li>
+                                <li>Usage of props is allowed. These have to be brought by the teams themselves but the organizers hold the discretion of allowing it on stage. </li>
+                                <li>Any kind of fluid, flame or heavy object is not allowed on stage.</li>
+                                <li>Teams are STRICTLY prohibited from mentioning their college names during the performance by any medium.</li>
+                                <li>Pre-recorded music should be emailed to kjscesymphony@somaiya.edu with the subject: “Verve- Team Name” latest by 27th January, 2019
+                                </li>
+                                <li>
+                                    The email should have the following:
+                                    <ol>
+                                        <li>The music in mp3 format.</li>
+                                        <li> Team Name</li>
+                                        <li> Participants’ Name</li>
+                                        <li>Phone Numbers</li>
+                                        <li>College name(s)</li>
+                                        <li>Prop List (if any)</li>
+                                    </ol>
+                                </li>
+                                <li>Genre: Open</li>
+                                <li>Last date for registration: 27th January, 2019.</li>
+                            </ol>
+                            Crews are allowed to participate, provided all participating members are college students, albeit not necessarily from the same college.
+                            <h4 class="source-sans bold">Elimination Rules</h4>
+                            <ol>
+                                <li>The dance to be performed in the elimination round should be a part of the final performance.</li>
+                                <li>Time limit:4-7 mins (from music on till turning the music off). </li>
+                                <li>Violation of any of the above general rules, may lead to immediate disqualification.</li>
+                            </ol>
+                            <h4 class="source-sans bold">Final Rules</h4>
+                            <ol>
+                                <li>Censor round will be held on the day of the event prior to the event.</li>
+                                <li>Teams must carry at least one backup of their pre-recorded music in a pen drive in mp3 format only.</li>
+                                <li>Time Limit: 12 mins (from music on till turning the music off).</li>
+                                <li>Time limit must strictly be observed. Failure to keep within the time limit will result in a penalty.</li>
+                                <li>For both Eliminations and Finals, 20% marks will be deducted if the performance exceeds by 15 secs. If the performance time increases further by 30 sec, it will lead to disqualification.</li>
+                                <li>The decision of the judges and organizers shall be final and binding.</li>
+                            </ol>
+                            <h4 class="source-sans bold">Judging Criteria</h4>
+                            <ol>
+                                <li>Choreography </li>
+                                <li>Energy</li>
+                                <li>Expression</li>
+                                <li>Synchronization</li>
+                                <li>Stage utilization</li>
+                                <li> Costumes</li>
+                                <li> Innovation</li>
+                                <li>Overall impact</li>
+                            </ol>
+                        </div>
+                    </article>
+
+                    <article class="data">
+                        <div class="data-title">
+                            <p>Registration &amp; Prizes</p>
+                            <button class="data-btn">
+                                <span class="plus-btn">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <span class="minus-btn">
+                                    <i class="fa fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="data-text">
+                            <h4 class="source-sans bold">Prizes Worth</h4>
+                            <ol>
+                                <li>1st Prize: <strong>INR 15000</strong></li>
+                                <li>2nd Prize: <strong> INR 9500</strong></li>
+                            </ol>
+                            <h4 class="source-sans bold">Incentives</h4>
+                            <ol>
+                                <li><strong>1st Place:</strong>
+                                    <ol>
+                                        <li>Get 4 sessions of skill refinement, exposure and networking at the Nritya Shakti Studio.</li>
+                                    </ol>
+                                </li>
+                                <li><strong>2nd Place:</strong>
+                                    <ol>
+                                        <li>Get 2 sessions of skill refinement, exposure and networking at the Nritya Shakti Studio.
+                                        </li>
+                                    </ol>
+                                </li>
+                                <h4 class="source-sans bold">Registration Link</h4>
+                                <ol>
+                                    <li>
+                                        <a href="https://goo.gl/forms/5K1RFjwXdzsje6tv1" target="blank" style="text-decoration: underline;">Registration Form</a>
+                                    </li>
+                                </ol>
+                                <h4 class="source-sans bold">Contact</h4>
+                                <ol>
+                                    <li>Priyam Jain: +91 98334 26478</li>
+                                    <li>Anisha Sinha: +91 77380 98922</li>
+                                    <li>Bhavya Shah: +91 87671 83178</li>
+                                </ol>
+                            </ol>
+                        </div>
+                    </article>
+                    <div class="modal-footer">
+                        <a href="" type="button" class="btn btn-primary">Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="battle" tabindex="-1" role="dialog" aria-labelledby="battleTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="battleTitle">Battle of the Bands</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <article class="data">
+                        <div class="data-title">
+                            <p>Description</p>
+                            <button class="data-btn">
+                                <span class="plus-btn">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <span class="minus-btn">
+                                    <i class="fa fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="data-text">
+                            <p>
+                                Battle of the Bands is a competition where amateur/semi-pro bands from all over the country participate in a face-off to see which band has been blessed by the gods of rock. With distortion-heavy guitar riffs, groovy bass lines, and blast beats enticing the audience to a moshable frenzy, this is one event that any metalhead or rock fanatic wouldn’t want to miss out on.
+                                With a massive crowd, amazing incentives, and energetic performances, Symphony has always been a platform that has believed in boosting various artists to the well-deserving fame!
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="data">
+                        <div class="data-title">
+                            <p>Rules</p>
+                            <button class="data-btn">
+                                <span class="plus-btn">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <span class="minus-btn">
+                                    <i class="fa fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="data-text">
+                            <h4 class="source-sans bold">General Rules</h4>
+                            <ol>
+                                <li>Crews are allowed to participate, provided all participating members are college students, albeit not necessarily from the same college.</li>
+                                <li>Participants may use more than one song in their performance.</li>
+                                <li>Obscenity/Vulgarity of any kind is not allowed and will lead to immediate disqualification. Songs should be chosen accordingly.</li>
+                                <li>Decency in dressing should be maintained at all times. Minimum knee length costume is allowed but with compulsory stockings. No shears/tears are allowed.</li>
+                                <li>Usage of props is allowed. These have to be brought by the teams themselves but the organizers hold the discretion of allowing it on stage. </li>
+                                <li>Any kind of fluid, flame or heavy object is not allowed on stage.</li>
+                                <li>Teams are STRICTLY prohibited from mentioning their college names during the performance by any medium.</li>
+                                <li>Pre-recorded music should be emailed to kjscesymphony@somaiya.edu with the subject: “Verve- Team Name” latest by 27th January, 2019
+                                </li>
+                                <li>
+                                    The email should have the following:
+                                    <ol>
+                                        <li>The music in mp3 format.</li>
+                                        <li> Team Name</li>
+                                        <li> Participants’ Name</li>
+                                        <li>Phone Numbers</li>
+                                        <li>College name(s)</li>
+                                        <li>Prop List (if any)</li>
+                                    </ol>
+                                </li>
+                                <li>Genre: Open</li>
+                                <li>Last date for registration: 27th January, 2019.</li>
+                            </ol>
+                            Crews are allowed to participate, provided all participating members are college students, albeit not necessarily from the same college.
+                            <h4 class="source-sans bold">Elimination Rules</h4>
+                            <ol>
+                                <li>The dance to be performed in the elimination round should be a part of the final performance.</li>
+                                <li>Time limit:4-7 mins (from music on till turning the music off). </li>
+                                <li>Violation of any of the above general rules, may lead to immediate disqualification.</li>
+                            </ol>
+                            <h4 class="source-sans bold">Final Rules</h4>
+                            <ol>
+                                <li>Censor round will be held on the day of the event prior to the event.</li>
+                                <li>Teams must carry at least one backup of their pre-recorded music in a pen drive in mp3 format only.</li>
+                                <li>Time Limit: 12 mins (from music on till turning the music off).</li>
+                                <li>Time limit must strictly be observed. Failure to keep within the time limit will result in a penalty.</li>
+                                <li>For both Eliminations and Finals, 20% marks will be deducted if the performance exceeds by 15 secs. If the performance time increases further by 30 sec, it will lead to disqualification.</li>
+                                <li>The decision of the judges and organizers shall be final and binding.</li>
+                            </ol>
+                            <h4 class="source-sans bold">Judging Criteria</h4>
+                            <ol>
+                                <li>Choreography </li>
+                                <li>Energy</li>
+                                <li>Expression</li>
+                                <li>Synchronization</li>
+                                <li>Stage utilization</li>
+                                <li> Costumes</li>
+                                <li> Innovation</li>
+                                <li>Overall impact</li>
+                            </ol>
+                        </div>
+                    </article>
+
+                    <article class="data">
+                        <div class="data-title">
+                            <p>Registration &amp; Prizes</p>
+                            <button class="data-btn">
+                                <span class="plus-btn">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <span class="minus-btn">
+                                    <i class="fa fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="data-text">
+                            <h4 class="source-sans bold">Prizes Worth</h4>
+                            <ol>
+                                <li>1st Prize: <strong>INR 15000</strong></li>
+                                <li>2nd Prize: <strong> INR 9500</strong></li>
+                            </ol>
+                            <h4 class="source-sans bold">Incentives</h4>
+                            <ol>
+                                <li><strong>1st Place:</strong>
+                                    <ol>
+                                        <li>Get 4 sessions of skill refinement, exposure and networking at the Nritya Shakti Studio.</li>
+                                    </ol>
+                                </li>
+                                <li><strong>2nd Place:</strong>
+                                    <ol>
+                                        <li>Get 2 sessions of skill refinement, exposure and networking at the Nritya Shakti Studio.
+                                        </li>
+                                    </ol>
+                                </li>
+                                <h4 class="source-sans bold">Registration Link</h4>
+                                <ol>
+                                    <li>
+                                        <a href="https://goo.gl/forms/5K1RFjwXdzsje6tv1" target="blank" style="text-decoration: underline;">Registration Form</a>
+                                    </li>
+                                </ol>
+                                <h4 class="source-sans bold">Contact</h4>
+                                <ol>
+                                    <li>Priyam Jain: +91 98334 26478</li>
+                                    <li>Anisha Sinha: +91 77380 98922</li>
+                                    <li>Bhavya Shah: +91 87671 83178</li>
+                                </ol>
+                            </ol>
+                        </div>
+                    </article>
+                    <div class="modal-footer">
+                        <a href="" type="button" class="btn btn-primary">Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="decibels" tabindex="-1" role="dialog" aria-labelledby="decibelsTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="decibelsTitle">Decibels</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <article class="data">
+                        <div class="data-title">
+                            <p>Description</p>
+                            <button class="data-btn">
+                                <span class="plus-btn">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <span class="minus-btn">
+                                    <i class="fa fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="data-text">
+                            <p>
+                                If constructing loops, sampling songs, and dropping heavy beats and basslines is your thing, then Decibels, the DJ Wars competition at Symphony might just be the place for you. You get the opportunity to control the highly enthusiastic audience to dance their minds out to your tunes. As the man behind the console, take in-charge of the power presented to you and cast your spells, as It’s the time to create magic! DJs such as DJ Zaeden, Candice Redding, Kerano, Lost Stories, and many more have performed their bits during Symphony.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="data">
+                        <div class="data-title">
+                            <p>Rules</p>
+                            <button class="data-btn">
+                                <span class="plus-btn">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <span class="minus-btn">
+                                    <i class="fa fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="data-text">
+                            <h4 class="source-sans bold">General Rules</h4>
+                            <ol>
+                                <li>Crews are allowed to participate, provided all participating members are college students, albeit not necessarily from the same college.</li>
+                                <li>Participants may use more than one song in their performance.</li>
+                                <li>Obscenity/Vulgarity of any kind is not allowed and will lead to immediate disqualification. Songs should be chosen accordingly.</li>
+                                <li>Decency in dressing should be maintained at all times. Minimum knee length costume is allowed but with compulsory stockings. No shears/tears are allowed.</li>
+                                <li>Usage of props is allowed. These have to be brought by the teams themselves but the organizers hold the discretion of allowing it on stage. </li>
+                                <li>Any kind of fluid, flame or heavy object is not allowed on stage.</li>
+                                <li>Teams are STRICTLY prohibited from mentioning their college names during the performance by any medium.</li>
+                                <li>Pre-recorded music should be emailed to kjscesymphony@somaiya.edu with the subject: “Verve- Team Name” latest by 27th January, 2019
+                                </li>
+                                <li>
+                                    The email should have the following:
+                                    <ol>
+                                        <li>The music in mp3 format.</li>
+                                        <li> Team Name</li>
+                                        <li> Participants’ Name</li>
+                                        <li>Phone Numbers</li>
+                                        <li>College name(s)</li>
+                                        <li>Prop List (if any)</li>
+                                    </ol>
+                                </li>
+                                <li>Genre: Open</li>
+                                <li>Last date for registration: 27th January, 2019.</li>
+                            </ol>
+                            Crews are allowed to participate, provided all participating members are college students, albeit not necessarily from the same college.
+                            <h4 class="source-sans bold">Elimination Rules</h4>
+                            <ol>
+                                <li>The dance to be performed in the elimination round should be a part of the final performance.</li>
+                                <li>Time limit:4-7 mins (from music on till turning the music off). </li>
+                                <li>Violation of any of the above general rules, may lead to immediate disqualification.</li>
+                            </ol>
+                            <h4 class="source-sans bold">Final Rules</h4>
+                            <ol>
+                                <li>Censor round will be held on the day of the event prior to the event.</li>
+                                <li>Teams must carry at least one backup of their pre-recorded music in a pen drive in mp3 format only.</li>
+                                <li>Time Limit: 12 mins (from music on till turning the music off).</li>
+                                <li>Time limit must strictly be observed. Failure to keep within the time limit will result in a penalty.</li>
+                                <li>For both Eliminations and Finals, 20% marks will be deducted if the performance exceeds by 15 secs. If the performance time increases further by 30 sec, it will lead to disqualification.</li>
+                                <li>The decision of the judges and organizers shall be final and binding.</li>
+                            </ol>
+                            <h4 class="source-sans bold">Judging Criteria</h4>
+                            <ol>
+                                <li>Choreography </li>
+                                <li>Energy</li>
+                                <li>Expression</li>
+                                <li>Synchronization</li>
+                                <li>Stage utilization</li>
+                                <li> Costumes</li>
+                                <li> Innovation</li>
+                                <li>Overall impact</li>
+                            </ol>
+                        </div>
+                    </article>
+
+                    <article class="data">
+                        <div class="data-title">
+                            <p>Registration &amp; Prizes</p>
+                            <button class="data-btn">
+                                <span class="plus-btn">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <span class="minus-btn">
+                                    <i class="fa fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="data-text">
+                            <h4 class="source-sans bold">Prizes Worth</h4>
+                            <ol>
+                                <li>1st Prize: <strong>INR 15000</strong></li>
+                                <li>2nd Prize: <strong> INR 9500</strong></li>
+                            </ol>
+                            <h4 class="source-sans bold">Incentives</h4>
+                            <ol>
+                                <li><strong>1st Place:</strong>
+                                    <ol>
+                                        <li>Get 4 sessions of skill refinement, exposure and networking at the Nritya Shakti Studio.</li>
+                                    </ol>
+                                </li>
+                                <li><strong>2nd Place:</strong>
+                                    <ol>
+                                        <li>Get 2 sessions of skill refinement, exposure and networking at the Nritya Shakti Studio.
+                                        </li>
+                                    </ol>
+                                </li>
+                                <h4 class="source-sans bold">Registration Link</h4>
+                                <ol>
+                                    <li>
+                                        <a href="https://goo.gl/forms/5K1RFjwXdzsje6tv1" target="blank" style="text-decoration: underline;">Registration Form</a>
+                                    </li>
+                                </ol>
+                                <h4 class="source-sans bold">Contact</h4>
+                                <ol>
+                                    <li>Priyam Jain: +91 98334 26478</li>
+                                    <li>Anisha Sinha: +91 77380 98922</li>
+                                    <li>Bhavya Shah: +91 87671 83178</li>
+                                </ol>
+                            </ol>
+                        </div>
+                    </article>
+                    <div class="modal-footer">
+                        <a href="" type="button" class="btn btn-primary">Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="udhgosh" tabindex="-1" role="dialog" aria-labelledby="udhgoshTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="udhgoshTitle">udhgosh</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <article class="data">
+                        <div class="data-title">
+                            <p>Description</p>
+                            <button class="data-btn">
+                                <span class="plus-btn">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <span class="minus-btn">
+                                    <i class="fa fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="data-text">
+                            <p>
+                                If constructing loops, sampling songs, and dropping heavy beats and basslines is your thing, then Decibels, the DJ Wars competition at Symphony might just be the place for you. You get the opportunity to control the highly enthusiastic audience to dance their minds out to your tunes. As the man behind the console, take in-charge of the power presented to you and cast your spells, as It’s the time to create magic! DJs such as DJ Zaeden, Candice Redding, Kerano, Lost Stories, and many more have performed their bits during Symphony.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="data">
+                        <div class="data-title">
+                            <p>Rules</p>
+                            <button class="data-btn">
+                                <span class="plus-btn">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <span class="minus-btn">
+                                    <i class="fa fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="data-text">
+                            <h4 class="source-sans bold">General Rules</h4>
+                            <ol>
+                                <li>Crews are allowed to participate, provided all participating members are college students, albeit not necessarily from the same college.</li>
+                                <li>Participants may use more than one song in their performance.</li>
+                                <li>Obscenity/Vulgarity of any kind is not allowed and will lead to immediate disqualification. Songs should be chosen accordingly.</li>
+                                <li>Decency in dressing should be maintained at all times. Minimum knee length costume is allowed but with compulsory stockings. No shears/tears are allowed.</li>
+                                <li>Usage of props is allowed. These have to be brought by the teams themselves but the organizers hold the discretion of allowing it on stage. </li>
+                                <li>Any kind of fluid, flame or heavy object is not allowed on stage.</li>
+                                <li>Teams are STRICTLY prohibited from mentioning their college names during the performance by any medium.</li>
+                                <li>Pre-recorded music should be emailed to kjscesymphony@somaiya.edu with the subject: “Verve- Team Name” latest by 27th January, 2019
+                                </li>
+                                <li>
+                                    The email should have the following:
+                                    <ol>
+                                        <li>The music in mp3 format.</li>
+                                        <li> Team Name</li>
+                                        <li> Participants’ Name</li>
+                                        <li>Phone Numbers</li>
+                                        <li>College name(s)</li>
+                                        <li>Prop List (if any)</li>
+                                    </ol>
+                                </li>
+                                <li>Genre: Open</li>
+                                <li>Last date for registration: 27th January, 2019.</li>
+                            </ol>
+                            Crews are allowed to participate, provided all participating members are college students, albeit not necessarily from the same college.
+                            <h4 class="source-sans bold">Elimination Rules</h4>
+                            <ol>
+                                <li>The dance to be performed in the elimination round should be a part of the final performance.</li>
+                                <li>Time limit:4-7 mins (from music on till turning the music off). </li>
+                                <li>Violation of any of the above general rules, may lead to immediate disqualification.</li>
+                            </ol>
+                            <h4 class="source-sans bold">Final Rules</h4>
+                            <ol>
+                                <li>Censor round will be held on the day of the event prior to the event.</li>
+                                <li>Teams must carry at least one backup of their pre-recorded music in a pen drive in mp3 format only.</li>
+                                <li>Time Limit: 12 mins (from music on till turning the music off).</li>
+                                <li>Time limit must strictly be observed. Failure to keep within the time limit will result in a penalty.</li>
+                                <li>For both Eliminations and Finals, 20% marks will be deducted if the performance exceeds by 15 secs. If the performance time increases further by 30 sec, it will lead to disqualification.</li>
+                                <li>The decision of the judges and organizers shall be final and binding.</li>
+                            </ol>
+                            <h4 class="source-sans bold">Judging Criteria</h4>
+                            <ol>
+                                <li>Choreography </li>
+                                <li>Energy</li>
+                                <li>Expression</li>
+                                <li>Synchronization</li>
+                                <li>Stage utilization</li>
+                                <li> Costumes</li>
+                                <li> Innovation</li>
+                                <li>Overall impact</li>
+                            </ol>
+                        </div>
+                    </article>
+
+                    <article class="data">
+                        <div class="data-title">
+                            <p>Registration &amp; Prizes</p>
+                            <button class="data-btn">
+                                <span class="plus-btn">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <span class="minus-btn">
+                                    <i class="fa fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="data-text">
+                            <h4 class="source-sans bold">Prizes Worth</h4>
+                            <ol>
+                                <li>1st Prize: <strong>INR 15000</strong></li>
+                                <li>2nd Prize: <strong> INR 9500</strong></li>
+                            </ol>
+                            <h4 class="source-sans bold">Incentives</h4>
+                            <ol>
+                                <li><strong>1st Place:</strong>
+                                    <ol>
+                                        <li>Get 4 sessions of skill refinement, exposure and networking at the Nritya Shakti Studio.</li>
+                                    </ol>
+                                </li>
+                                <li><strong>2nd Place:</strong>
+                                    <ol>
+                                        <li>Get 2 sessions of skill refinement, exposure and networking at the Nritya Shakti Studio.
+                                        </li>
+                                    </ol>
+                                </li>
+                                <h4 class="source-sans bold">Registration Link</h4>
+                                <ol>
+                                    <li>
+                                        <a href="https://goo.gl/forms/5K1RFjwXdzsje6tv1" target="blank" style="text-decoration: underline;">Registration Form</a>
+                                    </li>
+                                </ol>
+                                <h4 class="source-sans bold">Contact</h4>
+                                <ol>
+                                    <li>Priyam Jain: +91 98334 26478</li>
+                                    <li>Anisha Sinha: +91 77380 98922</li>
+                                    <li>Bhavya Shah: +91 87671 83178</li>
+                                </ol>
+                            </ol>
+                        </div>
+                    </article>
+                    <div class="modal-footer">
+                        <a href="" type="button" class="btn btn-primary">Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="natsamrat" tabindex="-1" role="dialog" aria-labelledby="natsamratTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="natsamratTitle">natsamrat</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <article class="data">
+                        <div class="data-title">
+                            <p>Description</p>
+                            <button class="data-btn">
+                                <span class="plus-btn">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <span class="minus-btn">
+                                    <i class="fa fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="data-text">
+                            <p>
+                                If constructing loops, sampling songs, and dropping heavy beats and basslines is your thing, then Decibels, the DJ Wars competition at Symphony might just be the place for you. You get the opportunity to control the highly enthusiastic audience to dance their minds out to your tunes. As the man behind the console, take in-charge of the power presented to you and cast your spells, as It’s the time to create magic! DJs such as DJ Zaeden, Candice Redding, Kerano, Lost Stories, and many more have performed their bits during Symphony.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="data">
+                        <div class="data-title">
+                            <p>Rules</p>
+                            <button class="data-btn">
+                                <span class="plus-btn">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <span class="minus-btn">
+                                    <i class="fa fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="data-text">
+                            <h4 class="source-sans bold">General Rules</h4>
+                            <ol>
+                                <li>Crews are allowed to participate, provided all participating members are college students, albeit not necessarily from the same college.</li>
+                                <li>Participants may use more than one song in their performance.</li>
+                                <li>Obscenity/Vulgarity of any kind is not allowed and will lead to immediate disqualification. Songs should be chosen accordingly.</li>
+                                <li>Decency in dressing should be maintained at all times. Minimum knee length costume is allowed but with compulsory stockings. No shears/tears are allowed.</li>
+                                <li>Usage of props is allowed. These have to be brought by the teams themselves but the organizers hold the discretion of allowing it on stage. </li>
+                                <li>Any kind of fluid, flame or heavy object is not allowed on stage.</li>
+                                <li>Teams are STRICTLY prohibited from mentioning their college names during the performance by any medium.</li>
+                                <li>Pre-recorded music should be emailed to kjscesymphony@somaiya.edu with the subject: “Verve- Team Name” latest by 27th January, 2019
+                                </li>
+                                <li>
+                                    The email should have the following:
+                                    <ol>
+                                        <li>The music in mp3 format.</li>
+                                        <li> Team Name</li>
+                                        <li> Participants’ Name</li>
+                                        <li>Phone Numbers</li>
+                                        <li>College name(s)</li>
+                                        <li>Prop List (if any)</li>
+                                    </ol>
+                                </li>
+                                <li>Genre: Open</li>
+                                <li>Last date for registration: 27th January, 2019.</li>
+                            </ol>
+                            Crews are allowed to participate, provided all participating members are college students, albeit not necessarily from the same college.
+                            <h4 class="source-sans bold">Elimination Rules</h4>
+                            <ol>
+                                <li>The dance to be performed in the elimination round should be a part of the final performance.</li>
+                                <li>Time limit:4-7 mins (from music on till turning the music off). </li>
+                                <li>Violation of any of the above general rules, may lead to immediate disqualification.</li>
+                            </ol>
+                            <h4 class="source-sans bold">Final Rules</h4>
+                            <ol>
+                                <li>Censor round will be held on the day of the event prior to the event.</li>
+                                <li>Teams must carry at least one backup of their pre-recorded music in a pen drive in mp3 format only.</li>
+                                <li>Time Limit: 12 mins (from music on till turning the music off).</li>
+                                <li>Time limit must strictly be observed. Failure to keep within the time limit will result in a penalty.</li>
+                                <li>For both Eliminations and Finals, 20% marks will be deducted if the performance exceeds by 15 secs. If the performance time increases further by 30 sec, it will lead to disqualification.</li>
+                                <li>The decision of the judges and organizers shall be final and binding.</li>
+                            </ol>
+                            <h4 class="source-sans bold">Judging Criteria</h4>
+                            <ol>
+                                <li>Choreography </li>
+                                <li>Energy</li>
+                                <li>Expression</li>
+                                <li>Synchronization</li>
+                                <li>Stage utilization</li>
+                                <li> Costumes</li>
+                                <li> Innovation</li>
+                                <li>Overall impact</li>
+                            </ol>
+                        </div>
+                    </article>
+
+                    <article class="data">
+                        <div class="data-title">
+                            <p>Registration &amp; Prizes</p>
+                            <button class="data-btn">
+                                <span class="plus-btn">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <span class="minus-btn">
+                                    <i class="fa fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="data-text">
+                            <h4 class="source-sans bold">Prizes Worth</h4>
+                            <ol>
+                                <li>1st Prize: <strong>INR 15000</strong></li>
+                                <li>2nd Prize: <strong> INR 9500</strong></li>
+                            </ol>
+                            <h4 class="source-sans bold">Incentives</h4>
+                            <ol>
+                                <li><strong>1st Place:</strong>
+                                    <ol>
+                                        <li>Get 4 sessions of skill refinement, exposure and networking at the Nritya Shakti Studio.</li>
+                                    </ol>
+                                </li>
+                                <li><strong>2nd Place:</strong>
+                                    <ol>
+                                        <li>Get 2 sessions of skill refinement, exposure and networking at the Nritya Shakti Studio.
+                                        </li>
+                                    </ol>
+                                </li>
+                                <h4 class="source-sans bold">Registration Link</h4>
+                                <ol>
+                                    <li>
+                                        <a href="https://goo.gl/forms/5K1RFjwXdzsje6tv1" target="blank" style="text-decoration: underline;">Registration Form</a>
+                                    </li>
+                                </ol>
+                                <h4 class="source-sans bold">Contact</h4>
+                                <ol>
+                                    <li>Priyam Jain: +91 98334 26478</li>
+                                    <li>Anisha Sinha: +91 77380 98922</li>
+                                    <li>Bhavya Shah: +91 87671 83178</li>
+                                </ol>
+                            </ol>
+                        </div>
+                    </article>
+                    <div class="modal-footer">
+                        <a href="" type="button" class="btn btn-primary">Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="symphony-idol" tabindex="-1" role="dialog" aria-labelledby="symphony-idolTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="symphony-idolTitle">symphony-idol</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <article class="data">
+                        <div class="data-title">
+                            <p>Description</p>
+                            <button class="data-btn">
+                                <span class="plus-btn">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <span class="minus-btn">
+                                    <i class="fa fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="data-text">
+                            <p>
+                                If constructing loops, sampling songs, and dropping heavy beats and basslines is your thing, then Decibels, the DJ Wars competition at Symphony might just be the place for you. You get the opportunity to control the highly enthusiastic audience to dance their minds out to your tunes. As the man behind the console, take in-charge of the power presented to you and cast your spells, as It’s the time to create magic! DJs such as DJ Zaeden, Candice Redding, Kerano, Lost Stories, and many more have performed their bits during Symphony.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="data">
+                        <div class="data-title">
+                            <p>Rules</p>
+                            <button class="data-btn">
+                                <span class="plus-btn">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <span class="minus-btn">
+                                    <i class="fa fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="data-text">
+                            <h4 class="source-sans bold">General Rules</h4>
+                            <ol>
+                                <li>Crews are allowed to participate, provided all participating members are college students, albeit not necessarily from the same college.</li>
+                                <li>Participants may use more than one song in their performance.</li>
+                                <li>Obscenity/Vulgarity of any kind is not allowed and will lead to immediate disqualification. Songs should be chosen accordingly.</li>
+                                <li>Decency in dressing should be maintained at all times. Minimum knee length costume is allowed but with compulsory stockings. No shears/tears are allowed.</li>
+                                <li>Usage of props is allowed. These have to be brought by the teams themselves but the organizers hold the discretion of allowing it on stage. </li>
+                                <li>Any kind of fluid, flame or heavy object is not allowed on stage.</li>
+                                <li>Teams are STRICTLY prohibited from mentioning their college names during the performance by any medium.</li>
+                                <li>Pre-recorded music should be emailed to kjscesymphony@somaiya.edu with the subject: “Verve- Team Name” latest by 27th January, 2019
+                                </li>
+                                <li>
+                                    The email should have the following:
+                                    <ol>
+                                        <li>The music in mp3 format.</li>
+                                        <li> Team Name</li>
+                                        <li> Participants’ Name</li>
+                                        <li>Phone Numbers</li>
+                                        <li>College name(s)</li>
+                                        <li>Prop List (if any)</li>
+                                    </ol>
+                                </li>
+                                <li>Genre: Open</li>
+                                <li>Last date for registration: 27th January, 2019.</li>
+                            </ol>
+                            Crews are allowed to participate, provided all participating members are college students, albeit not necessarily from the same college.
+                            <h4 class="source-sans bold">Elimination Rules</h4>
+                            <ol>
+                                <li>The dance to be performed in the elimination round should be a part of the final performance.</li>
+                                <li>Time limit:4-7 mins (from music on till turning the music off). </li>
+                                <li>Violation of any of the above general rules, may lead to immediate disqualification.</li>
+                            </ol>
+                            <h4 class="source-sans bold">Final Rules</h4>
+                            <ol>
+                                <li>Censor round will be held on the day of the event prior to the event.</li>
+                                <li>Teams must carry at least one backup of their pre-recorded music in a pen drive in mp3 format only.</li>
+                                <li>Time Limit: 12 mins (from music on till turning the music off).</li>
+                                <li>Time limit must strictly be observed. Failure to keep within the time limit will result in a penalty.</li>
+                                <li>For both Eliminations and Finals, 20% marks will be deducted if the performance exceeds by 15 secs. If the performance time increases further by 30 sec, it will lead to disqualification.</li>
+                                <li>The decision of the judges and organizers shall be final and binding.</li>
+                            </ol>
+                            <h4 class="source-sans bold">Judging Criteria</h4>
+                            <ol>
+                                <li>Choreography </li>
+                                <li>Energy</li>
+                                <li>Expression</li>
+                                <li>Synchronization</li>
+                                <li>Stage utilization</li>
+                                <li> Costumes</li>
+                                <li> Innovation</li>
+                                <li>Overall impact</li>
+                            </ol>
+                        </div>
+                    </article>
+
+                    <article class="data">
+                        <div class="data-title">
+                            <p>Registration &amp; Prizes</p>
+                            <button class="data-btn">
+                                <span class="plus-btn">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <span class="minus-btn">
+                                    <i class="fa fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="data-text">
+                            <h4 class="source-sans bold">Prizes Worth</h4>
+                            <ol>
+                                <li>1st Prize: <strong>INR 15000</strong></li>
+                                <li>2nd Prize: <strong> INR 9500</strong></li>
+                            </ol>
+                            <h4 class="source-sans bold">Incentives</h4>
+                            <ol>
+                                <li><strong>1st Place:</strong>
+                                    <ol>
+                                        <li>Get 4 sessions of skill refinement, exposure and networking at the Nritya Shakti Studio.</li>
+                                    </ol>
+                                </li>
+                                <li><strong>2nd Place:</strong>
+                                    <ol>
+                                        <li>Get 2 sessions of skill refinement, exposure and networking at the Nritya Shakti Studio.
+                                        </li>
+                                    </ol>
+                                </li>
+                                <h4 class="source-sans bold">Registration Link</h4>
+                                <ol>
+                                    <li>
+                                        <a href="https://goo.gl/forms/5K1RFjwXdzsje6tv1" target="blank" style="text-decoration: underline;">Registration Form</a>
+                                    </li>
+                                </ol>
+                                <h4 class="source-sans bold">Contact</h4>
+                                <ol>
+                                    <li>Priyam Jain: +91 98334 26478</li>
+                                    <li>Anisha Sinha: +91 77380 98922</li>
+                                    <li>Bhavya Shah: +91 87671 83178</li>
+                                </ol>
+                            </ol>
+                        </div>
+                    </article>
+                    <div class="modal-footer">
+                        <a href="" type="button" class="btn btn-primary">Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="chefpreneur" tabindex="-1" role="dialog" aria-labelledby="chefpreneurTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="chefpreneurTitle">chefpreneur</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <article class="data">
+                        <div class="data-title">
+                            <p>Description</p>
+                            <button class="data-btn">
+                                <span class="plus-btn">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <span class="minus-btn">
+                                    <i class="fa fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="data-text">
+                            <p>
+                                If constructing loops, sampling songs, and dropping heavy beats and basslines is your thing, then Decibels, the DJ Wars competition at Symphony might just be the place for you. You get the opportunity to control the highly enthusiastic audience to dance their minds out to your tunes. As the man behind the console, take in-charge of the power presented to you and cast your spells, as It’s the time to create magic! DJs such as DJ Zaeden, Candice Redding, Kerano, Lost Stories, and many more have performed their bits during Symphony.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="data">
+                        <div class="data-title">
+                            <p>Rules</p>
+                            <button class="data-btn">
+                                <span class="plus-btn">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <span class="minus-btn">
+                                    <i class="fa fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="data-text">
+                            <h4 class="source-sans bold">General Rules</h4>
+                            <ol>
+                                <li>Crews are allowed to participate, provided all participating members are college students, albeit not necessarily from the same college.</li>
+                                <li>Participants may use more than one song in their performance.</li>
+                                <li>Obscenity/Vulgarity of any kind is not allowed and will lead to immediate disqualification. Songs should be chosen accordingly.</li>
+                                <li>Decency in dressing should be maintained at all times. Minimum knee length costume is allowed but with compulsory stockings. No shears/tears are allowed.</li>
+                                <li>Usage of props is allowed. These have to be brought by the teams themselves but the organizers hold the discretion of allowing it on stage. </li>
+                                <li>Any kind of fluid, flame or heavy object is not allowed on stage.</li>
+                                <li>Teams are STRICTLY prohibited from mentioning their college names during the performance by any medium.</li>
+                                <li>Pre-recorded music should be emailed to kjscesymphony@somaiya.edu with the subject: “Verve- Team Name” latest by 27th January, 2019
+                                </li>
+                                <li>
+                                    The email should have the following:
+                                    <ol>
+                                        <li>The music in mp3 format.</li>
+                                        <li> Team Name</li>
+                                        <li> Participants’ Name</li>
+                                        <li>Phone Numbers</li>
+                                        <li>College name(s)</li>
+                                        <li>Prop List (if any)</li>
+                                    </ol>
+                                </li>
+                                <li>Genre: Open</li>
+                                <li>Last date for registration: 27th January, 2019.</li>
+                            </ol>
+                            Crews are allowed to participate, provided all participating members are college students, albeit not necessarily from the same college.
+                            <h4 class="source-sans bold">Elimination Rules</h4>
+                            <ol>
+                                <li>The dance to be performed in the elimination round should be a part of the final performance.</li>
+                                <li>Time limit:4-7 mins (from music on till turning the music off). </li>
+                                <li>Violation of any of the above general rules, may lead to immediate disqualification.</li>
+                            </ol>
+                            <h4 class="source-sans bold">Final Rules</h4>
+                            <ol>
+                                <li>Censor round will be held on the day of the event prior to the event.</li>
+                                <li>Teams must carry at least one backup of their pre-recorded music in a pen drive in mp3 format only.</li>
+                                <li>Time Limit: 12 mins (from music on till turning the music off).</li>
+                                <li>Time limit must strictly be observed. Failure to keep within the time limit will result in a penalty.</li>
+                                <li>For both Eliminations and Finals, 20% marks will be deducted if the performance exceeds by 15 secs. If the performance time increases further by 30 sec, it will lead to disqualification.</li>
+                                <li>The decision of the judges and organizers shall be final and binding.</li>
+                            </ol>
+                            <h4 class="source-sans bold">Judging Criteria</h4>
+                            <ol>
+                                <li>Choreography </li>
+                                <li>Energy</li>
+                                <li>Expression</li>
+                                <li>Synchronization</li>
+                                <li>Stage utilization</li>
+                                <li> Costumes</li>
+                                <li> Innovation</li>
+                                <li>Overall impact</li>
+                            </ol>
+                        </div>
+                    </article>
+
+                    <article class="data">
+                        <div class="data-title">
+                            <p>Registration &amp; Prizes</p>
+                            <button class="data-btn">
+                                <span class="plus-btn">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <span class="minus-btn">
+                                    <i class="fa fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="data-text">
+                            <h4 class="source-sans bold">Prizes Worth</h4>
+                            <ol>
+                                <li>1st Prize: <strong>INR 15000</strong></li>
+                                <li>2nd Prize: <strong> INR 9500</strong></li>
+                            </ol>
+                            <h4 class="source-sans bold">Incentives</h4>
+                            <ol>
+                                <li><strong>1st Place:</strong>
+                                    <ol>
+                                        <li>Get 4 sessions of skill refinement, exposure and networking at the Nritya Shakti Studio.</li>
+                                    </ol>
+                                </li>
+                                <li><strong>2nd Place:</strong>
+                                    <ol>
+                                        <li>Get 2 sessions of skill refinement, exposure and networking at the Nritya Shakti Studio.
+                                        </li>
+                                    </ol>
+                                </li>
+                                <h4 class="source-sans bold">Registration Link</h4>
+                                <ol>
+                                    <li>
+                                        <a href="https://goo.gl/forms/5K1RFjwXdzsje6tv1" target="blank" style="text-decoration: underline;">Registration Form</a>
+                                    </li>
+                                </ol>
+                                <h4 class="source-sans bold">Contact</h4>
+                                <ol>
+                                    <li>Priyam Jain: +91 98334 26478</li>
+                                    <li>Anisha Sinha: +91 77380 98922</li>
+                                    <li>Bhavya Shah: +91 87671 83178</li>
+                                </ol>
+                            </ol>
+                        </div>
+                    </article>
+                    <div class="modal-footer">
+                        <a href="" type="button" class="btn btn-primary">Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="film-making" tabindex="-1" role="dialog" aria-labelledby="film-makingTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="film-makingTitle">film-making</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <article class="data">
+                        <div class="data-title">
+                            <p>Description</p>
+                            <button class="data-btn">
+                                <span class="plus-btn">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <span class="minus-btn">
+                                    <i class="fa fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="data-text">
+                            <p>
+                                If constructing loops, sampling songs, and dropping heavy beats and basslines is your thing, then Decibels, the DJ Wars competition at Symphony might just be the place for you. You get the opportunity to control the highly enthusiastic audience to dance their minds out to your tunes. As the man behind the console, take in-charge of the power presented to you and cast your spells, as It’s the time to create magic! DJs such as DJ Zaeden, Candice Redding, Kerano, Lost Stories, and many more have performed their bits during Symphony.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="data">
+                        <div class="data-title">
+                            <p>Rules</p>
+                            <button class="data-btn">
+                                <span class="plus-btn">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <span class="minus-btn">
+                                    <i class="fa fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="data-text">
+                            <h4 class="source-sans bold">General Rules</h4>
+                            <ol>
+                                <li>Crews are allowed to participate, provided all participating members are college students, albeit not necessarily from the same college.</li>
+                                <li>Participants may use more than one song in their performance.</li>
+                                <li>Obscenity/Vulgarity of any kind is not allowed and will lead to immediate disqualification. Songs should be chosen accordingly.</li>
+                                <li>Decency in dressing should be maintained at all times. Minimum knee length costume is allowed but with compulsory stockings. No shears/tears are allowed.</li>
+                                <li>Usage of props is allowed. These have to be brought by the teams themselves but the organizers hold the discretion of allowing it on stage. </li>
+                                <li>Any kind of fluid, flame or heavy object is not allowed on stage.</li>
+                                <li>Teams are STRICTLY prohibited from mentioning their college names during the performance by any medium.</li>
+                                <li>Pre-recorded music should be emailed to kjscesymphony@somaiya.edu with the subject: “Verve- Team Name” latest by 27th January, 2019
+                                </li>
+                                <li>
+                                    The email should have the following:
+                                    <ol>
+                                        <li>The music in mp3 format.</li>
+                                        <li> Team Name</li>
+                                        <li> Participants’ Name</li>
+                                        <li>Phone Numbers</li>
+                                        <li>College name(s)</li>
+                                        <li>Prop List (if any)</li>
+                                    </ol>
+                                </li>
+                                <li>Genre: Open</li>
+                                <li>Last date for registration: 27th January, 2019.</li>
+                            </ol>
+                            Crews are allowed to participate, provided all participating members are college students, albeit not necessarily from the same college.
+                            <h4 class="source-sans bold">Elimination Rules</h4>
+                            <ol>
+                                <li>The dance to be performed in the elimination round should be a part of the final performance.</li>
+                                <li>Time limit:4-7 mins (from music on till turning the music off). </li>
+                                <li>Violation of any of the above general rules, may lead to immediate disqualification.</li>
+                            </ol>
+                            <h4 class="source-sans bold">Final Rules</h4>
+                            <ol>
+                                <li>Censor round will be held on the day of the event prior to the event.</li>
+                                <li>Teams must carry at least one backup of their pre-recorded music in a pen drive in mp3 format only.</li>
+                                <li>Time Limit: 12 mins (from music on till turning the music off).</li>
+                                <li>Time limit must strictly be observed. Failure to keep within the time limit will result in a penalty.</li>
+                                <li>For both Eliminations and Finals, 20% marks will be deducted if the performance exceeds by 15 secs. If the performance time increases further by 30 sec, it will lead to disqualification.</li>
+                                <li>The decision of the judges and organizers shall be final and binding.</li>
+                            </ol>
+                            <h4 class="source-sans bold">Judging Criteria</h4>
+                            <ol>
+                                <li>Choreography </li>
+                                <li>Energy</li>
+                                <li>Expression</li>
+                                <li>Synchronization</li>
+                                <li>Stage utilization</li>
+                                <li> Costumes</li>
+                                <li> Innovation</li>
+                                <li>Overall impact</li>
+                            </ol>
+                        </div>
+                    </article>
+
+                    <article class="data">
+                        <div class="data-title">
+                            <p>Registration &amp; Prizes</p>
+                            <button class="data-btn">
+                                <span class="plus-btn">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <span class="minus-btn">
+                                    <i class="fa fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="data-text">
+                            <h4 class="source-sans bold">Prizes Worth</h4>
+                            <ol>
+                                <li>1st Prize: <strong>INR 15000</strong></li>
+                                <li>2nd Prize: <strong> INR 9500</strong></li>
+                            </ol>
+                            <h4 class="source-sans bold">Incentives</h4>
+                            <ol>
+                                <li><strong>1st Place:</strong>
+                                    <ol>
+                                        <li>Get 4 sessions of skill refinement, exposure and networking at the Nritya Shakti Studio.</li>
+                                    </ol>
+                                </li>
+                                <li><strong>2nd Place:</strong>
+                                    <ol>
+                                        <li>Get 2 sessions of skill refinement, exposure and networking at the Nritya Shakti Studio.
+                                        </li>
+                                    </ol>
+                                </li>
+                                <h4 class="source-sans bold">Registration Link</h4>
+                                <ol>
+                                    <li>
+                                        <a href="https://goo.gl/forms/5K1RFjwXdzsje6tv1" target="blank" style="text-decoration: underline;">Registration Form</a>
+                                    </li>
+                                </ol>
+                                <h4 class="source-sans bold">Contact</h4>
+                                <ol>
+                                    <li>Priyam Jain: +91 98334 26478</li>
+                                    <li>Anisha Sinha: +91 77380 98922</li>
+                                    <li>Bhavya Shah: +91 87671 83178</li>
+                                </ol>
+                            </ol>
+                        </div>
+                    </article>
+                    <div class="modal-footer">
+                        <a href="" type="button" class="btn btn-primary">Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="mr-mrs-somaiya" tabindex="-1" role="dialog" aria-labelledby="mr-mrs-somaiyaTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="mr-mrs-somaiyaTitle">mr-mrs-somaiya</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <article class="data">
+                        <div class="data-title">
+                            <p>Description</p>
+                            <button class="data-btn">
+                                <span class="plus-btn">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <span class="minus-btn">
+                                    <i class="fa fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="data-text">
+                            <p>
+                                If constructing loops, sampling songs, and dropping heavy beats and basslines is your thing, then Decibels, the DJ Wars competition at Symphony might just be the place for you. You get the opportunity to control the highly enthusiastic audience to dance their minds out to your tunes. As the man behind the console, take in-charge of the power presented to you and cast your spells, as It’s the time to create magic! DJs such as DJ Zaeden, Candice Redding, Kerano, Lost Stories, and many more have performed their bits during Symphony.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="data">
+                        <div class="data-title">
+                            <p>Rules</p>
+                            <button class="data-btn">
+                                <span class="plus-btn">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <span class="minus-btn">
+                                    <i class="fa fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="data-text">
+                            <h4 class="source-sans bold">General Rules</h4>
+                            <ol>
+                                <li>Crews are allowed to participate, provided all participating members are college students, albeit not necessarily from the same college.</li>
+                                <li>Participants may use more than one song in their performance.</li>
+                                <li>Obscenity/Vulgarity of any kind is not allowed and will lead to immediate disqualification. Songs should be chosen accordingly.</li>
+                                <li>Decency in dressing should be maintained at all times. Minimum knee length costume is allowed but with compulsory stockings. No shears/tears are allowed.</li>
+                                <li>Usage of props is allowed. These have to be brought by the teams themselves but the organizers hold the discretion of allowing it on stage. </li>
+                                <li>Any kind of fluid, flame or heavy object is not allowed on stage.</li>
+                                <li>Teams are STRICTLY prohibited from mentioning their college names during the performance by any medium.</li>
+                                <li>Pre-recorded music should be emailed to kjscesymphony@somaiya.edu with the subject: “Verve- Team Name” latest by 27th January, 2019
+                                </li>
+                                <li>
+                                    The email should have the following:
+                                    <ol>
+                                        <li>The music in mp3 format.</li>
+                                        <li> Team Name</li>
+                                        <li> Participants’ Name</li>
+                                        <li>Phone Numbers</li>
+                                        <li>College name(s)</li>
+                                        <li>Prop List (if any)</li>
+                                    </ol>
+                                </li>
+                                <li>Genre: Open</li>
+                                <li>Last date for registration: 27th January, 2019.</li>
+                            </ol>
+                            Crews are allowed to participate, provided all participating members are college students, albeit not necessarily from the same college.
+                            <h4 class="source-sans bold">Elimination Rules</h4>
+                            <ol>
+                                <li>The dance to be performed in the elimination round should be a part of the final performance.</li>
+                                <li>Time limit:4-7 mins (from music on till turning the music off). </li>
+                                <li>Violation of any of the above general rules, may lead to immediate disqualification.</li>
+                            </ol>
+                            <h4 class="source-sans bold">Final Rules</h4>
+                            <ol>
+                                <li>Censor round will be held on the day of the event prior to the event.</li>
+                                <li>Teams must carry at least one backup of their pre-recorded music in a pen drive in mp3 format only.</li>
+                                <li>Time Limit: 12 mins (from music on till turning the music off).</li>
+                                <li>Time limit must strictly be observed. Failure to keep within the time limit will result in a penalty.</li>
+                                <li>For both Eliminations and Finals, 20% marks will be deducted if the performance exceeds by 15 secs. If the performance time increases further by 30 sec, it will lead to disqualification.</li>
+                                <li>The decision of the judges and organizers shall be final and binding.</li>
+                            </ol>
+                            <h4 class="source-sans bold">Judging Criteria</h4>
+                            <ol>
+                                <li>Choreography </li>
+                                <li>Energy</li>
+                                <li>Expression</li>
+                                <li>Synchronization</li>
+                                <li>Stage utilization</li>
+                                <li> Costumes</li>
+                                <li> Innovation</li>
+                                <li>Overall impact</li>
+                            </ol>
+                        </div>
+                    </article>
+
+                    <article class="data">
+                        <div class="data-title">
+                            <p>Registration &amp; Prizes</p>
+                            <button class="data-btn">
+                                <span class="plus-btn">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <span class="minus-btn">
+                                    <i class="fa fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="data-text">
+                            <h4 class="source-sans bold">Prizes Worth</h4>
+                            <ol>
+                                <li>1st Prize: <strong>INR 15000</strong></li>
+                                <li>2nd Prize: <strong> INR 9500</strong></li>
+                            </ol>
+                            <h4 class="source-sans bold">Incentives</h4>
+                            <ol>
+                                <li><strong>1st Place:</strong>
+                                    <ol>
+                                        <li>Get 4 sessions of skill refinement, exposure and networking at the Nritya Shakti Studio.</li>
+                                    </ol>
+                                </li>
+                                <li><strong>2nd Place:</strong>
+                                    <ol>
+                                        <li>Get 2 sessions of skill refinement, exposure and networking at the Nritya Shakti Studio.
+                                        </li>
+                                    </ol>
+                                </li>
+                                <h4 class="source-sans bold">Registration Link</h4>
+                                <ol>
+                                    <li>
+                                        <a href="https://goo.gl/forms/5K1RFjwXdzsje6tv1" target="blank" style="text-decoration: underline;">Registration Form</a>
+                                    </li>
+                                </ol>
+                                <h4 class="source-sans bold">Contact</h4>
+                                <ol>
+                                    <li>Priyam Jain: +91 98334 26478</li>
+                                    <li>Anisha Sinha: +91 77380 98922</li>
+                                    <li>Bhavya Shah: +91 87671 83178</li>
+                                </ol>
+                            </ol>
+                        </div>
+                    </article>
+                    <div class="modal-footer">
+                        <a href="" type="button" class="btn btn-primary">Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="panel" tabindex="-1" role="dialog" aria-labelledby="panelTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="panelTitle">panel</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <article class="data">
+                        <div class="data-title">
+                            <p>Description</p>
+                            <button class="data-btn">
+                                <span class="plus-btn">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <span class="minus-btn">
+                                    <i class="fa fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="data-text">
+                            <p>
+                                If constructing loops, sampling songs, and dropping heavy beats and basslines is your thing, then Decibels, the DJ Wars competition at Symphony might just be the place for you. You get the opportunity to control the highly enthusiastic audience to dance their minds out to your tunes. As the man behind the console, take in-charge of the power presented to you and cast your spells, as It’s the time to create magic! DJs such as DJ Zaeden, Candice Redding, Kerano, Lost Stories, and many more have performed their bits during Symphony.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="data">
+                        <div class="data-title">
+                            <p>Rules</p>
+                            <button class="data-btn">
+                                <span class="plus-btn">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <span class="minus-btn">
+                                    <i class="fa fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="data-text">
+                            <h4 class="source-sans bold">General Rules</h4>
+                            <ol>
+                                <li>Crews are allowed to participate, provided all participating members are college students, albeit not necessarily from the same college.</li>
+                                <li>Participants may use more than one song in their performance.</li>
+                                <li>Obscenity/Vulgarity of any kind is not allowed and will lead to immediate disqualification. Songs should be chosen accordingly.</li>
+                                <li>Decency in dressing should be maintained at all times. Minimum knee length costume is allowed but with compulsory stockings. No shears/tears are allowed.</li>
+                                <li>Usage of props is allowed. These have to be brought by the teams themselves but the organizers hold the discretion of allowing it on stage. </li>
+                                <li>Any kind of fluid, flame or heavy object is not allowed on stage.</li>
+                                <li>Teams are STRICTLY prohibited from mentioning their college names during the performance by any medium.</li>
+                                <li>Pre-recorded music should be emailed to kjscesymphony@somaiya.edu with the subject: “Verve- Team Name” latest by 27th January, 2019
+                                </li>
+                                <li>
+                                    The email should have the following:
+                                    <ol>
+                                        <li>The music in mp3 format.</li>
+                                        <li> Team Name</li>
+                                        <li> Participants’ Name</li>
+                                        <li>Phone Numbers</li>
+                                        <li>College name(s)</li>
+                                        <li>Prop List (if any)</li>
+                                    </ol>
+                                </li>
+                                <li>Genre: Open</li>
+                                <li>Last date for registration: 27th January, 2019.</li>
+                            </ol>
+                            Crews are allowed to participate, provided all participating members are college students, albeit not necessarily from the same college.
+                            <h4 class="source-sans bold">Elimination Rules</h4>
+                            <ol>
+                                <li>The dance to be performed in the elimination round should be a part of the final performance.</li>
+                                <li>Time limit:4-7 mins (from music on till turning the music off). </li>
+                                <li>Violation of any of the above general rules, may lead to immediate disqualification.</li>
+                            </ol>
+                            <h4 class="source-sans bold">Final Rules</h4>
+                            <ol>
+                                <li>Censor round will be held on the day of the event prior to the event.</li>
+                                <li>Teams must carry at least one backup of their pre-recorded music in a pen drive in mp3 format only.</li>
+                                <li>Time Limit: 12 mins (from music on till turning the music off).</li>
+                                <li>Time limit must strictly be observed. Failure to keep within the time limit will result in a penalty.</li>
+                                <li>For both Eliminations and Finals, 20% marks will be deducted if the performance exceeds by 15 secs. If the performance time increases further by 30 sec, it will lead to disqualification.</li>
+                                <li>The decision of the judges and organizers shall be final and binding.</li>
+                            </ol>
+                            <h4 class="source-sans bold">Judging Criteria</h4>
+                            <ol>
+                                <li>Choreography </li>
+                                <li>Energy</li>
+                                <li>Expression</li>
+                                <li>Synchronization</li>
+                                <li>Stage utilization</li>
+                                <li> Costumes</li>
+                                <li> Innovation</li>
+                                <li>Overall impact</li>
+                            </ol>
+                        </div>
+                    </article>
+
+                    <article class="data">
+                        <div class="data-title">
+                            <p>Registration &amp; Prizes</p>
+                            <button class="data-btn">
+                                <span class="plus-btn">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <span class="minus-btn">
+                                    <i class="fa fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="data-text">
+                            <h4 class="source-sans bold">Prizes Worth</h4>
+                            <ol>
+                                <li>1st Prize: <strong>INR 15000</strong></li>
+                                <li>2nd Prize: <strong> INR 9500</strong></li>
+                            </ol>
+                            <h4 class="source-sans bold">Incentives</h4>
+                            <ol>
+                                <li><strong>1st Place:</strong>
+                                    <ol>
+                                        <li>Get 4 sessions of skill refinement, exposure and networking at the Nritya Shakti Studio.</li>
+                                    </ol>
+                                </li>
+                                <li><strong>2nd Place:</strong>
+                                    <ol>
+                                        <li>Get 2 sessions of skill refinement, exposure and networking at the Nritya Shakti Studio.
+                                        </li>
+                                    </ol>
+                                </li>
+                                <h4 class="source-sans bold">Registration Link</h4>
+                                <ol>
+                                    <li>
+                                        <a href="https://goo.gl/forms/5K1RFjwXdzsje6tv1" target="blank" style="text-decoration: underline;">Registration Form</a>
+                                    </li>
+                                </ol>
+                                <h4 class="source-sans bold">Contact</h4>
+                                <ol>
+                                    <li>Priyam Jain: +91 98334 26478</li>
+                                    <li>Anisha Sinha: +91 77380 98922</li>
+                                    <li>Bhavya Shah: +91 87671 83178</li>
+                                </ol>
+                            </ol>
+                        </div>
+                    </article>
+                    <div class="modal-footer">
+                        <a href="" type="button" class="btn btn-primary">Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="ok-doodle" tabindex="-1" role="dialog" aria-labelledby="ok-doodleTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="ok-doodleTitle">ok-doodle</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <article class="data">
+                        <div class="data-title">
+                            <p>Description</p>
+                            <button class="data-btn">
+                                <span class="plus-btn">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <span class="minus-btn">
+                                    <i class="fa fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="data-text">
+                            <p>
+                                If constructing loops, sampling songs, and dropping heavy beats and basslines is your thing, then Decibels, the DJ Wars competition at Symphony might just be the place for you. You get the opportunity to control the highly enthusiastic audience to dance their minds out to your tunes. As the man behind the console, take in-charge of the power presented to you and cast your spells, as It’s the time to create magic! DJs such as DJ Zaeden, Candice Redding, Kerano, Lost Stories, and many more have performed their bits during Symphony.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="data">
+                        <div class="data-title">
+                            <p>Rules</p>
+                            <button class="data-btn">
+                                <span class="plus-btn">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <span class="minus-btn">
+                                    <i class="fa fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="data-text">
+                            <h4 class="source-sans bold">General Rules</h4>
+                            <ol>
+                                <li>Crews are allowed to participate, provided all participating members are college students, albeit not necessarily from the same college.</li>
+                                <li>Participants may use more than one song in their performance.</li>
+                                <li>Obscenity/Vulgarity of any kind is not allowed and will lead to immediate disqualification. Songs should be chosen accordingly.</li>
+                                <li>Decency in dressing should be maintained at all times. Minimum knee length costume is allowed but with compulsory stockings. No shears/tears are allowed.</li>
+                                <li>Usage of props is allowed. These have to be brought by the teams themselves but the organizers hold the discretion of allowing it on stage. </li>
+                                <li>Any kind of fluid, flame or heavy object is not allowed on stage.</li>
+                                <li>Teams are STRICTLY prohibited from mentioning their college names during the performance by any medium.</li>
+                                <li>Pre-recorded music should be emailed to kjscesymphony@somaiya.edu with the subject: “Verve- Team Name” latest by 27th January, 2019
+                                </li>
+                                <li>
+                                    The email should have the following:
+                                    <ol>
+                                        <li>The music in mp3 format.</li>
+                                        <li> Team Name</li>
+                                        <li> Participants’ Name</li>
+                                        <li>Phone Numbers</li>
+                                        <li>College name(s)</li>
+                                        <li>Prop List (if any)</li>
+                                    </ol>
+                                </li>
+                                <li>Genre: Open</li>
+                                <li>Last date for registration: 27th January, 2019.</li>
+                            </ol>
+                            Crews are allowed to participate, provided all participating members are college students, albeit not necessarily from the same college.
+                            <h4 class="source-sans bold">Elimination Rules</h4>
+                            <ol>
+                                <li>The dance to be performed in the elimination round should be a part of the final performance.</li>
+                                <li>Time limit:4-7 mins (from music on till turning the music off). </li>
+                                <li>Violation of any of the above general rules, may lead to immediate disqualification.</li>
+                            </ol>
+                            <h4 class="source-sans bold">Final Rules</h4>
+                            <ol>
+                                <li>Censor round will be held on the day of the event prior to the event.</li>
+                                <li>Teams must carry at least one backup of their pre-recorded music in a pen drive in mp3 format only.</li>
+                                <li>Time Limit: 12 mins (from music on till turning the music off).</li>
+                                <li>Time limit must strictly be observed. Failure to keep within the time limit will result in a penalty.</li>
+                                <li>For both Eliminations and Finals, 20% marks will be deducted if the performance exceeds by 15 secs. If the performance time increases further by 30 sec, it will lead to disqualification.</li>
+                                <li>The decision of the judges and organizers shall be final and binding.</li>
+                            </ol>
+                            <h4 class="source-sans bold">Judging Criteria</h4>
+                            <ol>
+                                <li>Choreography </li>
+                                <li>Energy</li>
+                                <li>Expression</li>
+                                <li>Synchronization</li>
+                                <li>Stage utilization</li>
+                                <li> Costumes</li>
+                                <li> Innovation</li>
+                                <li>Overall impact</li>
+                            </ol>
+                        </div>
+                    </article>
+
+                    <article class="data">
+                        <div class="data-title">
+                            <p>Registration &amp; Prizes</p>
+                            <button class="data-btn">
+                                <span class="plus-btn">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <span class="minus-btn">
+                                    <i class="fa fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="data-text">
+                            <h4 class="source-sans bold">Prizes Worth</h4>
+                            <ol>
+                                <li>1st Prize: <strong>INR 15000</strong></li>
+                                <li>2nd Prize: <strong> INR 9500</strong></li>
+                            </ol>
+                            <h4 class="source-sans bold">Incentives</h4>
+                            <ol>
+                                <li><strong>1st Place:</strong>
+                                    <ol>
+                                        <li>Get 4 sessions of skill refinement, exposure and networking at the Nritya Shakti Studio.</li>
+                                    </ol>
+                                </li>
+                                <li><strong>2nd Place:</strong>
+                                    <ol>
+                                        <li>Get 2 sessions of skill refinement, exposure and networking at the Nritya Shakti Studio.
+                                        </li>
+                                    </ol>
+                                </li>
+                                <h4 class="source-sans bold">Registration Link</h4>
+                                <ol>
+                                    <li>
+                                        <a href="https://goo.gl/forms/5K1RFjwXdzsje6tv1" target="blank" style="text-decoration: underline;">Registration Form</a>
+                                    </li>
+                                </ol>
+                                <h4 class="source-sans bold">Contact</h4>
+                                <ol>
+                                    <li>Priyam Jain: +91 98334 26478</li>
+                                    <li>Anisha Sinha: +91 77380 98922</li>
+                                    <li>Bhavya Shah: +91 87671 83178</li>
+                                </ol>
+                            </ol>
+                        </div>
+                    </article>
+                    <div class="modal-footer">
+                        <a href="" type="button" class="btn btn-primary">Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="picture-this" tabindex="-1" role="dialog" aria-labelledby="picture-thisTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="picture-thisTitle">picture-this</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <article class="data">
+                        <div class="data-title">
+                            <p>Description</p>
+                            <button class="data-btn">
+                                <span class="plus-btn">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <span class="minus-btn">
+                                    <i class="fa fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="data-text">
+                            <p>
+                                If constructing loops, sampling songs, and dropping heavy beats and basslines is your thing, then Decibels, the DJ Wars competition at Symphony might just be the place for you. You get the opportunity to control the highly enthusiastic audience to dance their minds out to your tunes. As the man behind the console, take in-charge of the power presented to you and cast your spells, as It’s the time to create magic! DJs such as DJ Zaeden, Candice Redding, Kerano, Lost Stories, and many more have performed their bits during Symphony.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="data">
+                        <div class="data-title">
+                            <p>Rules</p>
+                            <button class="data-btn">
+                                <span class="plus-btn">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <span class="minus-btn">
+                                    <i class="fa fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="data-text">
+                            <h4 class="source-sans bold">General Rules</h4>
+                            <ol>
+                                <li>Crews are allowed to participate, provided all participating members are college students, albeit not necessarily from the same college.</li>
+                                <li>Participants may use more than one song in their performance.</li>
+                                <li>Obscenity/Vulgarity of any kind is not allowed and will lead to immediate disqualification. Songs should be chosen accordingly.</li>
+                                <li>Decency in dressing should be maintained at all times. Minimum knee length costume is allowed but with compulsory stockings. No shears/tears are allowed.</li>
+                                <li>Usage of props is allowed. These have to be brought by the teams themselves but the organizers hold the discretion of allowing it on stage. </li>
+                                <li>Any kind of fluid, flame or heavy object is not allowed on stage.</li>
+                                <li>Teams are STRICTLY prohibited from mentioning their college names during the performance by any medium.</li>
+                                <li>Pre-recorded music should be emailed to kjscesymphony@somaiya.edu with the subject: “Verve- Team Name” latest by 27th January, 2019
+                                </li>
+                                <li>
+                                    The email should have the following:
+                                    <ol>
+                                        <li>The music in mp3 format.</li>
+                                        <li> Team Name</li>
+                                        <li> Participants’ Name</li>
+                                        <li>Phone Numbers</li>
+                                        <li>College name(s)</li>
+                                        <li>Prop List (if any)</li>
+                                    </ol>
+                                </li>
+                                <li>Genre: Open</li>
+                                <li>Last date for registration: 27th January, 2019.</li>
+                            </ol>
+                            Crews are allowed to participate, provided all participating members are college students, albeit not necessarily from the same college.
+                            <h4 class="source-sans bold">Elimination Rules</h4>
+                            <ol>
+                                <li>The dance to be performed in the elimination round should be a part of the final performance.</li>
+                                <li>Time limit:4-7 mins (from music on till turning the music off). </li>
+                                <li>Violation of any of the above general rules, may lead to immediate disqualification.</li>
+                            </ol>
+                            <h4 class="source-sans bold">Final Rules</h4>
+                            <ol>
+                                <li>Censor round will be held on the day of the event prior to the event.</li>
+                                <li>Teams must carry at least one backup of their pre-recorded music in a pen drive in mp3 format only.</li>
+                                <li>Time Limit: 12 mins (from music on till turning the music off).</li>
+                                <li>Time limit must strictly be observed. Failure to keep within the time limit will result in a penalty.</li>
+                                <li>For both Eliminations and Finals, 20% marks will be deducted if the performance exceeds by 15 secs. If the performance time increases further by 30 sec, it will lead to disqualification.</li>
+                                <li>The decision of the judges and organizers shall be final and binding.</li>
+                            </ol>
+                            <h4 class="source-sans bold">Judging Criteria</h4>
+                            <ol>
+                                <li>Choreography </li>
+                                <li>Energy</li>
+                                <li>Expression</li>
+                                <li>Synchronization</li>
+                                <li>Stage utilization</li>
+                                <li> Costumes</li>
+                                <li> Innovation</li>
+                                <li>Overall impact</li>
+                            </ol>
+                        </div>
+                    </article>
+
+                    <article class="data">
+                        <div class="data-title">
+                            <p>Registration &amp; Prizes</p>
+                            <button class="data-btn">
+                                <span class="plus-btn">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <span class="minus-btn">
+                                    <i class="fa fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="data-text">
+                            <h4 class="source-sans bold">Prizes Worth</h4>
+                            <ol>
+                                <li>1st Prize: <strong>INR 15000</strong></li>
+                                <li>2nd Prize: <strong> INR 9500</strong></li>
+                            </ol>
+                            <h4 class="source-sans bold">Incentives</h4>
+                            <ol>
+                                <li><strong>1st Place:</strong>
+                                    <ol>
+                                        <li>Get 4 sessions of skill refinement, exposure and networking at the Nritya Shakti Studio.</li>
+                                    </ol>
+                                </li>
+                                <li><strong>2nd Place:</strong>
+                                    <ol>
+                                        <li>Get 2 sessions of skill refinement, exposure and networking at the Nritya Shakti Studio.
+                                        </li>
+                                    </ol>
+                                </li>
+                                <h4 class="source-sans bold">Registration Link</h4>
+                                <ol>
+                                    <li>
+                                        <a href="https://goo.gl/forms/5K1RFjwXdzsje6tv1" target="blank" style="text-decoration: underline;">Registration Form</a>
+                                    </li>
+                                </ol>
+                                <h4 class="source-sans bold">Contact</h4>
+                                <ol>
+                                    <li>Priyam Jain: +91 98334 26478</li>
+                                    <li>Anisha Sinha: +91 77380 98922</li>
+                                    <li>Bhavya Shah: +91 87671 83178</li>
+                                </ol>
+                            </ol>
+                        </div>
+                    </article>
+                    <div class="modal-footer">
+                        <a href="" type="button" class="btn btn-primary">Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="walkthechalk" tabindex="-1" role="dialog" aria-labelledby="walkthechalkTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="walkthechalkTitle">walkthechalk</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <article class="data">
+                        <div class="data-title">
+                            <p>Description</p>
+                            <button class="data-btn">
+                                <span class="plus-btn">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <span class="minus-btn">
+                                    <i class="fa fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="data-text">
+                            <p>
+                                If constructing loops, sampling songs, and dropping heavy beats and basslines is your thing, then Decibels, the DJ Wars competition at Symphony might just be the place for you. You get the opportunity to control the highly enthusiastic audience to dance their minds out to your tunes. As the man behind the console, take in-charge of the power presented to you and cast your spells, as It’s the time to create magic! DJs such as DJ Zaeden, Candice Redding, Kerano, Lost Stories, and many more have performed their bits during Symphony.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="data">
+                        <div class="data-title">
+                            <p>Rules</p>
+                            <button class="data-btn">
+                                <span class="plus-btn">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <span class="minus-btn">
+                                    <i class="fa fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="data-text">
+                            <h4 class="source-sans bold">General Rules</h4>
+                            <ol>
+                                <li>Crews are allowed to participate, provided all participating members are college students, albeit not necessarily from the same college.</li>
+                                <li>Participants may use more than one song in their performance.</li>
+                                <li>Obscenity/Vulgarity of any kind is not allowed and will lead to immediate disqualification. Songs should be chosen accordingly.</li>
+                                <li>Decency in dressing should be maintained at all times. Minimum knee length costume is allowed but with compulsory stockings. No shears/tears are allowed.</li>
+                                <li>Usage of props is allowed. These have to be brought by the teams themselves but the organizers hold the discretion of allowing it on stage. </li>
+                                <li>Any kind of fluid, flame or heavy object is not allowed on stage.</li>
+                                <li>Teams are STRICTLY prohibited from mentioning their college names during the performance by any medium.</li>
+                                <li>Pre-recorded music should be emailed to kjscesymphony@somaiya.edu with the subject: “Verve- Team Name” latest by 27th January, 2019
+                                </li>
+                                <li>
+                                    The email should have the following:
+                                    <ol>
+                                        <li>The music in mp3 format.</li>
+                                        <li> Team Name</li>
+                                        <li> Participants’ Name</li>
+                                        <li>Phone Numbers</li>
+                                        <li>College name(s)</li>
+                                        <li>Prop List (if any)</li>
+                                    </ol>
+                                </li>
+                                <li>Genre: Open</li>
+                                <li>Last date for registration: 27th January, 2019.</li>
+                            </ol>
+                            Crews are allowed to participate, provided all participating members are college students, albeit not necessarily from the same college.
+                            <h4 class="source-sans bold">Elimination Rules</h4>
+                            <ol>
+                                <li>The dance to be performed in the elimination round should be a part of the final performance.</li>
+                                <li>Time limit:4-7 mins (from music on till turning the music off). </li>
+                                <li>Violation of any of the above general rules, may lead to immediate disqualification.</li>
+                            </ol>
+                            <h4 class="source-sans bold">Final Rules</h4>
+                            <ol>
+                                <li>Censor round will be held on the day of the event prior to the event.</li>
+                                <li>Teams must carry at least one backup of their pre-recorded music in a pen drive in mp3 format only.</li>
+                                <li>Time Limit: 12 mins (from music on till turning the music off).</li>
+                                <li>Time limit must strictly be observed. Failure to keep within the time limit will result in a penalty.</li>
+                                <li>For both Eliminations and Finals, 20% marks will be deducted if the performance exceeds by 15 secs. If the performance time increases further by 30 sec, it will lead to disqualification.</li>
+                                <li>The decision of the judges and organizers shall be final and binding.</li>
+                            </ol>
+                            <h4 class="source-sans bold">Judging Criteria</h4>
+                            <ol>
+                                <li>Choreography </li>
+                                <li>Energy</li>
+                                <li>Expression</li>
+                                <li>Synchronization</li>
+                                <li>Stage utilization</li>
+                                <li> Costumes</li>
+                                <li> Innovation</li>
+                                <li>Overall impact</li>
+                            </ol>
+                        </div>
+                    </article>
+
+                    <article class="data">
+                        <div class="data-title">
+                            <p>Registration &amp; Prizes</p>
+                            <button class="data-btn">
+                                <span class="plus-btn">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <span class="minus-btn">
+                                    <i class="fa fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="data-text">
+                            <h4 class="source-sans bold">Prizes Worth</h4>
+                            <ol>
+                                <li>1st Prize: <strong>INR 15000</strong></li>
+                                <li>2nd Prize: <strong> INR 9500</strong></li>
+                            </ol>
+                            <h4 class="source-sans bold">Incentives</h4>
+                            <ol>
+                                <li><strong>1st Place:</strong>
+                                    <ol>
+                                        <li>Get 4 sessions of skill refinement, exposure and networking at the Nritya Shakti Studio.</li>
+                                    </ol>
+                                </li>
+                                <li><strong>2nd Place:</strong>
+                                    <ol>
+                                        <li>Get 2 sessions of skill refinement, exposure and networking at the Nritya Shakti Studio.
+                                        </li>
+                                    </ol>
+                                </li>
+                                <h4 class="source-sans bold">Registration Link</h4>
+                                <ol>
+                                    <li>
+                                        <a href="https://goo.gl/forms/5K1RFjwXdzsje6tv1" target="blank" style="text-decoration: underline;">Registration Form</a>
+                                    </li>
+                                </ol>
+                                <h4 class="source-sans bold">Contact</h4>
+                                <ol>
+                                    <li>Priyam Jain: +91 98334 26478</li>
+                                    <li>Anisha Sinha: +91 77380 98922</li>
+                                    <li>Bhavya Shah: +91 87671 83178</li>
+                                </ol>
+                            </ol>
+                        </div>
+                    </article>
+                    <div class="modal-footer">
+                        <a href="" type="button" class="btn btn-primary">Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="wordsmith" tabindex="-1" role="dialog" aria-labelledby="wordsmithTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="wordsmithTitle">wordsmith</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <article class="data">
+                        <div class="data-title">
+                            <p>Description</p>
+                            <button class="data-btn">
+                                <span class="plus-btn">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <span class="minus-btn">
+                                    <i class="fa fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="data-text">
+                            <p>
+                                If constructing loops, sampling songs, and dropping heavy beats and basslines is your thing, then Decibels, the DJ Wars competition at Symphony might just be the place for you. You get the opportunity to control the highly enthusiastic audience to dance their minds out to your tunes. As the man behind the console, take in-charge of the power presented to you and cast your spells, as It’s the time to create magic! DJs such as DJ Zaeden, Candice Redding, Kerano, Lost Stories, and many more have performed their bits during Symphony.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="data">
+                        <div class="data-title">
+                            <p>Rules</p>
+                            <button class="data-btn">
+                                <span class="plus-btn">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <span class="minus-btn">
+                                    <i class="fa fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="data-text">
+                            <h4 class="source-sans bold">General Rules</h4>
+                            <ol>
+                                <li>Crews are allowed to participate, provided all participating members are college students, albeit not necessarily from the same college.</li>
+                                <li>Participants may use more than one song in their performance.</li>
+                                <li>Obscenity/Vulgarity of any kind is not allowed and will lead to immediate disqualification. Songs should be chosen accordingly.</li>
+                                <li>Decency in dressing should be maintained at all times. Minimum knee length costume is allowed but with compulsory stockings. No shears/tears are allowed.</li>
+                                <li>Usage of props is allowed. These have to be brought by the teams themselves but the organizers hold the discretion of allowing it on stage. </li>
+                                <li>Any kind of fluid, flame or heavy object is not allowed on stage.</li>
+                                <li>Teams are STRICTLY prohibited from mentioning their college names during the performance by any medium.</li>
+                                <li>Pre-recorded music should be emailed to kjscesymphony@somaiya.edu with the subject: “Verve- Team Name” latest by 27th January, 2019
+                                </li>
+                                <li>
+                                    The email should have the following:
+                                    <ol>
+                                        <li>The music in mp3 format.</li>
+                                        <li> Team Name</li>
+                                        <li> Participants’ Name</li>
+                                        <li>Phone Numbers</li>
+                                        <li>College name(s)</li>
+                                        <li>Prop List (if any)</li>
+                                    </ol>
+                                </li>
+                                <li>Genre: Open</li>
+                                <li>Last date for registration: 27th January, 2019.</li>
+                            </ol>
+                            Crews are allowed to participate, provided all participating members are college students, albeit not necessarily from the same college.
+                            <h4 class="source-sans bold">Elimination Rules</h4>
+                            <ol>
+                                <li>The dance to be performed in the elimination round should be a part of the final performance.</li>
+                                <li>Time limit:4-7 mins (from music on till turning the music off). </li>
+                                <li>Violation of any of the above general rules, may lead to immediate disqualification.</li>
+                            </ol>
+                            <h4 class="source-sans bold">Final Rules</h4>
+                            <ol>
+                                <li>Censor round will be held on the day of the event prior to the event.</li>
+                                <li>Teams must carry at least one backup of their pre-recorded music in a pen drive in mp3 format only.</li>
+                                <li>Time Limit: 12 mins (from music on till turning the music off).</li>
+                                <li>Time limit must strictly be observed. Failure to keep within the time limit will result in a penalty.</li>
+                                <li>For both Eliminations and Finals, 20% marks will be deducted if the performance exceeds by 15 secs. If the performance time increases further by 30 sec, it will lead to disqualification.</li>
+                                <li>The decision of the judges and organizers shall be final and binding.</li>
+                            </ol>
+                            <h4 class="source-sans bold">Judging Criteria</h4>
+                            <ol>
+                                <li>Choreography </li>
+                                <li>Energy</li>
+                                <li>Expression</li>
+                                <li>Synchronization</li>
+                                <li>Stage utilization</li>
+                                <li> Costumes</li>
+                                <li> Innovation</li>
+                                <li>Overall impact</li>
+                            </ol>
+                        </div>
+                    </article>
+
+                    <article class="data">
+                        <div class="data-title">
+                            <p>Registration &amp; Prizes</p>
+                            <button class="data-btn">
+                                <span class="plus-btn">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <span class="minus-btn">
+                                    <i class="fa fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="data-text">
+                            <h4 class="source-sans bold">Prizes Worth</h4>
+                            <ol>
+                                <li>1st Prize: <strong>INR 15000</strong></li>
+                                <li>2nd Prize: <strong> INR 9500</strong></li>
+                            </ol>
+                            <h4 class="source-sans bold">Incentives</h4>
+                            <ol>
+                                <li><strong>1st Place:</strong>
+                                    <ol>
+                                        <li>Get 4 sessions of skill refinement, exposure and networking at the Nritya Shakti Studio.</li>
+                                    </ol>
+                                </li>
+                                <li><strong>2nd Place:</strong>
+                                    <ol>
+                                        <li>Get 2 sessions of skill refinement, exposure and networking at the Nritya Shakti Studio.
+                                        </li>
+                                    </ol>
+                                </li>
+                                <h4 class="source-sans bold">Registration Link</h4>
+                                <ol>
+                                    <li>
+                                        <a href="https://goo.gl/forms/5K1RFjwXdzsje6tv1" target="blank" style="text-decoration: underline;">Registration Form</a>
+                                    </li>
+                                </ol>
+                                <h4 class="source-sans bold">Contact</h4>
+                                <ol>
+                                    <li>Priyam Jain: +91 98334 26478</li>
+                                    <li>Anisha Sinha: +91 77380 98922</li>
+                                    <li>Bhavya Shah: +91 87671 83178</li>
+                                </ol>
+                            </ol>
+                        </div>
+                    </article>
+                    <div class="modal-footer">
+                        <a href="" type="button" class="btn btn-primary">Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
-        <script src="" async defer></script>
-    </body>
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-v4-rtl/4.6.0-1/js/bootstrap.min.js"></script>
+    <script src="script.js" async defer></script>
+</body>
+
 </html>

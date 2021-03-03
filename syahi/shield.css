@@ -109,12 +109,12 @@ header {
     color: white;
 }
 
-.tab-content > .year > .competitions {
+.tab-content > .year > .events-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.competitions a img {
+.events-wrapper a img {
     max-height: 400px;
     max-width: 200px;
 }
@@ -152,19 +152,19 @@ footer {
 }
 
 @media (max-width: 1050px) {
-    .tab-content > .year > .competitions {
+    .tab-content > .year > .events-wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 }
 
 @media (max-width: 800px) {
-    .tab-content > .year > .competitions {
+    .tab-content > .year > .events-wrapper {
         display: grid;
         grid-template-columns: 1fr;
     }
 
-    .competitions a img {
+    .events-wrapper a img {
         max-height: 600px;
         max-width: 300px;
     }

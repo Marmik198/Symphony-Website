@@ -14,13 +14,3 @@ tabs.forEach(tab => {
     target.classList.add('active');
   });
 });
-
-const btns = document.querySelectorAll('.data');
-
-btns.forEach(function(btn){
-    btn.addEventListener('click', function(e){
-        const question = e.currentTarget;
-        console.log(question);
-        question.classList.toggle('show-text');
-    });
-});

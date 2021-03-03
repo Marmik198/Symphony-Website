@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Events</title>
+    <meta name="description" content="A set of morphing shape overlays with SVG">
+    <meta name="keywords" content="shape, SVG, morphing, web development, web design, javascript">
+    <meta name="author" content="Codrops">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-v4-rtl/4.6.0-1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+    <link rel="stylesheet" href="shield.css">
+</head>
+
+<body>
+
+    <!--
+    <main class="content-box-sm">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="nav nav-tabs" role="tablist">
+                        <div>
+                            <input id="optDaily" checked name="intervaltype" type="radio" data-target="#scheduleDaily" class="opt">
+                            <label for="optDaily">Daily</label>
+                        </div>
+                        <div>
+                            <input id="optWeekly" name="intervaltype" type="radio" data-target="#scheduleWeekly" class="opt">
+                            <label for="optWeekly">Weekly</label>
+                        </div>
+                    </div>
+                    <div class="tab-content">
+                        <div id="scheduleDaily" class="tab-pane active">Daily</div>
+                        <div id="scheduleWeekly" class="tab-pane">Weekly</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+-->
+
+    <main class="content-box-sm">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="main-content">
+                        <ul class="tabs">
+                            <li data-tab-target="#overview" class="active tab">Overview</li>
+                            <li data-tab-target="#events" class="tab">Events</li>
+                        </ul>
+                        <div class="tab-content">
+                           <div id="overview" data-tab-content class="year active">
+                                <div id="payment_content">
+                                    <div align="center"><img src="https://www.w3schools.com/w3css/img_lights.jpg" height="150px"></div>
+                                    <br>
+                                    <ol class="color-black">
+                                        <li style="list-style-type: none; font-size: 18px;">
+                                            <strong>Syahi</strong>, the annual Literary and Design festival of KJSCE, which is to be held on <strong>6th of February</strong> this year, was instituted with the purpose of imbibing a literary and design culture in the college. This year, we aim to take Syahi a step higher and for that, we welcome all literary enthusiasts and design maniacs alike.
+                                        </li>
+                                    </ol>
+                                    <h2 class="source-sans black">Registration</h2>
+                                    <ol class="color-black">
+                                        <li style="list-style-type: none; font-size: 18px;">
+                                            The registration of all the events of Syahi can be done only online, click <a href="https://goo.gl/forms/sLF40TAGR2YSjhMV2">here.</a>
+                                        </li>
+                                    </ol>
+                                </div>
+                            </div>
+                            <div id="events" data-tab-content class="year">
+                                <div class="events-wrapper">
+                                    <div>
+                                        <h6 class="role">role here</h6>
+                                        <a href="">
+                                            <img src="https://images.pexels.com/photos/5836/yellow-metal-design-decoration.jpg" alt="1">
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <h6 class="role">role here</h6>
+                                        <a href="">
+                                            <img src="https://images.pexels.com/photos/5836/yellow-metal-design-decoration.jpg" alt="1">
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <h6 class="role">role here</h6>
+                                        <a href="">
+                                            <img src="https://images.pexels.com/photos/5836/yellow-metal-design-decoration.jpg" alt="1">
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <h6 class="role">role here</h6>
+                                        <a href="">
+                                            <img src="https://images.pexels.com/photos/5836/yellow-metal-design-decoration.jpg" alt="1">
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <h6 class="role">role here</h6>
+                                        <a href="">
+                                            <img src="https://images.pexels.com/photos/5836/yellow-metal-design-decoration.jpg" alt="1">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-v4-rtl/4.6.0-1/js/bootstrap.min.js"></script>
+    <script src="script.js" async defer></script>
+</body>
+
+</html>
