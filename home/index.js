@@ -131,9 +131,3 @@ gsap.to(".swiper-slide", 0, {
 gsap.to(".swiper-slide-active", 0, {
   scale: 1
 });
-
-setTimeout(() => {
-  $(".preloader-anim").addClass("hidden");
-  $(".outer").removeClass('hidden');
-  $(".loader-gif").removeClass(".loader-gif");
-}, 4000);
