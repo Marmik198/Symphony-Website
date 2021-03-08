@@ -5,7 +5,7 @@ body {
   font-family: "Roboto";
   list-style: none;
   box-sizing: border-box;
-  background: #000;
+  background: rgb(46, 205, 226);
 }
 
 nav {
@@ -86,6 +86,7 @@ nav .nav-links ul li img {
 /* Track */
 ::-webkit-scrollbar-track {
   border-radius: 10px;
+  background: black;
 }
 
 /* Handle */
@@ -109,7 +110,7 @@ section {
 .bg img {
   width: 110vw;
   height: 110vh;
-  filter: brightness(0.6);
+  filter: brightness(0.8);
 }
 
 .rock1 {
@@ -175,7 +176,7 @@ section {
 /* SWIPER */
 
 .content-box-lg {
-  margin: 100px 0 50px;
+  /* margin: 100px 0 50px; */
   padding: 100px 0;
 }
 
