@@ -2,9 +2,48 @@ html {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-body {
-    overflow-x: hidden;
+body,
+html {
+    height: 100%;
+    margin: 0;
 }
+
+.bgimg {
+    background-image: url('https://www.fg-a.com/backgrounds/black-planet-surface-1920.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: "Courier New", "Courier", monospace;
+    font-size: 25px;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1 {
+    font-size: calc(3.375rem + 1.5vw);
+    margin-bottom: 1.5rem;
+    text-transform: capitalize;
+    z-index: 99999;
+}
+
+p {
+    margin-top: 1.5rem;
+}
+
+hr {
+    margin: auto;
+    width: 60%;
+}
+
+
 
 /**GENERAL**/
 
