@@ -310,3 +310,51 @@ body {
 .swiper-slide.s-12 .slide-detail-facts {
     top: 340px;
 }
+
+.data {
+    cursor: pointer;
+}
+
+.data-btn {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding-bottom: 15px;
+}
+
+.plus-btn {
+    font-size: 20px;
+}
+
+.minus-btn {
+    font-size: 20px;
+    display: none;
+}
+
+.data-title {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.data-text {
+    font-size: 16px;
+    display: none;
+}
+
+.show-text .data-text {
+    display: block;
+}
+
+.show-text .minus-btn {
+    display: inline;
+}
+
+.show-text .plus-btn {
+    display: none;
+}
+
+.modal-footer {
+    justify-content: center;
+}

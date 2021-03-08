@@ -179,41 +179,68 @@ $(function () {
         }
     });
     $(".planet-links").on("click", "div", function () {
-        if($(".swiper-pagination-bullet-active").text() == "Verve") {
+        if ($(".swiper-pagination-bullet-active").text() == "Verve") {
             $("#sectiontwo").css("background-color", "#07334e");
         }
-        if($(".swiper-pagination-bullet-active").text() == "Battle Of Bands") {
+        if ($(".swiper-pagination-bullet-active").text() == "Battle Of Bands") {
             $("#sectiontwo").css("background-color", "#2e3637");
         }
-        if($(".swiper-pagination-bullet-active").text() == "Symphony Idol") {
+        if ($(".swiper-pagination-bullet-active").text() == "Symphony Idol") {
             $("#sectiontwo").css("background-color", "#471f04");
         }
-        if($(".swiper-pagination-bullet-active").text() == "Decibels") {
+        if ($(".swiper-pagination-bullet-active").text() == "Decibels") {
             $("#sectiontwo").css("background-color", "#450018");
         }
-        if($(".swiper-pagination-bullet-active").text() == "Natsamrat") {
+        if ($(".swiper-pagination-bullet-active").text() == "Natsamrat") {
             $("#sectiontwo").css("background-color", "#47200a");
         }
-        if($(".swiper-pagination-bullet-active").text() == "Ok Doodle") {
+        if ($(".swiper-pagination-bullet-active").text() == "Ok Doodle") {
             $("#sectiontwo").css("background-color", "#29425a");
         }
-        if($(".swiper-pagination-bullet-active").text() == "Picture This") {
+        if ($(".swiper-pagination-bullet-active").text() == "Picture This") {
             $("#sectiontwo").css("background-color", "#4a0021");
         }
-        if($(".swiper-pagination-bullet-active").text() == "Feel The Beat") {
+        if ($(".swiper-pagination-bullet-active").text() == "Feel The Beat") {
             $("#sectiontwo").css("background-color", "#28012e");
         }
-        if($(".swiper-pagination-bullet-active").text() == "Film Flick") {
+        if ($(".swiper-pagination-bullet-active").text() == "Film Flick") {
             $("#sectiontwo").css("background-color", "#212a07");
         }
-        if($(".swiper-pagination-bullet-active").text() == "Word Smith") {
+        if ($(".swiper-pagination-bullet-active").text() == "Word Smith") {
             $("#sectiontwo").css("background-color", "#32210e");
         }
-        if($(".swiper-pagination-bullet-active").text() == "Somaiya Got Talent") {
+        if ($(".swiper-pagination-bullet-active").text() == "Somaiya Got Talent") {
             $("#sectiontwo").css("background-color", "#08424e");
         }
-        if($(".swiper-pagination-bullet-active").text() == "Mr. & Ms. Somaiya") {
+        if ($(".swiper-pagination-bullet-active").text() == "Mr. & Ms. Somaiya") {
             $("#sectiontwo").css("background-color", "#650137");
         }
+    });
+});
+
+const tabs = document.querySelectorAll('[data-tab-target]');
+const tabContents = document.querySelectorAll('[data-tab-content]');
+
+tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+        const target = document.querySelector(tab.dataset.tabTarget);
+        tabContents.forEach(tabContent => {
+            tabContent.classList.remove('active');
+        });
+        tabs.forEach(tab => {
+            tab.classList.remove('active')
+        });
+        tab.classList.add('active');
+        target.classList.add('active');
+    });
+});
+
+const btns = document.querySelectorAll('.data');
+
+btns.forEach(function (btn) {
+    btn.addEventListener('click', function (e) {
+        const question = e.currentTarget;
+        console.log(question);
+        question.classList.toggle('show-text');
     });
 });
