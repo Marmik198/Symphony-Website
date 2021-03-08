@@ -138,14 +138,14 @@ section {
   height: 400px;
   position: absolute;
   left: 34vw;
-  top: 25vh;
+  top: 20vh;
   z-index: 1;
-  filter: brightness(0.7);
+  filter: brightness(1);
 }
 
 .mid {
   left: -150px !important;
-  bottom: -650px !important;
+  bottom: -700px !important;
   top: unset !important;
   width: 100%;
 }
