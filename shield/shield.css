@@ -3,12 +3,21 @@ html {
 }
 
 body {
+<<<<<<< HEAD
   padding: 0;
   margin: 0;
   height: 100vh;
   width: 100vw;
   background-color: #a36406 !important;
   color: black !important;
+=======
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #EDFFBA !important;
+    color: black !important;
+>>>>>>> f21c065d6b911f998a8dd3970eda9576194092d9
 }
 
 /**GENERAL**/
@@ -26,6 +35,7 @@ body {
 }
 
 header {
+<<<<<<< HEAD
   border: 2px solid red;
   margin-bottom: 10px;
   height: calc(10% - 10px);
@@ -41,6 +51,22 @@ header {
   overflow-y: scroll;
   background-color: transparent;
   text-align: center;
+=======
+    /*    border: 2px solid red;*/
+    margin-bottom: 10px;
+    height: calc(10% - 10px);
+    width: 100%;
+    background-color: #EDFFBA;
+}
+
+.main-content {
+    width: 70%;
+    height: 80%;
+    margin: auto;
+    background-color: transparent;
+    overflow-y: scroll;
+    text-align: center;
+>>>>>>> f21c065d6b911f998a8dd3970eda9576194092d9
 }
 
 [data-tab-content] {
@@ -52,6 +78,7 @@ header {
 }
 
 .tabs {
+<<<<<<< HEAD
   display: flex;
   justify-content: space-around;
   list-style-type: none;
@@ -59,6 +86,15 @@ header {
   padding: 0;
   text-transform: uppercase;
   color: black;
+=======
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 30px 10px;
+    padding: 0;
+    text-transform: uppercase;
+    color: #F80C3A;
+>>>>>>> f21c065d6b911f998a8dd3970eda9576194092d9
 }
 
 .tab {
@@ -69,11 +105,13 @@ header {
 }
 
 .tab.active {
-  background: #ee1568;
+    background: #F80C3A;
+    color: white;
 }
 
 .tab:hover {
-  background-color: #ee1568;
+    background-color: #F80C3A;
+    color: white;
 }
 
 .tab-content {
@@ -88,9 +126,10 @@ header {
 }
 
 .tab-content > .year > .competitions > #sideme {
-  display: grid;
-  grid-column: 2 / span 1;
+    grid-column: 2 /span 1;
 }
+
+
 
 .competitions a img {
   margin-top: 10px;
@@ -108,15 +147,17 @@ header {
 }
 
 footer {
-  border: 2px solid red;
-  margin-top: 10px;
-  height: calc(10% - 10px);
-  width: 100%;
-  background-color: white;
+    /*    border: 2px solid red;*/
+    margin-top: 10px;
+    height: calc(10% - 10px);
+    width: 100%;
+    background-color: #EDFFBA;
 }
 
+
+
 ::-webkit-scrollbar {
-  width: 10px;
+    width: 3px;
 }
 
 ::-webkit-scrollbar-track {
@@ -124,31 +165,92 @@ footer {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #ee1568;
-  border-radius: 50px;
+    background-color: #F80C3A;
+    border-radius: 50px;
 }
 
-::-webkit-scrollbar-thumb:hover {
-  background: #ee1568;
-}
 
 @media (max-width: 1050px) {
-  .tab-content > .year > .competitions {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
+
+    .tab-content > .year > .competitions {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .competitions a img {
+        max-width: 310px;
+        height: auto;
+    }
+
+    .tab {
+        padding: 10px 80px;
+        margin-bottom: 25px;
+    }
+
+    .role {
+        font-size: 22px;
+        margin: 20px 0px;
+    }
+
+    .tab-content {
+        margin: 0;
+    }
+
+    .main-content {
+        width: 100%;
+        padding: 0px 20px;
+    }
+
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+
+
 }
 
-@media (max-width: 800px) {
-  .tab-content > .year > .competitions {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
+@media (max-width: 700px) {
 
-  .competitions a img {
-    max-height: 600px;
-    max-width: 300px;
-  }
+
+    .competitions a img {
+        max-width: 160px;
+        height: auto;
+        border-radius: 30px;
+    }
+
+    .tab {
+        padding: 7px 65px;
+        margin-bottom: 15px;
+    }
+
+    .main-content {
+        width: 100%;
+        padding: 0px 10px;
+    }
+
+    .role {
+        font-size: 17px;
+        margin: 15px 0px;
+    }
+
+    .majak {
+        display: none;
+    }
+
+}
+
+
+@media (min-width: 800px) {
+
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #F80C3A;
+    }
+
 }
 
 .title {
@@ -214,6 +316,17 @@ footer {
   text-align: justify;
   padding: 20px 0;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 /*@import url(//fonts.googleapis.com/css?family=Oswald:400);*/
 
@@ -311,23 +424,23 @@ footer {
 }
 
 #doughnut .dept_logo {
-  background-image: url("../images/KJSCE%20Shield1.png");
+    background-image: url("images/KJSCE%20Shield1.png");
 }
 
 #doughnut1 .dept_logo {
-  background-image: url("../images/KJSCE%20Shield2.png");
+    background-image: url("images/KJSCE%20Shield2.png");
 }
 
 #doughnut2 .dept_logo {
-  background-image: url("../images/KJSCE%20Shield3.png");
+    background-image: url("images/KJSCE%20Shield3.png");
 }
 
 #doughnut3 .dept_logo {
-  background-image: url("../images/KJSCE%20Shield4.png");
+    background-image: url("images/KJSCE%20Shield4.png");
 }
 
 #doughnut4 .dept_logo {
-  background-image: url("../images/KJSCE%20Shield5.png");
+    background-image: url("images/KJSCE%20Shield5.png");
 }
 
 .doughnutSummaryTitle {
@@ -364,5 +477,5 @@ footer {
 }
 
 .modal-list li {
-  padding-left: 10px;
+    padding-left: 10px;
 }
