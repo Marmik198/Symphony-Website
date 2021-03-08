@@ -134,7 +134,7 @@ section {
 }
 
 .earth img {
-  width: 400px;
+  width: 600px;
   height: 400px;
   position: absolute;
   left: 34vw;
@@ -145,8 +145,9 @@ section {
 
 .mid {
   left: -150px !important;
-  bottom: -100px !important;
+  bottom: -650px !important;
   top: unset !important;
+  width: 100%;
 }
 
 .mid img {
@@ -529,6 +530,20 @@ section {
   justify-content: center;
 }
 
+.dev {
+  font-size: 1rem;
+  margin: 50px auto 40px;
+  cursor: pointer;
+  text-align: center;
+  color: #aaa;
+}
+.dev a:hover {
+  color: aqua;
+}
+.white {
+  color: whitesmoke;
+}
+
 /* ----------------- Responsive -------------------- */
 @media (max-width: 800px) {
   .desktop {
@@ -537,5 +552,9 @@ section {
   .mobile {
     display: flex;
     text-align: center;
+  }
+  .dev {
+    font-size: 1rem;
+    margin: 40px auto;
   }
 }
