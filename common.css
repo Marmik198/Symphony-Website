@@ -1,0 +1,102 @@
+nav {
+  position: fixed;
+  /* z-index: 100; */
+  height: 10vh;
+  width: 96%;
+  margin: auto;
+  align-items: center;
+  padding: 10px 30px;
+  background: transparent;
+}
+
+/*-------------------------- Navbar --------------------------*/
+.navbar-toggler-icon:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  text-decoration: none;
+}
+nav li {
+  display: inline-block;
+}
+.mobile {
+  display: none;
+  font-size: 1.2rem;
+}
+@media (min-width: 800px) {
+  .navbar li {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+  }
+  .navbar .nav-item:hover .nav-link {
+    color: #fff;
+  }
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+    background-color: #212529;
+  }
+  .navbar .nav-item .dropdown-menu {
+    margin-top: 0;
+  }
+  .navbar .nav-item .dropdown-menu .dropdown-item {
+    color: #fff;
+  }
+  .navbar .nav-item .dropdown-menu .dropdown-item:hover {
+    color: #212529;
+  }
+}
+
+.logo {
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+nav .nav-links ul {
+  display: flex;
+  flex-direction: row;
+}
+
+nav .nav-links ul li {
+  padding: 0 4px;
+  list-style: none;
+}
+
+nav .nav-links ul li img {
+  transform: scale(0.45);
+}
+
+.mobile .nav-item {
+  display: block;
+  background: rgba(255, 255, 255, 0.75);
+  padding: 0;
+  margin: 0;
+}
+.mobile li a span {
+  color: black;
+}
+
+/* ---------------------------- Scroll Effect --------------------------- */
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.6);
+}

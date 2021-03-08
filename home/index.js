@@ -1,3 +1,7 @@
+// LANDING PAGE ANIMATION
+var scene = document.getElementById("scene");
+var parallaxInstance = new Parallax(scene);
+
 var keys = [
   "Verve",
   "Battle Of Bands",
@@ -16,7 +20,7 @@ var keys = [
 var slider = new Swiper(".swiper-container", {
   // Optional parameters
   slidesPerView: "auto",
-  spaceBetween: 100,
+  spaceBetween: 250,
   centeredSlides: true,
   mousewheel: true,
   pagination: {
@@ -139,81 +143,81 @@ gsap.to(".swiper-slide-active", 0, {
 //}, 4000);
 
 $(function () {
-  $("#sectiontwo").css("background-color", "#07334e");
+  $("#sectiontwo").css("background", "linear-gradient(to top, #07334e , black)");
   window.addEventListener("wheel", function () {
       if ($(".swiper-slide-active").hasClass("s-1")) {
-          $("#sectiontwo").css("background-color", "#07334e");
+          $("#sectiontwo").css("background", "linear-gradient(to top, #07334e , black)");
       }
       if ($(".swiper-slide-active").hasClass("s-2")) {
-          $("#sectiontwo").css("background-color", "#2e3637");
+          $("#sectiontwo").css("background", "linear-gradient(to top,#2e3637 , black)");
       }
       if ($(".swiper-slide-active").hasClass("s-3")) {
-          $("#sectiontwo").css("background-color", "#471f04");
+          $("#sectiontwo").css("background", "linear-gradient(to top, #471f04 , black)");
       }
       if ($(".swiper-slide-active").hasClass("s-4")) {
-          $("#sectiontwo").css("background-color", "#450018");
+          $("#sectiontwo").css("background", "linear-gradient(to top, #450018 , black)");
       }
       if ($(".swiper-slide-active").hasClass("s-5")) {
-          $("#sectiontwo").css("background-color", "#47200a");
+          $("#sectiontwo").css("background", "linear-gradient(to top, #47200a , black)");
       }
       if ($(".swiper-slide-active").hasClass("s-6")) {
-          $("#sectiontwo").css("background-color", "#29425a");
+          $("#sectiontwo").css("background", "linear-gradient(to top, #29425a , black)");
       }
       if ($(".swiper-slide-active").hasClass("s-7")) {
-          $("#sectiontwo").css("background-color", "#4a0021");
+          $("#sectiontwo").css("background", "linear-gradient(to top, #4a0021 , black)");
       }
       if ($(".swiper-slide-active").hasClass("s-8")) {
-          $("#sectiontwo").css("background-color", "#28012e");
+          $("#sectiontwo").css("background", "linear-gradient(to top, #28012e , black)");
       }
       if ($(".swiper-slide-active").hasClass("s-9")) {
-          $("#sectiontwo").css("background-color", "#212a07");
+          $("#sectiontwo").css("background", "linear-gradient(to top, #212a07 , black)");
       }
       if ($(".swiper-slide-active").hasClass("s-10")) {
-          $("#sectiontwo").css("background-color", "#32210e");
+          $("#sectiontwo").css("background", "linear-gradient(to top, #32210e , black)");
       }
       if ($(".swiper-slide-active").hasClass("s-11")) {
-          $("#sectiontwo").css("background-color", "#08424e");
+          $("#sectiontwo").css("background", "linear-gradient(to top, #08424e , black)");
       }
       if ($(".swiper-slide-active").hasClass("s-12")) {
-          $("#sectiontwo").css("background-color", "#650137");
+          $("#sectiontwo").css("background", "linear-gradient(to top, #650137 , black)");
       }
   });
   $(".planet-links").on("click", "div", function () {
       if ($(".swiper-pagination-bullet-active").text() == "Verve") {
-          $("#sectiontwo").css("background-color", "#07334e");
+          $("#sectiontwo").css("background", "linear-gradient(to top, #07334e, black)");
       }
       if ($(".swiper-pagination-bullet-active").text() == "Battle Of Bands") {
-          $("#sectiontwo").css("background-color", "#2e3637");
+          $("#sectiontwo").css("background", "linear-gradient(to top, #2e3637 , black)");
       }
       if ($(".swiper-pagination-bullet-active").text() == "Symphony Idol") {
-          $("#sectiontwo").css("background-color", "#471f04");
+          $("#sectiontwo").css("background", "linear-gradient(to top, #471f04 , black)");
       }
       if ($(".swiper-pagination-bullet-active").text() == "Decibels") {
-          $("#sectiontwo").css("background-color", "#450018");
+          $("#sectiontwo").css("background", "linear-gradient(to top, #450018, black)");
       }
       if ($(".swiper-pagination-bullet-active").text() == "Natsamrat") {
-          $("#sectiontwo").css("background-color", "#47200a");
+          $("#sectiontwo").css("background", "linear-gradient(to top,#47200a , black)");
       }
       if ($(".swiper-pagination-bullet-active").text() == "Ok Doodle") {
-          $("#sectiontwo").css("background-color", "#29425a");
+          $("#sectiontwo").css("background", "linear-gradient(to top,#29425a, black)");
       }
       if ($(".swiper-pagination-bullet-active").text() == "Picture This") {
-          $("#sectiontwo").css("background-color", "#4a0021");
+          $("#sectiontwo").css("background", "linear-gradient(to top, #4a0021, black)");
       }
       if ($(".swiper-pagination-bullet-active").text() == "Feel The Beat") {
-          $("#sectiontwo").css("background-color", "#28012e");
+          $("#sectiontwo").css("background", "linear-gradient(to top, #28012e , black)");
       }
       if ($(".swiper-pagination-bullet-active").text() == "Film Flick") {
-          $("#sectiontwo").css("background-color", "#212a07");
+          $("#sectiontwo").css("background", "linear-gradient(to top, #212a07, black)");
       }
       if ($(".swiper-pagination-bullet-active").text() == "Word Smith") {
-          $("#sectiontwo").css("background-color", "#32210e");
+          $("#sectiontwo").css("background", "linear-gradient(to top, #32210e , black)");
       }
       if ($(".swiper-pagination-bullet-active").text() == "Somaiya Got Talent") {
-          $("#sectiontwo").css("background-color", "#08424e");
+          $("#sectiontwo").css("background", "linear-gradient(to top, #08424e , black)");
       }
       if ($(".swiper-pagination-bullet-active").text() == "Mr. & Ms. Somaiya") {
-          $("#sectiontwo").css("background-color", "#650137");
+          $("#sectiontwo").css("background", "linear-gradient(to top,#650137 , black)");
       }
   });
 });
