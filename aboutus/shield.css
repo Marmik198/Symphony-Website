@@ -4,6 +4,7 @@ html {
 
 body {
     overflow-x: hidden;
+    background: #ADDDFF;
 }
 
 /**GENERAL**/
@@ -18,4 +19,96 @@ body {
 
 .content-box-sm {
     padding: 80px 0;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    background: white;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background: #F8143C;
+}
+
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #D8143C;
+}
+
+.title {
+    color: #F8143C;
+    font-weight: 300;
+}
+
+.title span {
+    color: #D8143C;
+    font-weight: 700;
+}
+
+.info-item p {
+    font-size: 14.5px;
+    color: #333;
+}
+
+.mt5 {
+    margin-top: 5rem;
+}
+
+::selection {
+    background: #F2143C;
+    color: white;
+}
+
+.carousel__item p span {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.title span.letter:nth-child(1) {
+    font-weight: 300;
+}
+
+.title span.letter:nth-child(2) {
+    font-weight: 300;
+}
+
+.title span.letter:nth-child(3) {
+    font-weight: 300;
+}
+
+.title span.letter:nth-child(4) {
+    font-weight: 300;
+}
+
+.title span.letter:nth-child(5) {
+    font-weight: 300;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #D8143C;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #D8143C;
+}
+
+@media (max-width: 551px) {
+    .mt5 {
+        margin: 0;
+    }
+
+    .owl-theme .owl-nav.disabled + .owl-dots {
+        margin: 0;
+    }
+
+    .info-item {
+        margin-top: 25px;
+    }
 }
