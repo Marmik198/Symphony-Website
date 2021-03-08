@@ -147,7 +147,7 @@ footer {
   }
 
   .role {
-    font-size: 22px;
+    font-size: 25px;
     margin: 20px 0px;
   }
 
@@ -192,7 +192,7 @@ footer {
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 700px) {
   ::-webkit-scrollbar {
     width: 10px;
   }
@@ -417,3 +417,5 @@ footer {
 .modal-list li {
   padding-left: 10px;
 }
+
+

@@ -1,58 +1,59 @@
 html {
-  font-family: "Source Sans Pro", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
 }
 
 body,
 html {
-  height: 100%;
-  margin: 0;
+    height: 100%;
+    margin: 0;
+    background: black;
 }
 
 .bgimg {
-  background-image: url("https://www.fg-a.com/backgrounds/black-planet-surface-1920.jpg");
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  color: white;
-  font-family: "Courier New", "Courier", monospace;
-  font-size: 25px;
+    background-image: url("https://www.fg-a.com/backgrounds/black-planet-surface-1920.jpg");
+    height: 80%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: "Courier New", "Courier", monospace;
+    font-size: 25px;
 }
 
 .middle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 h1 {
-  font-size: calc(3.375rem + 1.5vw);
-  margin-bottom: 1.5rem;
-  text-transform: capitalize;
-  z-index: 99999;
+    font-size: calc(3.375rem + 1.5vw);
+    margin-bottom: 1.5rem;
+    text-transform: capitalize;
+    z-index: 99999;
 }
 
 p {
-  margin-top: 1.5rem;
+    margin-top: 1.5rem;
 }
 
 hr {
-  margin: auto;
-  width: 60%;
+    margin: auto;
+    width: 60%;
 }
 
 /**GENERAL**/
 
 .content-box-lg {
-  padding: 100px 0;
+    padding: 100px 0;
 }
 
 .content-box-md {
-  padding: 90px 0;
+    padding: 90px 0;
 }
 
 .content-box-sm {
-  padding: 80px 0;
+    padding: 80px 0;
 }

@@ -48,7 +48,7 @@ body {
     margin: 0;
     height: 100vh;
     width: 100vw;
-    background-color: #EDFFBA !important;
+    background-color: #ACC8E5 !important;
     color: black !important;
 }
 
@@ -57,7 +57,7 @@ header {
     margin-bottom: 10px;
     height: calc(10% - 10px);
     width: 100%;
-    background-color: #EDFFBA;
+    background-color: #ACC8E5;
 }
 
 .main-content {
@@ -84,7 +84,7 @@ header {
     margin: 30px 10px;
     padding: 0;
     text-transform: uppercase;
-    color: #F80C3A;
+    color: #112A46;
 }
 
 .tab {
@@ -95,28 +95,29 @@ header {
 }
 
 .tab.active {
-    background: #F80C3A;
-    color: white;
+    background: #112A46;
+    color: white !important;
 }
 
 .tab:hover {
-    background-color: #F80C3A;
-    color: white;
+    background-color: #112A46;
+    color: white !important;
 }
 
 .tab-content {
     margin: 10px 20px;
     background: transparent;
-    color: black;
+    color: #112A46;
 }
 
 .tab-content > .year > .events-wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
+
 .events-wrapper a img {
-    margin-top: 10px;
+    margin-top: 30px;
     width: 300px;
     border-radius: 50px;
     height: 230px;
@@ -135,7 +136,7 @@ footer {
     margin-top: 10px;
     height: calc(10% - 10px);
     width: 100%;
-    background-color: #EDFFBA;
+    background-color: #ACC8E5;
 }
 
 ::-webkit-scrollbar {
@@ -147,21 +148,14 @@ footer {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #F80C3A;
+    background-color: #112A46;
     border-radius: 50px;
 }
 
 
 @media (max-width: 1050px) {
 
-    .tab-content > .year > .events {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-    .events a img {
+    .events-wrapper a img {
         max-width: 310px;
         height: auto;
     }
@@ -194,10 +188,9 @@ footer {
 
 @media (max-width: 700px) {
 
-
-    .events a img {
-        max-width: 160px;
-        height: auto;
+    .events-wrapper a img {
+        max-width: 185px;
+        height: 148px;
         border-radius: 30px;
     }
 
@@ -230,7 +223,7 @@ footer {
     }
 
     ::-webkit-scrollbar-thumb:hover {
-        background: #F80C3A;
+        background: #112A46;
     }
 
 }
@@ -292,4 +285,9 @@ footer {
 
 .modal-footer {
     justify-content: center;
+}
+
+.logo {
+    display: block;
+    margin: 60px auto 20px;
 }
