@@ -132,88 +132,82 @@ gsap.to(".swiper-slide-active", 0, {
     scale: 1
 });
 
-//setTimeout(() => {
-//    $(".preloader-anim").addClass("hidden");
-//    $(".outer").removeClass('hidden');
-//    $(".loader-gif").removeClass(".loader-gif");
-//}, 4000);
-
 $(function () {
-    $("#sectiontwo").css("background-color", "#07334e");
+    $("#sectiontwo").css("background", "linear-gradient(to bottom, #07334e , #094163)");
     window.addEventListener("wheel", function () {
         if ($(".swiper-slide-active").hasClass("s-1")) {
-            $("#sectiontwo").css("background-color", "#07334e");
+            $("#sectiontwo").css("background", "linear-gradient(to bottom, #07334e , #094163)");
         }
         if ($(".swiper-slide-active").hasClass("s-2")) {
-            $("#sectiontwo").css("background-color", "#2e3637");
+            $("#sectiontwo").css("background", "linear-gradient(to bottom, #2e3637 , #647375)");
         }
         if ($(".swiper-slide-active").hasClass("s-3")) {
-            $("#sectiontwo").css("background-color", "#471f04");
+            $("#sectiontwo").css("background", "linear-gradient(to bottom, #471f04 , #5e2905)");
         }
         if ($(".swiper-slide-active").hasClass("s-4")) {
-            $("#sectiontwo").css("background-color", "#450018");
+            $("#sectiontwo").css("background", "linear-gradient(to bottom, #450018 , #6b0227)");
         }
         if ($(".swiper-slide-active").hasClass("s-5")) {
-            $("#sectiontwo").css("background-color", "#47200a");
+            $("#sectiontwo").css("background", "linear-gradient(to bottom, #47200a , #632d0e)");
         }
         if ($(".swiper-slide-active").hasClass("s-6")) {
-            $("#sectiontwo").css("background-color", "#29425a");
+            $("#sectiontwo").css("background", "linear-gradient(to bottom, #29425a , #345678)");
         }
         if ($(".swiper-slide-active").hasClass("s-7")) {
-            $("#sectiontwo").css("background-color", "#4a0021");
+            $("#sectiontwo").css("background", "linear-gradient(to bottom, #4a0021 , #780136)");
         }
         if ($(".swiper-slide-active").hasClass("s-8")) {
-            $("#sectiontwo").css("background-color", "#28012e");
+            $("#sectiontwo").css("background", "linear-gradient(to bottom, #28012e , #4b0257)");
         }
         if ($(".swiper-slide-active").hasClass("s-9")) {
-            $("#sectiontwo").css("background-color", "#212a07");
+            $("#sectiontwo").css("background", "linear-gradient(to bottom, #212a07 , #3e4f0d)");
         }
         if ($(".swiper-slide-active").hasClass("s-10")) {
-            $("#sectiontwo").css("background-color", "#32210e");
+            $("#sectiontwo").css("background", "linear-gradient(to bottom, #32210e , #4f3416)");
         }
         if ($(".swiper-slide-active").hasClass("s-11")) {
-            $("#sectiontwo").css("background-color", "#08424e");
+            $("#sectiontwo").css("background", "linear-gradient(to bottom, #08424e , #0d6678)");
         }
         if ($(".swiper-slide-active").hasClass("s-12")) {
-            $("#sectiontwo").css("background-color", "#650137");
+            $("#sectiontwo").css("background", "linear-gradient(to bottom, #650137 , #91014f)");
         }
     });
     $(".planet-links").on("click", "div", function () {
         if ($(".swiper-pagination-bullet-active").text() == "Verve") {
-            $("#sectiontwo").css("background-color", "#07334e");
+            $("#sectiontwo").css("background", "linear-gradient(to bottom, #07334e , #094163)");
         }
         if ($(".swiper-pagination-bullet-active").text() == "Battle Of Bands") {
-            $("#sectiontwo").css("background-color", "#2e3637");
+            $("#sectiontwo").css("background", "linear-gradient(to bottom, #2e3637 , #647375)");
         }
         if ($(".swiper-pagination-bullet-active").text() == "Symphony Idol") {
-            $("#sectiontwo").css("background-color", "#471f04");
+            $("#sectiontwo").css("background", "linear-gradient(to bottom, #471f04 , #5e2905)");
         }
         if ($(".swiper-pagination-bullet-active").text() == "Decibels") {
-            $("#sectiontwo").css("background-color", "#450018");
+            $("#sectiontwo").css("background", "linear-gradient(to bottom, #450018 , #6b0227)");
         }
         if ($(".swiper-pagination-bullet-active").text() == "Natsamrat") {
-            $("#sectiontwo").css("background-color", "#47200a");
+            $("#sectiontwo").css("background", "linear-gradient(to bottom, #47200a , #632d0e)");
         }
         if ($(".swiper-pagination-bullet-active").text() == "Ok Doodle") {
-            $("#sectiontwo").css("background-color", "#29425a");
+            $("#sectiontwo").css("background", "linear-gradient(to bottom, #29425a , #345678)");
         }
         if ($(".swiper-pagination-bullet-active").text() == "Picture This") {
-            $("#sectiontwo").css("background-color", "#4a0021");
+            $("#sectiontwo").css("background", "linear-gradient(to bottom, #4a0021 , #780136)");
         }
         if ($(".swiper-pagination-bullet-active").text() == "Feel The Beat") {
-            $("#sectiontwo").css("background-color", "#28012e");
+            $("#sectiontwo").css("background", "linear-gradient(to bottom, #28012e , #4b0257)");
         }
         if ($(".swiper-pagination-bullet-active").text() == "Film Flick") {
-            $("#sectiontwo").css("background-color", "#212a07");
+            $("#sectiontwo").css("background", "linear-gradient(to bottom, #212a07 , #3e4f0d)");
         }
         if ($(".swiper-pagination-bullet-active").text() == "Word Smith") {
-            $("#sectiontwo").css("background-color", "#32210e");
+            $("#sectiontwo").css("background", "linear-gradient(to bottom, #32210e , #4f3416)");
         }
         if ($(".swiper-pagination-bullet-active").text() == "Somaiya Got Talent") {
-            $("#sectiontwo").css("background-color", "#08424e");
+            $("#sectiontwo").css("background", "linear-gradient(to bottom, #08424e , #0d6678)");
         }
         if ($(".swiper-pagination-bullet-active").text() == "Mr. & Ms. Somaiya") {
-            $("#sectiontwo").css("background-color", "#650137");
+            $("#sectiontwo").css("background", "linear-gradient(to bottom, #650137 , #91014f)");
         }
     });
 });
@@ -240,7 +234,6 @@ const btns = document.querySelectorAll('.data');
 btns.forEach(function (btn) {
     btn.addEventListener('click', function (e) {
         const question = e.currentTarget;
-        console.log(question);
         question.classList.toggle('show-text');
     });
 });
