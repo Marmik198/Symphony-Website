@@ -7,8 +7,8 @@ body {
   margin: 0;
   height: 100vh;
   width: 100vw;
-  background-color: #edffba;    
-/*    #a36406*/
+  background-color: #c07d26;    
+/*    #edffba*/
     
   color: black !important;
 }
@@ -32,7 +32,7 @@ header {
   margin-bottom: 10px;
   height: calc(10% - 10px);
   width: 100%;
-  background-color: #edffba;
+  background-color: #c07d26;
 }
 
 .main-content {
@@ -114,7 +114,7 @@ footer {
   margin-top: 10px;
   height: calc(10% - 10px);
   width: 100%;
-  background-color: #edffba;
+  background-color: #c07d26;
 }
 
 ::-webkit-scrollbar {

@@ -4,7 +4,7 @@ html {
 
 body {
     overflow: hidden;
-    background: rgb(22, 74, 185);
+    background-color: black;
 }
 
 .content-box-lg {
@@ -53,9 +53,10 @@ body {
 }
 
 .swiper-slide {
-    height: 400px !important;
+    height: 475px !important;
     width: 90% !important;
     background: transparent;
+    margin-top: 40px;
 }
 
 .slide-img {
@@ -361,7 +362,7 @@ body {
 
 .swiper-pagination-bullet:nth-of-type(odd) {
     position: relative;
-    top: -500px;
+    top: -570px;
     left: 0;
 }
 
@@ -470,7 +471,7 @@ body {
     .swiper-slide.s-11 .slide-detail-facts,
     .swiper-slide.s-12 .slide-detail-facts {
         top: auto;
-        bottom: 140px;
+        bottom: 160px;
     }
 
     .swiper-slide.s-2 .slide-number {
@@ -645,6 +646,13 @@ body {
         width: 100%;
         left: 0;
     }
+    
+    .swiper-slide {
+        margin: 0;
+        height: 400px !important;
+    }
+    
+    
 
     .swiper-slide:nth-child(1) .slide-img,
     .swiper-slide:nth-child(2) .slide-img,
