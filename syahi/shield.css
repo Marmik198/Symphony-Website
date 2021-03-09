@@ -64,7 +64,7 @@ header {
     width: 70%;
     height: 80%;
     margin: auto;
-    background-color: transparent;
+    background-color: #ACC8E5;
     overflow-y: scroll;
     text-align: center;
 }
@@ -153,6 +153,41 @@ footer {
 }
 
 
+
+@media (max-width: 1370px) {
+
+    .events-wrapper a img {
+        max-width: 330px;
+        height: auto;
+    }
+
+    .tab {
+        padding: 10px 80px;
+        margin-bottom: 25px;
+    }
+
+    .role {
+        font-size: 22px;
+        margin: 20px 0px;
+    }
+
+    .tab-content {
+        margin: 0;
+    }
+
+    .main-content {
+        width: 100%;
+        padding: 0px 20px;
+    }
+
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+
+
+}
+
+
 @media (max-width: 1050px) {
 
     .events-wrapper a img {
@@ -186,7 +221,7 @@ footer {
 
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
 
     .events-wrapper a img {
         max-width: 185px;
@@ -213,6 +248,36 @@ footer {
         display: none;
     }
 
+}
+
+
+
+@media (max-width: 600px) {
+
+    .events-wrapper a img {
+        max-width: 130px;
+        height: 120px;
+        border-radius: 30px;
+    }
+
+    .tab {
+        padding: 7px 65px;
+        margin-bottom: 15px;
+    }
+
+    .main-content {
+        width: 100%;
+        padding: 0px 10px;
+    }
+
+    .role {
+        font-size: 17px;
+        margin: 15px 0px;
+    }
+
+    .majak {
+        display: none;
+    }
 }
 
 
@@ -290,4 +355,9 @@ footer {
 .logo {
     display: block;
     margin: 60px auto 20px;
+}
+
+
+.logo img {
+    max-width: 100%;
 }
