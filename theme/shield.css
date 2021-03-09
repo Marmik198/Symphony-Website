@@ -1,22 +1,31 @@
 html {
-  font-family: "Source Sans Pro", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
 }
 
 body {
-  overflow-x: hidden;
-  background: #999;
+    overflow-x: hidden;
+    background: #999;
 }
 
 /**GENERAL**/
 
 .content-box-lg {
-  padding: 100px 0;
+    padding: 100px 0;
 }
 
 .content-box-md {
-  padding: 90px 0;
+    padding: 90px 0;
 }
 
 .content-box-sm {
-  padding: 80px 0;
+    padding: 80px 0;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.ml-auto, .mx-auto {
+    margin-left: auto!important;
 }

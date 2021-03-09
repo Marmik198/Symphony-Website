@@ -1,4 +1,4 @@
-*{
+* {
     padding: none;
     margin: none;
     text-decoration: none;
@@ -7,45 +7,58 @@
     -ms-user-select: none;
     user-select: none;
 }
-body{
+
+body {
     background-color: #2F095C;
 }
-header{
-    border: 2px solid red; 
-    height: 80px; 
-    width: 100%; 
+
+.ml-auto,
+.mx-auto {
+    margin-left: auto !important;
+}
+
+header {
+    border: 2px solid red;
+    height: 80px;
+    width: 100%;
     margin-bottom: 10px;
     background-color: #fff;
 }
-main > h1{
-    font-family: Georgia, 'Times New Roman', Times, serif; 
-    text-transform: uppercase; 
+
+main > h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
     text-align: center;
     color: red;
     font-weight: 1000;
 }
-main > .effect-shine:hover{
-    -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,0.6) 30%, #000 50%, rgba(0,0,0,0.6) 70%);
+
+main > .effect-shine:hover {
+    -webkit-mask-image: linear-gradient(-75deg, rgba(0, 0, 0, 0.6) 30%, #000 50%, rgba(0, 0, 0, 0.6) 70%);
     -webkit-mask-size: 200%;
     animation: shine 3s infinite;
 }
-@-webkit-keyframes shine{
-    from{
+
+@-webkit-keyframes shine {
+    from {
         -webkit-mask-position: 150%;
     }
-    to{
+
+    to {
         -webkit-mask-position: -50%;
     }
 }
-.content{
+
+.content {
     margin: 10px auto;
     width: 90%;
     padding: 5px 0px 20px 0px;
 }
-footer{
+
+footer {
     border: 2px solid red;
-    height: 80px; 
-    width: 100%; 
+    height: 80px;
+    width: 100%;
     margin-top: 10px;
     background-color: #fff;
 }

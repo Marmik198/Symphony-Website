@@ -57,3 +57,8 @@ hr {
 .content-box-sm {
     padding: 80px 0;
 }
+
+.ml-auto,
+.mx-auto {
+    margin-left: auto !important;
+}
