@@ -22,7 +22,7 @@
 
 <body>
 
-     <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <!-- symphony logo here -->
         <div class="navbar-brand" id="symphony-logo">
             <a href="../index.html">
@@ -139,26 +139,26 @@
             </div>
             <div id="events" data-tab-content class="year">
                 <div class="events-wrapper">
-                    <div id="I">
-                        <a href="">
+                    <div>
+                        <a href="" data-target="#verve" data-toggle="modal">
                             <img src="../shield/images/Art.jpg" alt="1">
                         </a>
                         <h6 class="role">Cinematrature</h6>
                     </div>
-                    <div id="II">
-                        <a href="">
+                    <div>
+                        <a href="" data-target="#battle" data-toggle="modal">
                             <img src="../shield/images/Art.jpg" alt="1">
                         </a>
                         <h6 class="role">Film-Making Workshop</h6>
                     </div>
-                    <div id="III">
-                        <a href="">
+                    <div>
+                        <a href="" data-target="#decibels" data-toggle="modal">
                             <img src="../shield/images/Art.jpg" alt="1">
                         </a>
                         <h6 class="role">Storytelling Competition</h6>
                     </div>
-                    <div id="IV">
-                        <a href="">
+                    <div>
+                        <a href="" data-target="#udhgosh" data-toggle="modal">
                             <img src="../shield/images/Art.jpg" alt="1">
                         </a>
                         <h6 class="role">Interview Session</h6>
@@ -169,12 +169,172 @@
     </div>
 
 
-    <!--[if lt IE 7]>
+    <!--MODALS-->
+
+    <div class="modal fade" id="verve" tabindex="-1" role="dialog" aria-labelledby="verveTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="verveTitle">Cinematrature</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <article class="data">
+                        <div class="data-title">
+                            <p>Description</p>
+                            <button class="data-btn">
+                                <span class="plus-btn">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <span class="minus-btn">
+                                    <i class="fa fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="data-text">
+                            <p>
+                                Cinematrature -The Literary pose of Cinema: <br> This is a creative writing workshop
+                                that will enable you to learn the different components of literature that complete
+                                cinema.
+                            </p>
+                        </div>
+                    </article>
+                    <div class="modal-footer">
+                        <a href="" type="button" class="btn btn-primary">Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="battle" tabindex="-1" role="dialog" aria-labelledby="battleTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="battleTitle">Film-Making Workshop</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <article class="data">
+                        <div class="data-title">
+                            <p>Description</p>
+                            <button class="data-btn">
+                                <span class="plus-btn">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <span class="minus-btn">
+                                    <i class="fa fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="data-text">
+                            <p>
+                                Film-Making Workshop: <br>This workshop session focuses on ‘Film-making as a
+                                complete course in Management’.
+                            </p>
+                        </div>
+                    </article>
+                    <div class="modal-footer">
+                        <a href="" type="button" class="btn btn-primary">Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="decibels" tabindex="-1" role="dialog" aria-labelledby="decibelsTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="decibelsTitle">Storytelling Competition</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <article class="data">
+                        <div class="data-title">
+                            <p>Description</p>
+                            <button class="data-btn">
+                                <span class="plus-btn">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <span class="minus-btn">
+                                    <i class="fa fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="data-text">
+                            <p>
+                                Storytelling Competition: <br> We believe that everyone has a story to tell and so this
+                                competition has been organised for all those who think that sharing their stories
+                                will inspire others in some way or the other.
+                            </p>
+                        </div>
+                    </article>
+                    <div class="modal-footer">
+                        <a href="" type="button" class="btn btn-primary">Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="udhgosh" tabindex="-1" role="dialog" aria-labelledby="udhgoshTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="udhgoshTitle">Interview Session</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <article class="data">
+                        <div class="data-title">
+                            <p>Description</p>
+                            <button class="data-btn">
+                                <span class="plus-btn">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <span class="minus-btn">
+                                    <i class="fa fa-angle-up"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="data-text">
+                            <p>
+                                Interview Session: <br> Not a monotonous but an interesting and innovative interview
+                                session that includes a 15-minute talk with experts from various literary
+                                backgrounds ie. scriptwriters, poets, bloggers and authors. This session is certainly
+                                going to be the highlight of Syahi 2021.
+                            </p>
+                        </div>
+                    </article>
+                    <div class="modal-footer">
+                        <a href="" type="button" class="btn btn-primary">Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--
+    [if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-    <![endif]
+    [endif]-->
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>-->
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+-->
+    <!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-v4-rtl/4.6.0-1/js/bootstrap.min.js"></script>
     <script src="script.js" async defer></script>
 </body>
