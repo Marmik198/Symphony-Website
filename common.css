@@ -90,6 +90,13 @@ nav .nav-links ul li img {
   color: black;
 }
 
+
+
+.ml-auto, .mx-auto {
+    margin-left: auto!important;
+}
+
+
 /* ---------------------------- Scroll Effect --------------------------- */
 /* width */
 ::-webkit-scrollbar {
