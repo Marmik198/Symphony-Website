@@ -4,7 +4,8 @@ html {
 
 body {
     overflow-x: hidden;
-    background: #999;
+    background: rgb(107, 2, 39);
+    color: white;
 }
 
 /**GENERAL**/
@@ -26,6 +27,45 @@ img {
     margin: 0 auto;
 }
 
-.ml-auto, .mx-auto {
-    margin-left: auto!important;
+.ml-auto,
+.mx-auto {
+    margin-left: auto !important;
+}
+
+.title {
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.title span {
+    font-weight: 700;
+    color: #eee;
+}
+
+@media (max-width: 551px) {
+    .row img {
+        height: 180px;
+    }
+
+    .info-item {
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .row img {
+        height: 550px;
+    }
+
+    .info-item {
+        margin-top: 1rem;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+    
+    p{
+        font-size: 20px;
+    }
 }

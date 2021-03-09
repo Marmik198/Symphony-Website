@@ -21,6 +21,10 @@ body {
     padding: 80px 0;
 }
 
+img {
+    border-radius: 40px;
+}
+
 .owl-theme .owl-dots .owl-dot span {
     background: white;
 }
@@ -35,7 +39,7 @@ body {
 
 .title {
     color: #f8143c;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .title span {
@@ -49,7 +53,7 @@ body {
 }
 
 .mt5 {
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 
 ::selection {
@@ -62,26 +66,6 @@ body {
     font-size: 15px;
 }
 
-.title span.letter:nth-child(1) {
-    font-weight: 300;
-}
-
-.title span.letter:nth-child(2) {
-    font-weight: 300;
-}
-
-.title span.letter:nth-child(3) {
-    font-weight: 300;
-}
-
-.title span.letter:nth-child(4) {
-    font-weight: 300;
-}
-
-.title span.letter:nth-child(5) {
-    font-weight: 300;
-}
-
 .h1 {
     height: 263px;
 }
@@ -89,6 +73,10 @@ body {
 .ml-auto,
 .mx-auto {
     margin-left: auto !important;
+}
+
+.info-wrapper {
+    padding-left: 20px;
 }
 
 @media (max-width: 551px) {
@@ -107,4 +95,9 @@ body {
     .h1 {
         height: 168px;
     }
+
+    .info-wrapper {
+        padding-left: 0;
+    }
+
 }
