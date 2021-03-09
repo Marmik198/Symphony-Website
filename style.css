@@ -5,7 +5,7 @@ body {
   font-family: "Roboto";
   list-style: none;
   box-sizing: border-box;
-  background: rgb(46, 205, 226);
+  background: #92edf2;
 }
 
 /* ---------------------- Planetsss -----------------------------*/
@@ -16,9 +16,9 @@ section {
 }
 
 .bg img {
-  width: 110vw;
-  height: 110vh;
-  filter: brightness(0.8);
+  width: 95vw;
+  height: 95vh;
+  filter: brightness(1);
 }
 
 .rock1 {
@@ -47,14 +47,14 @@ section {
   height: 350px;
   position: absolute;
   left: 34vw;
-  top: 20vh;
+  top: 15vh;
   z-index: 1;
   filter: brightness(1);
 }
 
 .mid {
   left: -150px !important;
-  bottom: -700px !important;
+  bottom: -180px !important;
   top: unset !important;
   width: 100%;
 }
@@ -68,17 +68,17 @@ section {
 }
 
 .fore {
-  right: -50px !important;
-  bottom: -200px !important;
-  top: 0px !important;
+  right: -20px !important;
+  top: -650px !important;
+  /* bottom: -1500px !important; */
   left: unset !important;
 }
 
 .fore img {
-  width: 400px;
-  height: 110vh;
+  width: 75vw;
+  height: 200vh;
   z-index: 3;
-  filter: brightness(0.5);
+  filter: brightness(1);
 }
 
 /* SWIPER */
