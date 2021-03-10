@@ -7,7 +7,6 @@
     -ms-user-select: none;
     user-select: none;
 }
-
 body {
     padding: 0;
     margin: 0;
@@ -15,14 +14,6 @@ body {
     width: 100vw;
     background-color: #ba3122;
 }
-
-/* header {
-    border: 2px solid red;
-    margin-bottom: 10px;
-    background-color: white;
-    height: calc(10% - 10px);
-} */
-
 .main-content {
     width: 70%;
     height: 80%;
@@ -32,7 +23,6 @@ body {
     background-color: white;
     margin-top: 30px;
 }
-
 [data-tab-content] {
     display: none;
 }
@@ -40,7 +30,6 @@ body {
 .active[data-tab-content] {
     display: block;
 }
-
 .tabs {
     display: flex;
     justify-content: flex-start;
@@ -50,7 +39,6 @@ body {
     border-bottom: 1px solid white;
     color: white;
 }
-
 .tab {
     cursor: pointer;
     padding: 10px 20px;
@@ -85,14 +73,15 @@ body {
     font-family: Portico;
     margin: 10px 0;
 }
-
+.sponsor-list > div {
+    margin-top: 50px;
+}
 @media (max-width: 1400px) {
     .tab-content > .year > .sponsor-list {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 }
-
 @media (max-width: 950px) {
     .tab-content > .year > .sponsor-list {
         display: grid;
@@ -109,7 +98,6 @@ body {
         top: 0px;
     }
 }
-
 @media (min-width: 950px) {
     ::-webkit-scrollbar {
         width: 10px;
