@@ -85,16 +85,17 @@ header {
 }
 
 .tab-content > .year > .events-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-self: center;
 }
-
 
 .events-wrapper a img {
     margin-top: 30px;
-    width: 300px;
-    border-radius: 50px;
-    height: 230px;
+    width: 400px;
+    height: auto;
+    flex-basis: 50%;
 }
 
 .role {
@@ -130,6 +131,7 @@ footer {
 
 @media (max-width: 1370px) {
 
+
     .events-wrapper a img {
         max-width: 330px;
         height: auto;
@@ -151,7 +153,6 @@ footer {
 
     .main-content {
         width: 100%;
-        padding: 0px 20px;
     }
 
     ::-webkit-scrollbar {
@@ -185,10 +186,8 @@ footer {
 
     .main-content {
         width: 100%;
-        padding: 0px 20px;
     }
 
-    ::-webkit-scrollbar {
         width: 5px;
     }
 
@@ -198,9 +197,9 @@ footer {
 @media (max-width: 800px) {
 
     .events-wrapper a img {
-        max-width: 185px;
-        height: 148px;
-        border-radius: 30px;
+        max-width: 180px;
+        height: auto;
+        flex-basis: 50%;    
     }
 
     .tab {
@@ -210,7 +209,6 @@ footer {
 
     .main-content {
         width: 100%;
-        padding: 0px 10px;
     }
 
     .role {
@@ -229,9 +227,9 @@ footer {
 @media (max-width: 600px) {
 
     .events-wrapper a img {
-        max-width: 130px;
-        height: 120px;
-        border-radius: 30px;
+        max-width: 220px;
+        height: auto;
+        flex-basis: 50%;
     }
 
     .tab {
@@ -241,7 +239,6 @@ footer {
 
     .main-content {
         width: 100%;
-        padding: 0px 10px;
     }
 
     .role {
@@ -337,5 +334,5 @@ footer {
 }
 
 .modal-list li {
-  padding-left: 10px;
+    padding-left: 10px;
 }

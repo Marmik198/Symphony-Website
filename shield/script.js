@@ -26,6 +26,11 @@ btns.forEach(function(btn){
 });
 
 
+$(document).ready(function () {
+    $(".title").hide().fadeIn(2000);
+});
+
+
 
 
 
@@ -38,7 +43,7 @@ btns.forEach(function(btn){
 // doughnutchart4 - Etrx
 $(function(){
   $("#doughnutChart").drawDoughnutChart([
-    { title: "Indoor Sports",    value : 25,   color: "#b7ed9a" },
+    { title: "Indoor Sports",    value : 25,   color: "#8FC0A9" },
     { title: "Technical",           value : 25,   color: "#f7ffe0" },
     { title: "Dance",         value : 0,   color: "#fbd995" },
     { title: "Debate",        value : 0,   color: "#9a3767" },
@@ -52,7 +57,7 @@ $(function(){
 
 $(function(){
   $("#doughnutChart1").drawDoughnutChart([
-    { title: "Indoor Sports",    value : 32,   color: "#b7ed9a" },
+    { title: "Indoor Sports",    value : 32,   color: "#8FC0A9" },
     { title: "Technical",           value : 32,   color: "#f7ffe0" },
     { title: "Dance",         value : 0,   color: "#fbd995" },
     { title: "Debate",        value : 0,   color: "#9a3767" },
@@ -66,7 +71,7 @@ $(function(){
 
 $(function(){
   $("#doughnutChart2").drawDoughnutChart([
-    { title: "Indoor Sports",    value : 40,   color: "#b7ed9a" },
+    { title: "Indoor Sports",    value : 40,   color: "#8FC0A9" },
     { title: "Technical",           value : 40,   color: "#f7ffe0" },
     { title: "Dance",         value : 0,   color: "#fbd995" },
     { title: "Debate",        value : 0,   color: "#9a3767" },
@@ -80,7 +85,7 @@ $(function(){
 
 $(function(){
   $("#doughnutChart3").drawDoughnutChart([
-    { title: "Indoor Sports",    value : 10,   color: "#b7ed9a" },
+    { title: "Indoor Sports",    value : 10,   color: "#8FC0A9" },
     { title: "Technical",           value : 10,   color: "#f7ffe0" },
     { title: "Dance",         value : 0,   color: "#fbd995" },
     { title: "Debate",        value : 0,   color: "#9a3767" },
@@ -94,7 +99,7 @@ $(function(){
 
 $(function(){
   $("#doughnutChart4").drawDoughnutChart([
-    { title: "Indoor Sports",    value : 30,   color: "#b7ed9a" },
+    { title: "Indoor Sports",    value : 30,   color: "#8FC0A9" },
     { title: "Technical",           value : 30,   color: "#f7ffe0" },
     { title: "Dance",         value : 0,   color: "#fbd995" },
     { title: "Debate",        value : 0,   color: "#9a3767" },

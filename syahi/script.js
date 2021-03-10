@@ -24,3 +24,8 @@ btns.forEach(function(btn){
         question.classList.toggle('show-text');
     });
 });
+
+
+$(document).ready(function () {
+    $(".title").hide().fadeIn(2000);
+});

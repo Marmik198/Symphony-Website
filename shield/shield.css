@@ -7,8 +7,8 @@ body {
   margin: 0;
   height: 100vh;
   width: 100vw;
-  background-color: #c07d26;    
-/*    #edffba*/
+  background-color: #FFD166;    
+
     
   color: black !important;
 }
@@ -32,7 +32,7 @@ header {
   margin-bottom: 10px;
   height: calc(10% - 10px);
   width: 100%;
-  background-color: #c07d26;
+  background-color: #FFD166;
 }
 
 .main-content {
@@ -59,7 +59,7 @@ header {
   margin: 30px 10px;
   padding: 0;
   text-transform: uppercase;
-  color: #f80c3a;
+  color: #235789;
 }
 
 .tab {
@@ -70,12 +70,12 @@ header {
 }
 
 .tab.active {
-  background: #f80c3a;
+  background: #235789;
   color: white;
 }
 
 .tab:hover {
-  background-color: #f80c3a;
+  background-color: #235789;
   color: white;
 }
 
@@ -97,8 +97,7 @@ header {
 .competitions a img {
   margin-top: 10px;
   width: 300px;
-  border-radius: 50px;
-  height: 230px;
+  height: auto;
 }
 
 .role {
@@ -114,7 +113,7 @@ footer {
   margin-top: 10px;
   height: calc(10% - 10px);
   width: 100%;
-  background-color: #c07d26;
+  background-color: #FFD166;
 }
 
 ::-webkit-scrollbar {
@@ -126,7 +125,7 @@ footer {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #f80c3a;
+  background-color: #235789;
   border-radius: 50px;
 }
 
@@ -213,7 +212,6 @@ footer {
   .competitions a img {
     max-width: 160px;
     height: auto;
-    border-radius: 30px;
   }
 
   .tab {
@@ -245,7 +243,7 @@ footer {
   }
 
   ::-webkit-scrollbar-thumb:hover {
-    background: #f80c3a;
+    background: #235789;
   }
 }
 
@@ -309,7 +307,7 @@ footer {
 }
 
 .mast {
-  text-align: justify;
+  text-align: center;
   padding: 20px 0;
 }
 
