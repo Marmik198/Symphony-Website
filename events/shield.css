@@ -42,6 +42,10 @@ body {
 .planet-links .swiper-pagination-bullet-active {
     color: #fff;
     opacity: 1;
+    height: 28px;
+    padding: 0 10px;
+    border: 1px solid white;
+    border-radius: 0;
 }
 
 .swiper-pagination-clickable .swiper-pagination-bullet {
