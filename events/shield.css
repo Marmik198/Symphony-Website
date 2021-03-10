@@ -186,6 +186,13 @@ body {
 
 .slide-detail-facts span {
     opacity: 0.7;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid white;
+}
+
+.slide-detail-facts span:hover {
+    background: #000;
 }
 
 .slide-detail-facts div {
@@ -368,8 +375,8 @@ body {
 
 .swiper-pagination-bullet:nth-of-type(odd) {
     position: relative;
-    top: -570px;
-    left: 0;
+    top: -590px;
+    left: 110px;
 }
 
 .modal-body {
@@ -392,10 +399,6 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
     background: #adddff;
-}
-
-.slide-detail-facts h5 span:last-child {
-    padding: 0 25px;
 }
 
 .slide-detail-facts a {
