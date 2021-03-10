@@ -237,3 +237,56 @@ btns.forEach(function (btn) {
         question.classList.toggle('show-text');
     });
 });
+
+let myColors = ["#07334e", "#2e3637", "#471f04", "#450018", "#47200a", "#29425a", "#4a0021", "#28012e", "#212a07", "#32210e", "#08424e", "#650137"];
+
+document.addEventListener('touchstart', handleTouchStart, false);
+document.addEventListener('touchmove', handleTouchMove, false);
+
+var xD = null;
+var yD = null;
+
+function getTouches(e) {
+    return e.touches || e.originalEvent.touches;
+}
+
+function handleTouchStart(e) {
+    const firstTouch = getTouches(e)[0];
+    xD = firstTouch.clientX;
+    yD = firstTouch.clientY;
+};
+
+function handleTouchMove(e) {
+    if (!xD || !yD) {
+        return;
+    }
+
+    var xU = e.touches[0].clientX;
+    var yU = e.touches[0].clientY;
+
+    var xDiff = xD - xU;
+    var yDiff = yD - yU;
+
+    if (Math.abs(xDiff) > Math.abs(yDiff)) {
+        if (xDiff > 0) {
+            let index = $(".swiper-slide-active")[0].classList.value[15];
+            if ($(".swiper-slide-active")[0].classList.value[16] != " ") {
+                index += $(".swiper-slide-active")[0].classList.value[16];
+            }
+            let color = myColors[index];
+            $("#sectiontwo").css("background", color);
+        } else {
+            if ($(".swiper-slide-active").hasClass("s-1")) {
+                return;
+            }
+            let index = $(".swiper-slide-active")[0].classList.value[15];
+            if ($(".swiper-slide-active")[0].classList.value[16] != " ") {
+                index += $(".swiper-slide-active")[0].classList.value[16];
+            }
+            let color = myColors[index - 2];
+            $("#sectiontwo").css("background", color);
+        }
+    }
+    xD = null;
+    yD = null;
+};

@@ -52,7 +52,7 @@ img {
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1020px) and (min-height:1200px) {
     .row img {
         height: 550px;
     }
@@ -64,8 +64,8 @@ img {
     .title {
         font-size: 3rem;
     }
-    
-    p{
+
+    p {
         font-size: 20px;
     }
 }
