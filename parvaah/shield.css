@@ -8,18 +8,13 @@
     user-select: none;
 }
 body{
-    background-color: #2F095C;
+    background-color: #2f2fa2;
     max-width: auto;
     overflow-x: hidden;
 }
-header{
-    border: 2px solid red; 
-    height: 80px; 
-    margin-bottom: 10px;
-    background-color: white;
-}
 .content{
     margin: 10px auto;
+    padding: 0px 30px;
 }
 .pravaah-info-container{
     display: flex;
@@ -29,7 +24,7 @@ header{
     text-align: center;
     width: 70%;
     margin: auto;
-    background-color: #2F095C;
+    background-color: transparent;
     padding: 0px 15px;
 }
 .pravaah-info-container > .logo-container{
@@ -50,10 +45,13 @@ header{
     margin-bottom: 30px;
 }
 .pravaah-info-container > .volunteer-btn > button{
-    background-color: transparent;
+    background-color: #f64c72;
     border: 2px solid white;
     border-radius: 25px;
-    
+}
+.pravaah-info-container > .volunteer-btn > button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
 .pravaah-info-container > .volunteer-btn > button > a{
     text-decoration: none;
@@ -89,6 +87,9 @@ header{
     margin-top: 10px;
     padding: 20px;
 }
+.section01 > .text > h1, .section02 > .text > h1{
+    font-weight: 900;
+}
 .section01 > .text , .section02 > .text{
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
@@ -98,13 +99,6 @@ header{
 .section01 > .image > img , .section02 > .image > img{
     height: 250px;
 }
-footer{
-    border: 2px solid red;
-    height: 80px; 
-    margin-top: 10px;
-    background-color: white;
-}
-
 @media (max-width: 1050px){
     .pravaah-info-container{
         width: 100%;
@@ -122,9 +116,11 @@ footer{
         font-size: 18px;
     }
     .section01{
+        padding: 30px 0px;
         grid-template-columns: 1fr;
     }
     .section02{
+        padding: 30px 0px;
         grid-template-columns: 1fr;
         grid-template-areas: 
             "text"
@@ -160,13 +156,13 @@ footer{
         width: 90%;
     }
     .pravaah-info-container > .pravaah-info{
-        font-size: 12px;
-        line-height: 14px;
+        font-size: 16px;
+        line-height: 18px;
     }
     .section01 , .section02{
+        padding: 20px 20px;
         margin-top: 20px;
         width: 100%;
-        padding: 0px 20px;
     }
     .section01 > .text , .section02 > .text {
         display: flex;
@@ -184,5 +180,8 @@ footer{
     .pravaah-info-container > .volunteer-btn > button > a{
         font-size: 12px;
         line-height: 12px;
+    }
+    #apple{
+        font-size: 25px;
     }
 }
