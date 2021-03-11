@@ -7,9 +7,7 @@ body {
   margin: 0;
   height: 100vh;
   width: 100vw;
-  background-color: #FFD166;    
-
-    
+  background-color: #FFD166;       
   color: black !important;
 }
 
@@ -228,12 +226,18 @@ footer {
     font-size: 17px;
     margin: 15px 0px;
   }
-
+    
   .majak {
     display: none;
   }
 }
 
+/*
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #000000;
+}
+*/
 
 
 

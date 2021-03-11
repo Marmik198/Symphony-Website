@@ -24,6 +24,7 @@ body {
     width: 100vw;
     background-color: #ACC8E5 !important;
     color: black !important;
+    overflow-x: hidden;
 }
 
 header {
@@ -39,6 +40,7 @@ header {
     height: 80%;
     margin: auto;
     background-color: #ACC8E5;
+    overflow-x: hidden;
     overflow-y: scroll;
     text-align: center;
 }
@@ -335,4 +337,11 @@ footer {
 
 .modal-list li {
     padding-left: 10px;
+}
+
+
+.color-black {
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
