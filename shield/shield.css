@@ -9,6 +9,8 @@ body {
     width: 100vw;
     background-color: #FFD166;
     color: black !important;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 /**GENERAL**/

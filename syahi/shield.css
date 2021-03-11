@@ -25,6 +25,7 @@ body {
     background-color: #ACC8E5 !important;
     color: black !important;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .white {
