@@ -18,7 +18,7 @@ body {
 }
 
 main > h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 40px;
     text-transform: uppercase;
     text-align: center;
     color: #05386b;
@@ -48,5 +48,5 @@ main > .effect-shine:hover {
 }
 
 .list-group-item {
-    background-color: #f1f1f1;
+    background-color: #c6f5db;
 }
