@@ -372,12 +372,14 @@ body {
 .modal-footer {
   justify-content: center;
 }
+/*
 
 .swiper-pagination-bullet:nth-of-type(odd) {
   position: relative;
   top: -590px;
   left: 110px;
 }
+*/
 
 .modal-body {
   max-height: calc(100vh - 200px);

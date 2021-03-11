@@ -27,6 +27,14 @@ body {
     overflow-x: hidden;
 }
 
+.white {
+    color: black !important;
+}
+
+.white a {
+    color: black !important;
+}
+
 header {
     /*    border: 2px solid red;*/
     margin-bottom: 10px;
@@ -190,8 +198,8 @@ footer {
         width: 100%;
     }
 
-        width: 5px;
-    }
+    width: 5px;
+}
 
 
 }
@@ -201,7 +209,7 @@ footer {
     .events-wrapper a img {
         max-width: 180px;
         height: auto;
-        flex-basis: 50%;    
+        flex-basis: 50%;
     }
 
     .tab {

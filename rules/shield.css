@@ -49,4 +49,5 @@ main > .effect-shine:hover {
 
 .list-group-item {
     background-color: #c6f5db;
+    border: none;
 }
