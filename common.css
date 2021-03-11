@@ -27,6 +27,42 @@ nav li {
   font-size: 1.2rem;
 }
 
+.logo {
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+nav .nav-links ul {
+  display: flex;
+  flex-direction: row;
+}
+
+nav .nav-links ul li {
+  padding: 0 4px;
+  list-style: none;
+}
+
+nav .nav-links ul li img {
+  transform: scale(0.45);
+}
+
+.mobile .nav-item {
+  display: block;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 0;
+  margin: 0;
+}
+
+.mobile li a span {
+  color: black;
+}
+
+.ml-auto,
+.mx-auto {
+  margin-left: auto !important;
+}
+
 @media (min-width: 800px) {
   .navbar li {
     margin-left: 1em;
@@ -59,44 +95,6 @@ nav li {
   }
 }
 
-.logo {
-  color: #fff;
-  font-weight: 600;
-  font-size: 16px;
-}
-
-nav .nav-links ul {
-  display: flex;
-  flex-direction: row;
-}
-
-nav .nav-links ul li {
-  padding: 0 4px;
-  list-style: none;
-}
-
-nav .nav-links ul li img {
-  transform: scale(0.45);
-}
-
-.mobile .nav-item {
-  display: block;
-  background: rgba(255, 255, 255, 0.75);
-  padding: 0;
-  margin: 0;
-}
-
-.mobile li a span {
-  color: black;
-}
-
-
-
-.ml-auto, .mx-auto {
-    margin-left: auto!important;
-}
-
-
 /* ---------------------------- Scroll Effect --------------------------- */
 /* width */
 ::-webkit-scrollbar {
@@ -118,4 +116,36 @@ nav .nav-links ul li img {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(255, 255, 255, 0.6);
+}
+
+/* -------------- Footer ------------------- */
+.dev {
+  font-size: 1rem;
+  margin: 50px auto 40px;
+  cursor: pointer;
+  text-align: center;
+  color: #111;
+}
+
+.dev a {
+  color: #444;
+}
+
+.dev a:hover {
+  color: #000;
+}
+
+.white {
+  color: whitesmoke;
+}
+
+@media (max-width: 767px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: flex;
+    text-align: center;
+  }
 }
