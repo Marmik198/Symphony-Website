@@ -1,139 +1,137 @@
 * {
-    padding: none;
-    margin: none;
-    text-decoration: none;
-    /* Setting user select to none*/
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+  padding: none;
+  margin: none;
+  text-decoration: none;
+  /* Setting user select to none*/
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 body {
-    padding: 0;
-    margin: 0;
-    height: 100vh;
-    width: 100vw;
-    background-color: #ba3122;
-    overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: #ce4848;
+  overflow-x: hidden;
 }
 
 .main-content {
-    width: 70%;
-    height: 80%;
-    margin: auto;
-    background-color: transparent;
-    overflow-y: scroll;
-    background-color: white;
-    margin-top: 30px;
+  width: 70%;
+  height: 80%;
+  margin: auto;
+  background-color: transparent;
+  overflow-y: scroll;
+  background-color: white;
+  margin-top: 30px;
 }
 
 [data-tab-content] {
-    display: none;
+  display: none;
 }
 
 .active[data-tab-content] {
-    display: block;
+  display: block;
 }
 
 .tabs {
-    display: flex;
-    justify-content: flex-start;
-    list-style-type: none;
-    width: 100%;
-    padding: 0px;
-    border-bottom: 1px solid white;
-    color: white;
+  display: flex;
+  justify-content: flex-start;
+  list-style-type: none;
+  width: 100%;
+  padding: 0px;
+  border-bottom: 1px solid white;
+  color: white;
 }
 
 .tab {
-    cursor: pointer;
-    padding: 10px 20px;
-    width: 33.33%;
-    background-color: #8c2318;
-    text-align: center;
-    border: 2px solid white;
+  cursor: pointer;
+  padding: 10px 20px;
+  width: 33.33%;
+  background-color: #ff7070;
+  text-align: center;
+  border: 2px solid white;
 }
 
 .tab.active {
-    background: #2e0c08;
+  background: #b82413;
 }
 
 .tab:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .tab-content {
-    margin: 10px 20px;
-    color: white;
-    text-align: center;
+  margin: 10px 20px;
+  color: white;
+  text-align: center;
 }
 
 .tab-content > .year > .sponsor-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .sponsor-container > img {
-    max-height: 550px;
-    max-width: 300px;
+  max-height: 550px;
+  max-width: 300px;
 }
 
 .role {
-    text-transform: uppercase;
-    font-weight: 900;
-    color: black;
-    font-family: Portico;
-    margin: 10px 0;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: black;
+  font-family: Portico;
+  margin: 10px 0;
 }
 
 .sponsor-list > div {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .dev {
-    margin: 50px auto;
+  margin: 50px auto;
 }
 
 @media (max-width: 1400px) {
-    .tab-content > .year > .sponsor-list {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
+  .tab-content > .year > .sponsor-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media (max-width: 950px) {
-    .tab-content > .year > .sponsor-list {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
+  .tab-content > .year > .sponsor-list {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 
-    .sponsor-container > img {
-        max-height: 550px;
-        max-width: 250px;
-    }
+  .sponsor-container > img {
+    max-height: 550px;
+    max-width: 250px;
+  }
 
-    .tabs {
-        position: sticky;
-        top: 0px;
-    }
+  .tabs {
+    position: sticky;
+    top: 0px;
+  }
 }
 
-@media (min-width: 950px) {
-    ::-webkit-scrollbar {
-        width: 10px;
-    }
+::-webkit-scrollbar {
+  width: 8px;
+}
 
-    ::-webkit-scrollbar-track {
-        background-color: white;
-    }
+::-webkit-scrollbar-track {
+  background-color: white;
+}
 
-    ::-webkit-scrollbar-thumb {
-        background-color: black;
-        border-radius: 50px;
-    }
+::-webkit-scrollbar-thumb {
+  background-color: #b82413;
+  border-radius: 50px;
+}
 
-    ::-webkit-scrollbar-thumb:hover {
-        background-color: black;
-        cursor: pointer;
-    }
+::-webkit-scrollbar-thumb:hover {
+  background-color: #b82413;
+  cursor: pointer;
 }

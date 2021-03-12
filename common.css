@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Boogaloo&display=swap");
+
 nav {
   position: fixed;
   z-index: 100;
@@ -6,6 +8,8 @@ nav {
   margin: auto;
   align-items: center;
   padding: 10px 30px;
+  font-family: "Boogaloo", cursive;
+  letter-spacing: 0.5px;
   background: transparent;
 }
 
@@ -19,8 +23,18 @@ nav {
 nav li {
   display: inline-block;
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
+
+/* #navbarNav ul li {
+  border-bottom: 2px solid transparent;
+  padding-bottom: 3px;
+  transition: all 0.5s;
+}
+
+#navbarNav ul li:hover {
+  border-bottom: #fff;
+} */
 
 .mobile {
   display: none;
@@ -121,7 +135,7 @@ nav .nav-links ul li img {
 /* -------------- Footer ------------------- */
 .dev {
   font-size: 1rem;
-  margin: 50px 0px 40px;
+  /* margin: 50px 0px 40px; */
   cursor: pointer;
   text-align: center;
   color: #111;

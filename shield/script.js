@@ -44,7 +44,7 @@ $(document).ready(function () {
 $(function(){
   $("#doughnutChart").drawDoughnutChart([
     { title: "Technical",           value : 25,   color: "#8FC0A9" },
-    { title: "Indoor Sports",    value : 25,   color: "#f7ffe0" },
+    { title: "",    value : 75,   color: "#f7ffe0" },
     { title: "Dance",         value : 0,   color: "#fbd995" },
     { title: "Debate",        value : 0,   color: "#9a3767" },
     { title: "Drama",         value : 0,   color: "#7b295c" },
@@ -58,7 +58,7 @@ $(function(){
 $(function(){
   $("#doughnutChart1").drawDoughnutChart([
     { title: "Technical",           value : 32,   color: "#8FC0A9" },
-    { title: "Indoor Sports",    value : 32,   color: "#f7ffe0" },
+    { title: "",    value : 68,   color: "#f7ffe0" },
     { title: "Dance",         value : 0,   color: "#fbd995" },
     { title: "Debate",        value : 0,   color: "#9a3767" },
     { title: "Drama",         value : 0,   color: "#7b295c" },
@@ -72,7 +72,7 @@ $(function(){
 $(function(){
   $("#doughnutChart2").drawDoughnutChart([
     { title: "Technical",           value : 40,   color: "#8FC0A9" },
-    { title: "Indoor Sports",    value : 40,   color: "#f7ffe0" },
+    { title: "",    value : 60,   color: "#f7ffe0" },
     { title: "Dance",         value : 0,   color: "#fbd995" },
     { title: "Debate",        value : 0,   color: "#9a3767" },
     { title: "Drama",         value : 0,   color: "#7b295c" },
@@ -85,8 +85,8 @@ $(function(){
 
 $(function(){
   $("#doughnutChart3").drawDoughnutChart([
-    { title: "Technical",           value : 10,   color: "#8FC0A9" },
-    { title: "Indoor Sports",    value : 10,   color: "#f7ffe0" },
+    { title: "Technical",           value : 35,   color: "#8FC0A9" },
+    { title: "",    value : 65,   color: "#f7ffe0" },
     { title: "Dance",         value : 0,   color: "#fbd995" },
     { title: "Debate",        value : 0,   color: "#9a3767" },
     { title: "Drama",         value : 0,   color: "#7b295c" },
@@ -99,8 +99,8 @@ $(function(){
 
 $(function(){
   $("#doughnutChart4").drawDoughnutChart([
-    { title: "Technical",           value : 30,   color: "#8FC0A9" },
-    { title: "Indoor Sports",    value : 30,   color: "#f7ffe0" },
+    { title: "Technical",           value : 10,   color: "#8FC0A9" },
+    { title: "",    value : 90,   color: "#f7ffe0" },
     { title: "Dance",         value : 0,   color: "#fbd995" },
     { title: "Debate",        value : 0,   color: "#9a3767" },
     { title: "Drama",         value : 0,   color: "#7b295c" },
@@ -120,6 +120,9 @@ $(function(){
  * Released under the MIT license.
  * 
  */
+
+const vals = [25,32,40,35,10];
+
 ;(function($, undefined) {
   $.fn.drawDoughnutChart = function(data, options) {
     var $this = this,
@@ -280,7 +283,7 @@ $(function(){
           rotateAnimation = 1;
       if (settings.animation && settings.animateRotate) rotateAnimation = animationDecimal;//count up between0~1
 
-      drawDoughnutText(animationDecimal, segmentTotal);
+      drawDoughnutText(animationDecimal, 100);
 
       $pathGroup.attr("opacity", animationDecimal);
 

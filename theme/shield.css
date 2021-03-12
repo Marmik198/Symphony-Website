@@ -1,117 +1,115 @@
 html {
-    font-family: "Source Sans Pro", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 body {
-    overflow-x: hidden;
-    background: rgb(107, 2, 39);
-    color: white;
+  overflow-x: hidden;
+  background: #990000;
+  color: white;
 }
 
 /**GENERAL**/
 
 .content-box-lg {
-    padding: 100px 0;
+  padding: 100px 0;
 }
 
 .content-box-md {
-    padding: 90px 0;
+  padding: 90px 0;
 }
 
 .content-box-sm {
-    padding: 80px 0;
+  padding: 80px 0;
 }
 
 img {
-    display: block;
-    margin: 0 auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .ml-auto,
 .mx-auto {
-    margin-left: auto !important;
+  margin-left: auto !important;
 }
 
 .title {
-    font-weight: 400;
-    margin-bottom: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
 }
 
 .title span {
-    font-weight: 700;
-    color: #eee;
+  font-weight: 700;
+  color: #eee;
 }
 
 .row img {
-    margin-left: -120px;
+  margin-left: -120px;
 }
 
 .info-item {
-    padding-top: 2.2rem;
+  padding-top: 2.2rem;
 }
 
 .row {
-    margin-top: 6rem;
+  margin-top: 6rem;
 }
 
 @media (max-width: 551px) {
-    .row img {
-        width: 100%;
-        height: auto;
-        margin: 0;
-    }
+  .row img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
 
-    .info-item {
-        margin-top: 1rem;
-    }
+  .info-item {
+    margin-top: 1rem;
+  }
 
-    .row {
-        margin-top: 0;
-    }
-
+  .row {
+    margin-top: 0;
+  }
 }
 
-@media (max-width:768px) and (min-height:1023px) {
-    .col-md-6 {
-        flex: 100%;
-        max-width: 100%;
-    }
+@media (max-width: 768px) and (min-height: 1023px) {
+  .col-md-6 {
+    flex: 100%;
+    max-width: 100%;
+  }
 
-    .row img {
-        margin-left: 0;
-    }
+  .row img {
+    margin-left: 0;
+  }
 
-    .row {
-        margin-top: 0;
-    }
-
+  .row {
+    margin-top: 0;
+  }
 }
 
-@media (min-width: 1020px) and (min-height:1200px) {
-    .row img {
-        width: 100%;
-        height: auto;
-        margin: 0;
-    }
+@media (min-width: 1020px) and (min-height: 1200px) {
+  .row img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
 
-    .col-md-6 {
-        flex: 100%;
-        max-width: 100%;
-    }
+  .col-md-6 {
+    flex: 100%;
+    max-width: 100%;
+  }
 
-    .row {
-        margin-top: 0;
-    }
+  .row {
+    margin-top: 0;
+  }
 
-    .info-item {
-        margin-top: 1rem;
-    }
+  .info-item {
+    margin-top: 1rem;
+  }
 
-    .title {
-        font-size: 3rem;
-    }
+  .title {
+    font-size: 3rem;
+  }
 
-    p {
-        font-size: 20px;
-    }
+  p {
+    font-size: 20px;
+  }
 }
