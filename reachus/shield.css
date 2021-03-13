@@ -9,7 +9,7 @@ html {
 body {
     /*background: url("http://www.platehelp.nl/media/W1siZiIsIjIwMTUvMTAvMjcvMTBfNTZfMjBfNTU3X0lNR18xOTAxXzEuanBnIl1d/IMG_1901-1.jpg");*/
     background-size: cover;
-    background: #ffd166;
+    background: #ffc13b;
 
 }
 
@@ -81,78 +81,6 @@ body {
 
 
 
-
-.twitter span {
-    background-color: #4099ff;
-}
-
-.facebook span {
-    background-color: #3B5998;
-}
-
-.google-plus span {
-    background-color: #db5a3c;
-}
-
-.tumblr span {
-    background-color: #34526f;
-}
-
-.instagram span {
-    background-color: #517fa4;
-}
-
-.youtube span {
-    background-color: #bb0000;
-}
-
-.pinterest span {
-    background-color: #cb2027;
-}
-
-
-
-.icon-button .fa-twitter {
-    color: #4099ff;
-}
-
-.icon-button .fa-facebook {
-    color: #3B5998;
-}
-
-.icon-button .fa-tumblr {
-    color: #34526f;
-}
-
-.icon-button .fa-google-plus {
-    color: #db5a3c;
-}
-
-.icon-button .fa-instagram {
-    color: #517fa4;
-}
-
-.icon-button .fa-youtube {
-    color: #bb0000;
-}
-
-.icon-button .fa-pinterest {
-    color: #cb2027;
-}
-
-
-
-
-.icon-button:hover .fa-twitter,
-.icon-button:hover .fa-facebook,
-.icon-button:hover .fa-google-plus,
-.icon-button:hover .fa-tumblr,
-.icon-button:hover .fa-instagram,
-.icon-button:hover .fa-youtube,
-.icon-button:hover .fa-pinterest {
-    color: white;
-}
-
 #container {
     width: auto;
     /*height: auto;*/
@@ -210,7 +138,7 @@ body {
     /*background: linear-gradient(to bottom right, #fbd995, #fb736a);*/
     text-align: center;
     padding: 30px;
-    background: #235789;
+    background: 	#235789;
 }
 
 .back {
@@ -220,7 +148,7 @@ body {
     transform: rotateY(180deg);
     padding: 40px 15px;
     color: #fff;
-    background: #235789;
+    background: 	#235789;
 }
 
 .card:hover .front {
@@ -234,12 +162,11 @@ body {
 }
 
 .front .contact {
-    height: 120px;
-    width: 120px;
-    border: 5px solid #B2DBBF;
+    height: 150px;
+    width: 140px;;
     border-radius: 50%;
     display: inline-block;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .front .name {
@@ -254,7 +181,7 @@ body {
 
 .front hr {
     border: none;
-    color: #B2DBBF;
+    color: #235789;
     border: 1px solid;
 }
 
@@ -269,7 +196,7 @@ body {
 
 .back .icon:hover {
     cursor: pointer;
-    color: #648767;
+    color: #606060;
 }
 
 
@@ -279,7 +206,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #235789;
+    background-color: 	#235789;
     border-radius: 50px;
 }
 
@@ -288,9 +215,9 @@ body {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #235789;
+    background: 	#235789;
 }
 
 .dev {
-    color: black;
+    color:black;
 }
