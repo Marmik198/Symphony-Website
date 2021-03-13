@@ -175,6 +175,10 @@ footer {
 
 
 @media (max-width: 1050px) {
+    
+    body {
+        overflow-y: scroll;
+    }
 
     .events-wrapper a img {
         max-width: 310px;
@@ -197,6 +201,7 @@ footer {
 
     .main-content {
         width: 100%;
+        height: 90%;
     }
 
     width: 5px;
