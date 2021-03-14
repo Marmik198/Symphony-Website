@@ -1,29 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Boogaloo&display=swap");
 
 nav {
-  position: fixed;
-  z-index: 100;
-  height: 10vh;
-  width: 96%;
-  margin: auto;
-  align-items: center;
-  padding: 10px 30px;
-  font-family: "Boogaloo", cursive;
-  letter-spacing: 0.5px;
-  background: transparent;
+    position: fixed;
+    z-index: 100;
+    height: 10vh;
+    width: 96%;
+    margin: auto;
+    align-items: center;
+    padding: 10px 30px;
+    font-family: "Boogaloo", cursive;
+    letter-spacing: 0.5px;
+    background: transparent;
 }
 
 /*-------------------------- Navbar --------------------------*/
 .navbar-toggler-icon:active,
 .navbar-toggler-icon:focus {
-  outline: none;
-  text-decoration: none;
+    outline: none;
+    text-decoration: none;
 }
 
 nav li {
-  display: inline-block;
-  font-weight: 700;
-  font-size: 1.2rem;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 1.2rem;
 }
 
 /* #navbarNav ul li {
@@ -37,129 +37,135 @@ nav li {
 } */
 
 .mobile {
-  display: none;
-  font-size: 1.2rem;
+    display: none;
+    font-size: 1.2rem;
 }
 
 .logo {
-  color: #fff;
-  font-weight: 600;
-  font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
 }
 
 nav .nav-links ul {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 nav .nav-links ul li {
-  padding: 0 4px;
-  list-style: none;
+    padding: 0 4px;
+    list-style: none;
 }
 
 nav .nav-links ul li img {
-  transform: scale(0.45);
+    transform: scale(0.45);
 }
 
 .mobile .nav-item {
-  display: block;
-  background: rgba(255, 255, 255, 0.8);
-  padding: 0;
-  margin: 0;
+    display: block;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 0;
+    margin: 0;
 }
 
 .mobile li a span {
-  color: black;
+    color: black;
 }
 
 .ml-auto,
 .mx-auto {
-  margin-left: auto !important;
+    margin-left: auto !important;
 }
 
 @media (min-width: 800px) {
-  .navbar li {
-    margin-left: 1em;
-    margin-right: 1em;
-  }
+    .navbar li {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
 
-  .navbar .nav-item .dropdown-menu {
-    display: none;
-  }
+    .navbar .nav-item .dropdown-menu {
+        display: none;
+    }
 
-  .navbar .nav-item:hover .nav-link {
-    color: #fff;
-  }
+    .navbar .nav-item:hover .nav-link {
+        color: #fff;
+    }
 
-  .navbar .nav-item:hover .dropdown-menu {
-    display: block;
-    background-color: #212529;
-  }
+    .navbar .nav-item:hover .dropdown-menu {
+        display: block;
+        background-color: #212529;
+    }
 
-  .navbar .nav-item .dropdown-menu {
-    margin-top: 0;
-  }
+    .navbar .nav-item .dropdown-menu {
+        margin-top: 0;
+    }
 
-  .navbar .nav-item .dropdown-menu .dropdown-item {
-    color: #fff;
-  }
+    .navbar .nav-item .dropdown-menu .dropdown-item {
+        color: #fff;
+    }
 
-  .navbar .nav-item .dropdown-menu .dropdown-item:hover {
-    color: #212529;
-  }
+    .navbar .nav-item .dropdown-menu .dropdown-item:hover {
+        color: #212529;
+    }
 }
 
 /* ---------------------------- Scroll Effect --------------------------- */
 /* width */
 ::-webkit-scrollbar {
-  width: 5px;
+    width: 5px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  border-radius: 10px;
-  background: black;
+    border-radius: 10px;
+    background: black;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.2);
-  border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.6);
 }
 
 /* -------------- Footer ------------------- */
 .dev {
-  font-size: 1rem;
-  /* margin: 50px 0px 40px; */
-  cursor: pointer;
-  text-align: center;
-  color: #111;
+    font-size: 1rem;
+    /* margin: 50px 0px 40px; */
+    cursor: pointer;
+    text-align: center;
+    color: #111;
 }
 
 .dev a {
-  color: #444;
+    color: #444;
+    padding: 2px;
 }
 
 .dev a:hover {
-  color: #000;
+    color: #000;
 }
 
 .white {
-  color: whitesmoke;
+    color: whitesmoke;
+}
+
+.dev, .dev i, .dev a {
+    word-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 @media (max-width: 767px) {
-  .desktop {
-    display: none;
-  }
+    .desktop {
+        display: none;
+    }
 
-  .mobile {
-    display: flex;
-    text-align: center;
-  }
+    .mobile {
+        display: flex;
+        text-align: center;
+    }
 }
