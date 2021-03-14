@@ -78,9 +78,6 @@ body {
     z-index: 10;
 }
 
-
-
-
 #container {
     width: auto;
     /*height: auto;*/
@@ -93,10 +90,10 @@ body {
 
 #container h1 {
     color: black;
-    text-decoration: underline black;
+    font-family: "Boogaloo", cursive;
     font-weight: bold;
     margin: 40px;
-    text-shadow: 0px 0px 12px 15px white;
+    letter-spacing: 2px;
 }
 
 #container > hr {
@@ -109,13 +106,16 @@ body {
     margin: 10px;
     display: inline-block;
     position: relative;
+    /*
     width: 220px;
     height: 260px;
+*/
     opacity: 0.85;
     background-color: transparent;
     border: 0;
 }
 
+/*
 .front,
 .back {
     width: 100%;
@@ -131,26 +131,26 @@ body {
     transition-timing-function: linear;
     border-radius: 5px;
 }
+*/
 
+/*
 .front {
     transform: rotateY(0deg);
-    /*background: -webkit-linear-gradient(top left, #fbd995, #fb736a);*/
-    /*background: linear-gradient(to bottom right, #fbd995, #fb736a);*/
     text-align: center;
     padding: 30px;
     background: #2c2ca8;
 }
 
 .back {
-    /*background: -webkit-linear-gradient(top left, #fbd995, #fb736a);*/
-    /*background: linear-gradient(to bottom right, #fbd995, #fb736a);*/
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
     padding: 40px 15px;
     color: #fff;
     background: #2c2ca8;
 }
+*/
 
+/*
 .card:hover .front {
     -webkit-transform: rotateY(-180deg);
     transform: rotateY(-180deg);
@@ -160,23 +160,26 @@ body {
     -webkit-transform: rotateY(0deg);
     transform: rotateY(0deg);
 }
+*/
 
-.front .contact {
+/*
+.contact {
     height: 150px;
     width: 140px;
-    ;
     border-radius: 50%;
     display: inline-block;
     margin-bottom: 5px;
 }
+*/
 
-.front .name {
+.name {
     display: inline-block;
     font-size: 18px;
-    color: #fff;
+    width: 100%;
+    color: #2c2ca8;
 }
 
-.front .job {
+.job {
     color: #fff;
 }
 
@@ -186,7 +189,7 @@ body {
     border: 1px solid;
 }
 
-.back .icon {
+.icon {
     fill: currentColor;
     color: inherit;
     height: 33px;
@@ -195,14 +198,19 @@ body {
     color: white;
 }
 
-.back .icon:hover {
+.icon:hover {
     cursor: pointer;
     color: #606060;
 }
 
-.back #insta-icon {
-    width: 25px;
+#insta-icon {
+    width: 20px;
     margin-right: 5px;
+}
+
+#linkedin-icon,
+#facebook-icon {
+    width: 25px;
 }
 
 ::-webkit-scrollbar-track {
@@ -236,4 +244,8 @@ body {
 
 .navbar-dark .navbar-nav .nav-link.active:hover {
     color: white;
+}
+
+.card img {
+    max-width: 200px;
 }
