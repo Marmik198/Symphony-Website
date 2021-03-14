@@ -407,9 +407,9 @@ const vals = [25, 32, 40, 35, 10];
                     "data-order": i
                 })
                 .appendTo($pathGroup)
-                .on("mouseenter", pathMouseEnter)
-                .on("mouseleave", pathMouseLeave)
-                .on("mousemove", pathMouseMove);
+//                .on("mouseenter", pathMouseEnter)
+//                .on("mouseleave", pathMouseLeave)
+//                .on("mousemove", pathMouseMove);
         }
 
         //Animation start
