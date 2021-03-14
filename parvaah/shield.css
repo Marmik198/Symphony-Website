@@ -8,11 +8,14 @@
     user-select: none;
 }
 
+html {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
 body {
     background-color: #151e3d;
     max-width: auto;
     overflow-x: hidden;
-    font-family: "Source Sans Pro", sans-serif;
 }
 
 .content {
@@ -228,4 +231,9 @@ body {
     #apple {
         font-size: 25px;
     }
+}
+
+
+.dev {
+    margin: 20px 0px;
 }
