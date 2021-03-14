@@ -1,4 +1,4 @@
-*{
+* {
     padding: none;
     margin: none;
     text-decoration: none;
@@ -7,16 +7,19 @@
     -ms-user-select: none;
     user-select: none;
 }
-body{
-    background-color: #2f2fa2;
+
+body {
+    background-color: #151e3d;
     max-width: auto;
     overflow-x: hidden;
 }
-.content{
+
+.content {
     margin: 10px auto;
     padding: 0px 30px;
 }
-.pravaah-info-container{
+
+.pravaah-info-container {
 
     display: flex;
     flex-direction: column;
@@ -30,46 +33,55 @@ body{
     background-color: transparent;
     padding: 0px 15px;
 }
-.pravaah-info-container > .logo-container{
+
+.pravaah-info-container > .logo-container {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-.pravaah-info-container > .logo-container > img{
+
+.pravaah-info-container > .logo-container > img {
     height: 250px;
     margin-bottom: 30px;
 }
-.pravaah-info-container > .pravaah-info{
+
+.pravaah-info-container > .pravaah-info {
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     line-height: 25px;
     color: white;
     margin-bottom: 30px;
 }
-.pravaah-info-container > .volunteer-btn > button{
-    background-color: #f64c72;
+
+.pravaah-info-container > .volunteer-btn > button {
+    background-color: #4769e6;
     border: 2px solid white;
     border-radius: 25px;
 }
-.pravaah-info-container > .volunteer-btn > button:hover{
+
+.pravaah-info-container > .volunteer-btn > button:hover {
     cursor: pointer;
     transform: scale(1.1);
 }
-.pravaah-info-container > .volunteer-btn > button > a{
+
+.pravaah-info-container > .volunteer-btn > button > a {
     text-decoration: none;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-transform: uppercase;
     font-size: 20px;
 }
-.section02 > .text{
+
+.section02 > .text {
     grid-area: text;
 }
-.section02 > .image{
+
+.section02 > .image {
     grid-area: images;
 }
-.section01{
+
+.section01 {
     width: auto;
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -79,7 +91,8 @@ body{
     margin-top: 10px;
     padding: 20px;
 }
-.section02{
+
+.section02 {
     width: auto;
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -90,101 +103,131 @@ body{
     margin-top: 10px;
     padding: 20px;
 }
-.section01 > .text > h1, .section02 > .text > h1{
+
+.section01 > .text > h1,
+.section02 > .text > h1 {
     font-weight: 900;
 }
-.section01 > .text , .section02 > .text{
+
+.section01 > .text,
+.section02 > .text {
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     line-height: 25px;
     color: white;
 }
-.section01 > .image > img , .section02 > .image > img{
+
+.section01 > .image > img,
+.section02 > .image > img {
     height: 250px;
 }
-@media (max-width: 1050px){
-    .pravaah-info-container{
+
+@media (max-width: 1050px) {
+    .pravaah-info-container {
         width: 100%;
     }
-    .pravaah-info-container > .logo-container > img{
+
+    .pravaah-info-container > .logo-container > img {
         height: 200px;
         margin-bottom: 20px;
     }
-    .pravaah-info-container > .pravaah-info{
+
+    .pravaah-info-container > .pravaah-info {
         font-size: 25px;
         line-height: 27px;
         margin-bottom: 10px;
     }
-    .pravaah-info-container > .volunteer-btn > button > a{
+
+    .pravaah-info-container > .volunteer-btn > button > a {
         font-size: 18px;
     }
-    .section01{
+
+    .section01 {
         padding: 30px 0px;
         grid-template-columns: 1fr;
     }
-    .section02{
+
+    .section02 {
         padding: 30px 0px;
         grid-template-columns: 1fr;
-        grid-template-areas: 
+        grid-template-areas:
             "text"
             "images";
     }
-    .section02 > .text,.section01 > .text{
+
+    .section02 > .text,
+    .section01 > .text {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .section01 > .image > img , .section02 > .image > img{
+
+    .section01 > .image > img,
+    .section02 > .image > img {
         width: 80%;
         height: auto;
     }
+
     .text > h1 {
         font-size: 40px;
         font-weight: 1000;
     }
-    .text > p{
+
+    .text > p {
         font-size: 25px;
     }
 }
-@media (max-width: 800px){
-    .content{
+
+@media (max-width: 800px) {
+    .content {
         width: 100%;
     }
-    .logo-container > img{
+
+    .logo-container > img {
         width: 120px;
         max-height: 120px;
     }
-    .pravaah-info-container{
+
+    .pravaah-info-container {
         margin: 0px auto;
         width: 90%;
     }
-    .pravaah-info-container > .pravaah-info{
+
+    .pravaah-info-container > .pravaah-info {
         font-size: 16px;
         line-height: 18px;
     }
-    .section01 , .section02{
+
+    .section01,
+    .section02 {
         padding: 20px 20px;
         margin-top: 20px;
         width: 100%;
     }
-    .section01 > .text , .section02 > .text {
+
+    .section01 > .text,
+    .section02 > .text {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .text > p{
+
+    .text > p {
         font-size: 14px;
         line-height: 14px;
     }
-    .text > h1{
+
+    .text > h1 {
         font-size: 30px;
         font-weight: 1000;
     }
-    .pravaah-info-container > .volunteer-btn > button > a{
+
+    .pravaah-info-container > .volunteer-btn > button > a {
         font-size: 12px;
         line-height: 12px;
     }
-    #apple{
+
+    #apple {
         font-size: 25px;
     }
 }

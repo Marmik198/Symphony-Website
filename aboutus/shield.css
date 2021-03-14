@@ -43,19 +43,23 @@ img {
 
 .owl-theme .owl-dots .owl-dot.active span {
     background: #f8143c;
+    background: white;
 }
 
 .owl-theme .owl-dots .owl-dot:hover span {
     background: #d8143c;
+    background: #eee;
 }
 
 .title {
     color: #f8143c;
+    color: white;
     font-weight: 700;
 }
 
 .title span {
     color: #d8143c;
+    color: white;
     font-weight: 700;
 }
 
@@ -71,7 +75,9 @@ img {
 
 ::selection {
     background: #f2143c;
+    background: white;
     color: white;
+    color: black;
 }
 
 .carousel__item p span {
@@ -97,11 +103,13 @@ img {
     font-size: 40px !important;
     margin: 0;
     color: #f8143c !important;
+    color: white !important;
 }
 
 .owl-theme .owl-nav [class*=owl-]:hover {
     background: none;
     color: #f2143c;
+    color: #eee;
 }
 
 .owl-prev {
@@ -140,5 +148,9 @@ img {
 
     .title {
         text-align: center;
+    }
+
+    .info-item p {
+        text-align: justify;
     }
 }
