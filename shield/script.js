@@ -25,15 +25,9 @@ btns.forEach(function(btn){
     });
 });
 
-
 $(document).ready(function () {
     $(".title").hide().fadeIn(2000);
 });
-
-
-
-
-
 
 // ADD RESPECTIVE SCORES TO RESPECTIVE BRANCHES
 // douchnutChart - Comps
@@ -44,7 +38,7 @@ $(document).ready(function () {
 $(function(){
   $("#doughnutChart").drawDoughnutChart([
     { title: "Technical",           value : 25,   color: "#75DBCD" },
-    { title: "",    value : 75,   color: "#f7ffe0" },
+    { title: "",    value : 0,   color: "#f7ffe0" },
     { title: "Dance",         value : 0,   color: "#fbd995" },
     { title: "Debate",        value : 0,   color: "#9a3767" },
     { title: "Drama",         value : 0,   color: "#7b295c" },
@@ -58,7 +52,7 @@ $(function(){
 $(function(){
   $("#doughnutChart1").drawDoughnutChart([
     { title: "Technical",           value : 32,   color: "#75DBCD" },
-    { title: "",    value : 68,   color: "#f7ffe0" },
+    { title: "",    value : 0,   color: "#f7ffe0" },
     { title: "Dance",         value : 0,   color: "#fbd995" },
     { title: "Debate",        value : 0,   color: "#9a3767" },
     { title: "Drama",         value : 0,   color: "#7b295c" },
@@ -72,7 +66,7 @@ $(function(){
 $(function(){
   $("#doughnutChart2").drawDoughnutChart([
     { title: "Technical",           value : 40,   color: "#75DBCD" },
-    { title: "",    value : 60,   color: "#f7ffe0" },
+    { title: "",    value : 0,   color: "#f7ffe0" },
     { title: "Dance",         value : 0,   color: "#fbd995" },
     { title: "Debate",        value : 0,   color: "#9a3767" },
     { title: "Drama",         value : 0,   color: "#7b295c" },
@@ -86,7 +80,7 @@ $(function(){
 $(function(){
   $("#doughnutChart3").drawDoughnutChart([
     { title: "Technical",           value : 35,   color: "#75DBCD" },
-    { title: "",    value : 65,   color: "#f7ffe0" },
+    { title: "",    value : 0,   color: "#f7ffe0" },
     { title: "Dance",         value : 0,   color: "#fbd995" },
     { title: "Debate",        value : 0,   color: "#9a3767" },
     { title: "Drama",         value : 0,   color: "#7b295c" },
@@ -100,7 +94,7 @@ $(function(){
 $(function(){
   $("#doughnutChart4").drawDoughnutChart([
     { title: "Technical",           value : 10,   color: "#75DBCD" },
-    { title: "",    value : 90,   color: "#f7ffe0" },
+    { title: "",    value : 0,   color: "#f7ffe0" },
     { title: "Dance",         value : 0,   color: "#fbd995" },
     { title: "Debate",        value : 0,   color: "#9a3767" },
     { title: "Drama",         value : 0,   color: "#7b295c" },

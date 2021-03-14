@@ -10,7 +10,7 @@ body {
     background-color: #6eb6fa;
     color: black !important;
     overflow-x: hidden;
-/*    overflow-y: hidden;*/
+    /*    overflow-y: hidden;*/
 }
 
 /**GENERAL**/
@@ -139,12 +139,12 @@ footer {
 }
 
 @media (max-width: 1370px) {
-/*
+    /*
     .dev {
         position: static;
     }    
 */
-    
+
     .tab-content > .year > .competitions {
         display: flex;
         flex-wrap: wrap;
@@ -478,6 +478,17 @@ footer {
 }
 
 
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.navbar-dark .navbar-nav .nav-link.active:hover {
+    color: white;
+}
 
 /*
 .dev {

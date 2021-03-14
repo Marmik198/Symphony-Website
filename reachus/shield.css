@@ -9,7 +9,7 @@ html {
 body {
     /*background: url("http://www.platehelp.nl/media/W1siZiIsIjIwMTUvMTAvMjcvMTBfNTZfMjBfNTU3X0lNR18xOTAxXzEuanBnIl1d/IMG_1901-1.jpg");*/
     background-size: cover;
-    background: #ffc13b;
+    background: #9999ff;
 
 }
 
@@ -88,7 +88,7 @@ body {
     -webkit-perspective: 800px;
     perspective: 800px;
     text-align: center;
-    height: calc(100vh - 70px);
+    /*    height: calc(100vh - 70px);*/
 }
 
 #container h1 {
@@ -138,7 +138,7 @@ body {
     /*background: linear-gradient(to bottom right, #fbd995, #fb736a);*/
     text-align: center;
     padding: 30px;
-    background: 	#235789;
+    background: #2c2ca8;
 }
 
 .back {
@@ -148,7 +148,7 @@ body {
     transform: rotateY(180deg);
     padding: 40px 15px;
     color: #fff;
-    background: 	#235789;
+    background: #2c2ca8;
 }
 
 .card:hover .front {
@@ -163,7 +163,8 @@ body {
 
 .front .contact {
     height: 150px;
-    width: 140px;;
+    width: 140px;
+    ;
     border-radius: 50%;
     display: inline-block;
     margin-bottom: 5px;
@@ -181,7 +182,7 @@ body {
 
 .front hr {
     border: none;
-    color: #235789;
+    color: #2c2ca8;
     border: 1px solid;
 }
 
@@ -199,14 +200,17 @@ body {
     color: #606060;
 }
 
-
+.back #insta-icon {
+    width: 25px;
+    margin-right: 5px;
+}
 
 ::-webkit-scrollbar-track {
     background-color: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: 	#235789;
+    background-color: #2c2ca8;
     border-radius: 50px;
 }
 
@@ -215,9 +219,21 @@ body {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: 	#235789;
+    background: #2c2ca8;
 }
 
 .dev {
-    color:black;
+    color: black;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.navbar-dark .navbar-nav .nav-link.active:hover {
+    color: white;
 }
