@@ -95,10 +95,18 @@ body {
     margin: 50px 0;
 }
 
+.one {
+    grid-column: 1/ span 3;
+}
+
 @media (max-width: 1400px) {
     .tab-content > .year > .sponsor-list {
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+
+    .one {
+        grid-column: 1 /span 2;
     }
 }
 
@@ -116,6 +124,10 @@ body {
     .tabs {
         position: sticky;
         top: 0px;
+    }
+
+    .one {
+        grid-column: auto;
     }
 }
 

@@ -616,7 +616,7 @@ section {
     .swiper-slide.s-11 .slide-detail-facts,
     .swiper-slide.s-12 .slide-detail-facts {
         top: auto;
-        bottom: 160px;
+        bottom: 100px;
     }
 
     .swiper-slide.s-2 .slide-number {

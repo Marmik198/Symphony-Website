@@ -12,6 +12,7 @@ body {
     background-color: #151e3d;
     max-width: auto;
     overflow-x: hidden;
+    font-family: "Source Sans Pro", sans-serif;
 }
 
 .content {
@@ -47,7 +48,6 @@ body {
 }
 
 .pravaah-info-container > .pravaah-info {
-    font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     line-height: 25px;
     color: white;

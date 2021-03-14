@@ -493,7 +493,7 @@ body {
     .swiper-slide.s-11 .slide-detail-facts,
     .swiper-slide.s-12 .slide-detail-facts {
         top: auto;
-        bottom: 160px;
+        bottom: 140px;
     }
 
     .swiper-slide.s-2 .slide-number {
@@ -571,7 +571,7 @@ body {
     }
 
     .s-5 .slide-detail p {
-        font-size: 14px;
+        font-size: 12px;
         line-height: 24px;
         text-align: justify;
     }
