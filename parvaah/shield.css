@@ -68,7 +68,6 @@ body {
 .pravaah-info-container > .volunteer-btn > button > a {
     text-decoration: none;
     color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-transform: uppercase;
     font-size: 20px;
 }
@@ -111,7 +110,6 @@ body {
 
 .section01 > .text,
 .section02 > .text {
-    font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     line-height: 25px;
     color: white;
