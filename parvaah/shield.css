@@ -55,7 +55,7 @@ body {
 }
 
 .pravaah-info-container > .volunteer-btn > button {
-    background-color: #4769e6;
+    background-color: transparent;
     border: 2px solid white;
     border-radius: 25px;
 }

@@ -51,6 +51,10 @@ img {
     background: #eee;
 }
 
+.owl-carousel .owl-item img {
+    height: 100%;
+}
+
 .title {
     color: #f8143c;
     color: white;
