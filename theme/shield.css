@@ -68,6 +68,14 @@ img {
   .row {
     margin-top: 0;
   }
+
+  .title {
+    text-align: center!important;
+  }
+
+  .info-item p {
+    text-align:justify;
+  }
 }
 
 @media (max-width: 768px) and (min-height: 1023px) {
@@ -107,7 +115,7 @@ img {
 
   .title {
     font-size: 3rem;
-    text-align: center;
+    text-align: center!important;
   }
 
   p {

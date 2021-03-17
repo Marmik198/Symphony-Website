@@ -119,10 +119,23 @@ section {
 }
 
 @keyframes rotation {
-   0%, 100% { transform: rotate(-15deg); }
-  20% {transform:scale(.95);}
-  50% { transform: rotate(15deg); }
-  80% {transform:scale(.95);}
+
+    0%,
+    100% {
+        transform: rotate(-15deg);
+    }
+
+    20% {
+        transform: scale(.95);
+    }
+
+    50% {
+        transform: rotate(15deg);
+    }
+
+    80% {
+        transform: scale(.95);
+    }
 }
 
 /* SWIPER */
@@ -142,6 +155,52 @@ section {
 
 .mr20 {
     margin-right: 20px !important;
+}
+
+.mobile span {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    padding: 10px 25px;
+    font-size: 20px;
+    border-radius: 20px;
+    z-index: 9999;
+    transform: translateX(-50%);
+    background: #151e3d;
+    font-family: cursive;
+}
+
+.mobile span a {
+    color: white;
+    text-decoration: none;
+}
+
+.mobile span:hover {
+    background: #151e5d;
+    cursor: pointer;
+}
+
+#sectionone span {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    padding: 10px 25px;
+    font-size: 20px;
+    border-radius: 20px;
+    z-index: 9999;
+    transform: translateX(-50%);
+    background: #151e3d;
+    font-family: cursive;
+}
+
+#sectionone span a {
+    color: white;
+    text-decoration: none;
+}
+
+#sectionone span:hover {
+    background: #151e5d;
+    cursor: pointer;
 }
 
 .planet-links {

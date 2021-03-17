@@ -26,6 +26,10 @@ nav li {
     font-size: 1.2rem;
 }
 
+.navbar-brand {
+    margin-top: 5px;
+}
+
 /* #navbarNav ul li {
   border-bottom: 2px solid transparent;
   padding-bottom: 3px;
@@ -154,7 +158,9 @@ nav .nav-links ul li img {
     color: whitesmoke;
 }
 
-.dev, .dev i, .dev a {
+.dev,
+.dev i,
+.dev a {
     word-spacing: 2px;
     letter-spacing: 1px;
 }
