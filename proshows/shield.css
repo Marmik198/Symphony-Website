@@ -33,14 +33,16 @@ body {
 .links {
     text-align: center;
     display: block;
+    margin-bottom: 5px;
 }
 
 .links a {
+    border: 3px solid white;
     border-radius: 30px;
     font-weight: 600;
     text-align: center;
-    background: #eee;
-    color: #8A2149;
+    background: transparent;
+    color: white;
     font-size: 22px;
     text-decoration: none;
     padding: 2px 35px;
@@ -48,6 +50,7 @@ body {
 
 .links a:hover {
     color: black;
+    border: 3px solid black;
 }
 
 
