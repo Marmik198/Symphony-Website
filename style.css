@@ -167,7 +167,7 @@ section {
     z-index: 9999;
     transform: translateX(-50%);
     background: #151e3d;
-    font-family: cursive;
+    font-family: "Source Sans Pro", sans-serif;
 }
 
 .mobile span a {
@@ -190,7 +190,7 @@ section {
     z-index: 9999;
     transform: translateX(-50%);
     background: #151e3d;
-    font-family: cursive;
+    font-family: "Source Sans Pro", sans-serif;
 }
 
 #sectionone span a {
