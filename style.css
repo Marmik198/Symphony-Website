@@ -157,25 +157,25 @@ section {
     margin-right: 20px !important;
 }
 
-.mobile span {
+.mobile.aligner span {
     position: absolute;
     top: 80%;
     left: 50%;
     padding: 10px 25px;
     font-size: 20px;
     border-radius: 20px;
-    z-index: 9999;
+    z-index: 99;
     transform: translateX(-50%);
     background: #151e3d;
     font-family: "Source Sans Pro", sans-serif;
 }
 
-.mobile span a {
+.mobile.aligner span a {
     color: white;
     text-decoration: none;
 }
 
-.mobile span:hover {
+.mobile.aligner span:hover {
     background: #151e5d;
     cursor: pointer;
 }
@@ -187,7 +187,7 @@ section {
     padding: 10px 25px;
     font-size: 20px;
     border-radius: 20px;
-    z-index: 9999;
+    z-index: 99;
     transform: translateX(-50%);
     background: #151e3d;
     font-family: "Source Sans Pro", sans-serif;
